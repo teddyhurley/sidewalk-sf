@@ -1,6 +1,6 @@
 # Verification record
 
-Local validation: October 7–8, 2026 (America/Los_Angeles). Public publication remains on hold. Earlier sections preserve iteration history; the latest block/guided-search results are below.
+Validation: October 7–8, 2026 (America/Los_Angeles). Public GitHub source is published; the hosted app is not yet deployed. Earlier sections preserve iteration history; the latest deployment results are at the end.
 
 ## Initial local verification — October 7, 2026
 
@@ -30,7 +30,7 @@ No conflicting entities, rejected selected rows, pedestrian join/date mismatches
 
 Before the report-grid iteration, the real preview was inspected in the browser. The default 1 Market Street → 425 Mission Street result had five mapped historical crashes within 50 m; shared-area report totals were 94 / 162 / 283 for 3 / 6 / 12 months. Changing report windows left collision counts unchanged. Category sums may exceed unique reports because a report can have both categories. Source dates render in SF time. The real preview’s cards and map were inspected at desktop and 390 × 844 dimensions in light and dark mode without horizontal page overflow. No police points, route-specific police totals, or live facility markers appeared.
 
-## Still required
+## Initial outstanding checks — later updates below supersede completed items
 
 - Human review of source relevance, spatial uncertainty, block-count comprehension and the meaning of an area bypass. Current checks establish computational consistency, not ground truth.
 - An SF transportation/data domain review and actual comprehension research. No interviews, field validation, adoption or safety improvement are claimed.
@@ -163,4 +163,8 @@ Browser verification after reload showed Live routing selected, an empty route-c
 
 An isolated staged refresh using the configured Socrata token completed all four downloads, normalization, independent publisher reconciliation and promotion. It produced an October 8 snapshot with **7,244 mapped selected reports and 1,278 mapped pedestrian-involved crashes**; both sources passed the usability checks. This is a new snapshot/window, not an assertion that prior snapshot totals must be unchanged. The original local evidence file was not overwritten by this staging check.
 
-The new server was checked at port 4174 with security headers enabled. Taylor Street → Buchanan Street returned three real route cards with no form error. Password checks are covered by integration tests; deployed-host HTTPS, browser sign-in, host proxy attribution, billing alerts and native phone-app handoffs remain to be verified after deployment. The source repository was created at https://github.com/teddyhurley/sidewalk-sf; Render setup is in progress, not a completed live launch.
+The new server was checked at port 4174 with security headers enabled. Taylor Street → Buchanan Street returned three real route cards with no form error. Password checks are covered by integration tests; deployed-host HTTPS, browser sign-in, host proxy attribution, billing alerts and native phone-app handoffs remain to be verified after deployment.
+
+The complete source was published at https://github.com/teddyhurley/sidewalk-sf in commit `ca77ccd5e23df1c54b3ea5ec171296d6635cd755`. All 80 files matched the local source byte-for-byte, and no extra remote files were present. A scan against the configured credentials and generic secret patterns passed; `.env` and raw evidence snapshots are excluded. Both initial GitHub workflows passed, including [Checks run 37887072096](https://github.com/teddyhurley/sidewalk-sf/actions/runs/37887072096). The redundant older workflow was then removed; the retained pinned workflow covers syntax, all 97 tests and the offline build.
+
+Render's authenticated Blueprint flow recognizes the repository and `render.yaml`, but requires a payment method before configuration can continue. Owner approval for the $7.25/month base service/storage cost and token transfer is pending. No service or billable resource has been activated, and no hosted URL has been verified.

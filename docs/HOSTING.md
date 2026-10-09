@@ -1,6 +1,10 @@
 # Hosting decision for the PM portfolio
 
-**October 8 update:** The owner has authorized GitHub and Render setup for a protected test deployment. See [DEPLOYMENT.md](DEPLOYMENT.md) for the current Blueprint, $7.25/month base estimate including durable storage, access protection and refresh design. Broad public-app launch remains subject to the validation gates. Earlier cost and storage assumptions below are historical.
+**October 8 update:** The complete [public GitHub source](https://github.com/teddyhurley/sidewalk-sf) is published and automated checks pass. The owner has authorized Render setup for a protected test deployment. Render requires a payment method before setup can continue; cost approval and token transfer remain pending, and no paid resource has been activated. See [DEPLOYMENT.md](DEPLOYMENT.md) for the current Blueprint, $7.25/month base estimate including durable storage, access protection and refresh design. Broad public-app launch remains subject to the validation gates.
+
+## Historical decision record — October 7
+
+The following records the earlier selection and pause; the October 8 status above supersedes its repository, publication and storage assumptions.
 
 Decision recorded October 7, 2026. The owner confirmed `teddyhurley/sidewalk-sf` as the desired public repository and asked that hosting be chosen for PM interviews. This is a selected deployment approach, not a purchased service or a completed deployment. No budget authorization has been recorded.
 

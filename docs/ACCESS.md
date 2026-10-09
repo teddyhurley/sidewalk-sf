@@ -1,6 +1,6 @@
 # Exactly what is needed
 
-**October 8 update:** `teddyhurley/sidewalk-sf` has been created as a public source repository. Render setup is in progress for a password-protected test app; paid activation and hosted verification are separate from code preparation. See [DEPLOYMENT.md](DEPLOYMENT.md).
+**October 8 update:** [teddyhurley/sidewalk-sf](https://github.com/teddyhurley/sidewalk-sf) contains the complete public source, and GitHub's automated checks pass. Render recognizes the repository and Blueprint but requires a payment method before setup can continue. Paid activation, token transfer and hosted verification remain pending. See [DEPLOYMENT.md](DEPLOYMENT.md).
 
 ## To use the fictional demo
 
@@ -21,15 +21,15 @@ A Socrata application token in `SOCRATA_APP_TOKEN` is recommended for the separa
 
 **A token alone does not finish the real-data integration.** The ingestion pipeline and quality gates are now implemented. The complete refresh, publisher-total reconciliation, and computational real-record attribution checks now pass. Human domain/comprehension reviews in `VALIDATION.md` remain. The saved Socrata token is configured, and no additional credential is currently needed for the local preview. V1 intentionally cannot turn a token into an unreviewed safety assessment.
 
-## To publish this as the third public GitHub project
+## Public GitHub project
 
-The owner has confirmed `teddyhurley/sidewalk-sf`. Repository creation/write access is still needed; the latest connector lookup returned not found or inaccessible. A GitHub-ready source archive is supplied. No existing portfolio project has been modified, and no public GitHub repository has been created by this task.
+The complete source is published at [teddyhurley/sidewalk-sf](https://github.com/teddyhurley/sidewalk-sf). The first complete source commit is `ca77ccd5e23df1c54b3ea5ec171296d6635cd755`; its published files matched the reviewed local source byte-for-byte. Credentials and raw evidence snapshots are excluded. Existing portfolio projects were not modified.
 
-The current GitHub connector exposes file/commit operations but no repository-creation tool. An existing writable destination or authenticated repository-creation path is needed. Do not paste a personal access token into this chat. The private Sites source repository is separate from the user's public GitHub portfolio.
+Repository creation used the authenticated GitHub browser; subsequent source publication used the GitHub connector. No personal access token was requested. The private Sites source repository is separate from the public GitHub portfolio.
 
 ## Selected hosting
 
-Render is selected for this PM interview portfolio: a Hobby workspace and one small $7/month web service, subject to cost acceptance and account access. No paid service has been activated. Pricing assumptions, later storage costs and deployment steps are in [HOSTING.md](HOSTING.md).
+Render is selected for this PM interview portfolio: a Hobby workspace, one small $7/month web service and a 1 GB persistent disk at $0.25/month, before taxes and usage. No paid service has been activated. The remaining owner action is to add a payment method in Render and approve activation and transfer of the existing Mapbox/Socrata tokens into Render. Deployment steps are in [DEPLOYMENT.md](DEPLOYMENT.md).
 
 ## Model vs execution environment
 
