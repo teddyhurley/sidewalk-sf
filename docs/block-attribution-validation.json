@@ -1,0 +1,23 @@
+{
+  "checkedAt": "2026-10-08T17:31:31.003Z",
+  "asOf": "2026-10-07",
+  "categories": [
+    "Assault",
+    "Robbery",
+    "Homicide",
+    "Rape",
+    "Sex Offense"
+  ],
+  "window": {
+    "from": "2026-04-07",
+    "through": "2026-10-07"
+  },
+  "method": "Independent Shapely/GEOS spatial-tree dwithin(35 m) against the documented local projection; all mapped selected reports, all supported block polygons.",
+  "validBlocks": 5950,
+  "selectedReports": 3719,
+  "nonemptyBlocks": 2946,
+  "unmatchedReports": 0,
+  "countDisagreements": 0,
+  "topologyRepairs": 3,
+  "limitations": "Computational agreement does not validate masked incident locations, reporting completeness or danger."
+}

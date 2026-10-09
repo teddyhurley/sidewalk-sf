@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "fictional": false,
+  "asOf": "2026-10-07",
+  "retrievedAt": "2026-10-08T17:27:11.960Z",
+  "reviewStage": "local-data-preview",
+  "sources": {
+    "reports": {
+      "datasetId": "wg3w-h783",
+      "title": "Police Department Incident Reports: 2018 to Present",
+      "url": "https://data.sf.gov/d/wg3w-h783",
+      "sourceUpdatedAt": "2026-10-08T17:01:00.000Z",
+      "retrievedAt": "2026-10-08T17:26:37.461Z",
+      "query": "incident_date >= '2025-10-07T00:00:00' AND incident_date < '2026-10-08T00:00:00' AND incident_category in ('Assault','Robbery','Homicide','Rape','Sex Offense') AND report_type_description in ('Initial','Coplogic Initial','Vehicle Initial')",
+      "fields": [
+        "row_id",
+        "incident_id",
+        "incident_date",
+        "report_type_description",
+        "incident_category",
+        "incident_code",
+        "latitude",
+        "longitude"
+      ],
+      "rows": 7950,
+      "uniqueKeys": 7950,
+      "pages": 1,
+      "reconciled": true,
+      "window": {
+        "from": "2025-10-07",
+        "through": "2026-10-07",
+        "months": 12
+      },
+      "quality": {
+        "inputRows": 7950,
+        "rejectedRows": 0,
+        "distinctEntities": 7292,
+        "conflictingEntities": 0,
+        "missingLocationEntities": 23,
+        "mappableEntities": 7269,
+        "taxonomyMismatches": 0
+      },
+      "categories": [
+        "Assault",
+        "Robbery",
+        "Homicide",
+        "Rape",
+        "Sex Offense"
+      ],
+      "usable": true
+    },
+    "crashes": {
+      "datasetId": "ubvf-ztfx",
+      "title": "Traffic Crashes Resulting in Injury",
+      "url": "https://data.sf.gov/d/ubvf-ztfx",
+      "sourceUpdatedAt": "2026-10-07T18:46:17.000Z",
+      "retrievedAt": "2026-10-08T17:26:53.210Z",
+      "query": "collision_date >= '2024-07-01T00:00:00' AND collision_date < '2026-07-01T00:00:00'",
+      "fields": [
+        "unique_id",
+        "case_id_pkey",
+        "collision_date",
+        "tb_latitude",
+        "tb_longitude",
+        "dph_col_grp_description",
+        "primary_rd",
+        "secondary_rd"
+      ],
+      "rows": 6107,
+      "uniqueKeys": 6107,
+      "pages": 1,
+      "reconciled": true,
+      "window": {
+        "from": "2024-07-01",
+        "through": "2026-06-30"
+      },
+      "quality": {
+        "inputRows": 1284,
+        "rejectedRows": 0,
+        "distinctEntities": 1284,
+        "conflictingEntities": 0,
+        "missingLocationEntities": 6,
+        "mappableEntities": 1278,
+        "rejectedPartyRows": 0,
+        "partyDateMismatches": 0,
+        "pedestrianPartyCases": 1284,
+        "groupOnlyCases": 0,
+        "partyOnlyCases": 0,
+        "missingCrashCases": 0,
+        "allCrashRows": 6107
+      },
+      "usable": true
+    },
+    "parties": {
+      "datasetId": "8gtc-pjc6",
+      "title": "Traffic Crashes Resulting in Injury: Parties Involved",
+      "url": "https://data.sf.gov/d/8gtc-pjc6",
+      "sourceUpdatedAt": "2026-10-07T18:57:08.000Z",
+      "retrievedAt": "2026-10-08T17:27:06.259Z",
+      "query": "collision_date >= '2024-07-01T00:00:00' AND collision_date < '2026-07-01T00:00:00' AND party_type = 'Pedestrian'",
+      "fields": [
+        "unique_id",
+        "case_id_pkey",
+        "collision_date",
+        "party_type",
+        "party_number_ckey"
+      ],
+      "rows": 1343,
+      "uniqueKeys": 1343,
+      "pages": 1,
+      "reconciled": true
+    },
+    "crosswalk": {
+      "datasetId": "ci9u-8awy",
+      "title": "Reference: Police Department Incident Code Crosswalk",
+      "url": "https://data.sf.gov/d/ci9u-8awy",
+      "sourceUpdatedAt": "2018-10-11T16:55:22.000Z",
+      "retrievedAt": "2026-10-08T17:27:11.875Z",
+      "query": "1=1",
+      "fields": [
+        "inc_code",
+        "category"
+      ],
+      "rows": 1012,
+      "uniqueKeys": 1012,
+      "pages": 1,
+      "reconciled": true
+    }
+  },
+  "limitations": [
+    "Retrieval reconciled; publication and reporting completeness are unknown.",
+    "Police context covers selected categories at masked intersections, not route-specific danger.",
+    "Crash points use simplified centerlines; current street design and exposure are unknown.",
+    "Human domain review and user comprehension research are outstanding."
+  ],
+  "sha256": "df4599044b66051a5a45d50b0c70788f04c1634178ecccb0f05ddf0a9b736491"
+}

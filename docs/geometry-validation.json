@@ -1,0 +1,290 @@
+{
+  "status": "geometry check only; real evidence attribution not validated",
+  "method": "10 Mapbox walking geometries; constructed test points at route fractions and corridor boundaries. Independent Shapely 2.2 / pyproj 3.8 WGS84 to UTM zone 10N distance. No historical incidents were used.",
+  "interpretation": "Sub-meter boundary disagreements are reported rather than hidden. Approximate source locations have much greater uncertainty. This does not validate event completeness, sidewalk attribution, human risk, or field conditions.",
+  "routes": [
+    {
+      "area": "Downtown",
+      "constructedPoints": 105,
+      "maxAbsoluteErrorMeters": 0.2886,
+      "thresholds": [
+        {
+          "meters": 25,
+          "appCount": 23,
+          "gisCount": 23,
+          "boundaryDisagreements": 0,
+          "disagreementsBeyondHalfMeter": 0
+        },
+        {
+          "meters": 50,
+          "appCount": 51,
+          "gisCount": 51,
+          "boundaryDisagreements": 0,
+          "disagreementsBeyondHalfMeter": 0
+        },
+        {
+          "meters": 100,
+          "appCount": 86,
+          "gisCount": 87,
+          "boundaryDisagreements": 1,
+          "disagreementsBeyondHalfMeter": 0
+        }
+      ]
+    },
+    {
+      "area": "Mission",
+      "constructedPoints": 105,
+      "maxAbsoluteErrorMeters": 0.4345,
+      "thresholds": [
+        {
+          "meters": 25,
+          "appCount": 19,
+          "gisCount": 19,
+          "boundaryDisagreements": 0,
+          "disagreementsBeyondHalfMeter": 0
+        },
+        {
+          "meters": 50,
+          "appCount": 58,
+          "gisCount": 60,
+          "boundaryDisagreements": 2,
+          "disagreementsBeyondHalfMeter": 0
+        },
+        {
+          "meters": 100,
+          "appCount": 87,
+          "gisCount": 85,
+          "boundaryDisagreements": 6,
+          "disagreementsBeyondHalfMeter": 0
+        }
+      ]
+    },
+    {
+      "area": "Civic Center",
+      "constructedPoints": 105,
+      "maxAbsoluteErrorMeters": 0.4162,
+      "thresholds": [
+        {
+          "meters": 25,
+          "appCount": 29,
+          "gisCount": 29,
+          "boundaryDisagreements": 0,
+          "disagreementsBeyondHalfMeter": 0
+        },
+        {
+          "meters": 50,
+          "appCount": 49,
+          "gisCount": 53,
+          "boundaryDisagreements": 4,
+          "disagreementsBeyondHalfMeter": 0
+        },
+        {
+          "meters": 100,
+          "appCount": 81,
+          "gisCount": 85,
+          "boundaryDisagreements": 4,
+          "disagreementsBeyondHalfMeter": 0
+        }
+      ]
+    },
+    {
+      "area": "North Beach",
+      "constructedPoints": 105,
+      "maxAbsoluteErrorMeters": 0.3822,
+      "thresholds": [
+        {
+          "meters": 25,
+          "appCount": 26,
+          "gisCount": 26,
+          "boundaryDisagreements": 0,
+          "disagreementsBeyondHalfMeter": 0
+        },
+        {
+          "meters": 50,
+          "appCount": 67,
+          "gisCount": 67,
+          "boundaryDisagreements": 0,
+          "disagreementsBeyondHalfMeter": 0
+        },
+        {
+          "meters": 100,
+          "appCount": 98,
+          "gisCount": 97,
+          "boundaryDisagreements": 1,
+          "disagreementsBeyondHalfMeter": 0
+        }
+      ]
+    },
+    {
+      "area": "Richmond",
+      "constructedPoints": 105,
+      "maxAbsoluteErrorMeters": 0.438,
+      "thresholds": [
+        {
+          "meters": 25,
+          "appCount": 19,
+          "gisCount": 19,
+          "boundaryDisagreements": 0,
+          "disagreementsBeyondHalfMeter": 0
+        },
+        {
+          "meters": 50,
+          "appCount": 54,
+          "gisCount": 56,
+          "boundaryDisagreements": 2,
+          "disagreementsBeyondHalfMeter": 0
+        },
+        {
+          "meters": 100,
+          "appCount": 84,
+          "gisCount": 83,
+          "boundaryDisagreements": 5,
+          "disagreementsBeyondHalfMeter": 0
+        }
+      ]
+    },
+    {
+      "area": "Sunset",
+      "constructedPoints": 105,
+      "maxAbsoluteErrorMeters": 0.4384,
+      "thresholds": [
+        {
+          "meters": 25,
+          "appCount": 24,
+          "gisCount": 24,
+          "boundaryDisagreements": 0,
+          "disagreementsBeyondHalfMeter": 0
+        },
+        {
+          "meters": 50,
+          "appCount": 43,
+          "gisCount": 51,
+          "boundaryDisagreements": 8,
+          "disagreementsBeyondHalfMeter": 0
+        },
+        {
+          "meters": 100,
+          "appCount": 71,
+          "gisCount": 78,
+          "boundaryDisagreements": 9,
+          "disagreementsBeyondHalfMeter": 0
+        }
+      ]
+    },
+    {
+      "area": "Castro",
+      "constructedPoints": 105,
+      "maxAbsoluteErrorMeters": 0.3848,
+      "thresholds": [
+        {
+          "meters": 25,
+          "appCount": 18,
+          "gisCount": 18,
+          "boundaryDisagreements": 0,
+          "disagreementsBeyondHalfMeter": 0
+        },
+        {
+          "meters": 50,
+          "appCount": 47,
+          "gisCount": 48,
+          "boundaryDisagreements": 1,
+          "disagreementsBeyondHalfMeter": 0
+        },
+        {
+          "meters": 100,
+          "appCount": 84,
+          "gisCount": 82,
+          "boundaryDisagreements": 2,
+          "disagreementsBeyondHalfMeter": 0
+        }
+      ]
+    },
+    {
+      "area": "Potrero",
+      "constructedPoints": 105,
+      "maxAbsoluteErrorMeters": 0.4003,
+      "thresholds": [
+        {
+          "meters": 25,
+          "appCount": 25,
+          "gisCount": 25,
+          "boundaryDisagreements": 0,
+          "disagreementsBeyondHalfMeter": 0
+        },
+        {
+          "meters": 50,
+          "appCount": 48,
+          "gisCount": 49,
+          "boundaryDisagreements": 3,
+          "disagreementsBeyondHalfMeter": 0
+        },
+        {
+          "meters": 100,
+          "appCount": 91,
+          "gisCount": 85,
+          "boundaryDisagreements": 6,
+          "disagreementsBeyondHalfMeter": 0
+        }
+      ]
+    },
+    {
+      "area": "Bayview",
+      "constructedPoints": 105,
+      "maxAbsoluteErrorMeters": 0.3206,
+      "thresholds": [
+        {
+          "meters": 25,
+          "appCount": 22,
+          "gisCount": 22,
+          "boundaryDisagreements": 0,
+          "disagreementsBeyondHalfMeter": 0
+        },
+        {
+          "meters": 50,
+          "appCount": 54,
+          "gisCount": 54,
+          "boundaryDisagreements": 0,
+          "disagreementsBeyondHalfMeter": 0
+        },
+        {
+          "meters": 100,
+          "appCount": 85,
+          "gisCount": 83,
+          "boundaryDisagreements": 2,
+          "disagreementsBeyondHalfMeter": 0
+        }
+      ]
+    },
+    {
+      "area": "Marina",
+      "constructedPoints": 105,
+      "maxAbsoluteErrorMeters": 0.4176,
+      "thresholds": [
+        {
+          "meters": 25,
+          "appCount": 15,
+          "gisCount": 15,
+          "boundaryDisagreements": 0,
+          "disagreementsBeyondHalfMeter": 0
+        },
+        {
+          "meters": 50,
+          "appCount": 39,
+          "gisCount": 45,
+          "boundaryDisagreements": 6,
+          "disagreementsBeyondHalfMeter": 0
+        },
+        {
+          "meters": 100,
+          "appCount": 83,
+          "gisCount": 85,
+          "boundaryDisagreements": 6,
+          "disagreementsBeyondHalfMeter": 0
+        }
+      ]
+    }
+  ],
+  "totalConstructedPoints": 1050,
+  "maxAbsoluteErrorMeters": 0.4384,
+  "disagreementsBeyondHalfMeter": 0
+}

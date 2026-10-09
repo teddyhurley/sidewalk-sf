@@ -1,0 +1,1866 @@
+{
+  "schemaVersion": 1,
+  "fictional": false,
+  "coverage": "partial",
+  "updated": "2026-10-08",
+  "records": [
+    {
+      "id": "sfha-plaza-east",
+      "type": "public_housing",
+      "name": "Plaza East Apartments",
+      "address": "1300 Buchanan Street, San Francisco, CA 94115",
+      "coordinates": [
+        -122.428980699528,
+        37.781912533112
+      ],
+      "fictional": false,
+      "status": "source-listed",
+      "statusNote": "Listed by SFHA under its Public Housing program when checked. Program classification can change.",
+      "locationNote": "Approximate Census address-range position for the publicly listed address. This is not a surveyed entrance or a property boundary; other parts of the site may be nearer or farther from your route.",
+      "verifiedOn": "2026-10-08",
+      "reviewBy": "2027-01-06",
+      "sources": [
+        {
+          "label": "SFHA public-housing property list",
+          "url": "https://sfha.org/housing-programs/public-housing"
+        },
+        {
+          "label": "Census address geocoder · approximate position",
+          "url": "https://geocoding.geo.census.gov/geocoder/Geocoding_Services_API.html"
+        },
+        {
+          "label": "Census matched-address response",
+          "url": "https://geocoding.geo.census.gov/geocoder/locations/address?street=1300+Buchanan+St&city=San+Francisco&state=CA&benchmark=Public_AR_Current&format=json"
+        }
+      ]
+    },
+    {
+      "id": "sfha-north-beach",
+      "type": "public_housing",
+      "name": "North Beach Place",
+      "address": "455 Bay Street, San Francisco, CA 94133",
+      "coordinates": [
+        -122.414487589839,
+        37.805451507496
+      ],
+      "fictional": false,
+      "status": "source-listed",
+      "statusNote": "Listed by SFHA under its Public Housing program when checked. The development includes different housing programs; this label does not describe every unit.",
+      "locationNote": "Approximate Census address-range position for the publicly listed address. This is not a surveyed entrance or a property boundary; other parts of the site may be nearer or farther from your route.",
+      "verifiedOn": "2026-10-08",
+      "reviewBy": "2027-01-06",
+      "sources": [
+        {
+          "label": "SFHA public-housing property list",
+          "url": "https://sfha.org/housing-programs/public-housing"
+        },
+        {
+          "label": "Census address geocoder · approximate position",
+          "url": "https://geocoding.geo.census.gov/geocoder/Geocoding_Services_API.html"
+        },
+        {
+          "label": "Census matched-address response",
+          "url": "https://geocoding.geo.census.gov/geocoder/locations/address?street=455+Bay+St&city=San+Francisco&state=CA&benchmark=Public_AR_Current&format=json"
+        }
+      ]
+    },
+    {
+      "id": "geo-taylor-street",
+      "type": "halfway_house",
+      "name": "Taylor Street Center",
+      "address": "111 Taylor Street, San Francisco, CA 94102",
+      "coordinates": [
+        -122.410870815512,
+        37.783374579493
+      ],
+      "fictional": false,
+      "status": "source-listed",
+      "statusNote": "Residential reentry center (halfway house). Listed in the operator’s August 6, 2026 property list and public federal directories. On-site conditions and current admissions have not been checked.",
+      "locationNote": "Approximate Census address-range position for the publicly listed address. This is not a surveyed entrance or a property boundary; other parts of the site may be nearer or farther from your route.",
+      "verifiedOn": "2026-10-08",
+      "reviewBy": "2027-01-06",
+      "sources": [
+        {
+          "label": "U.S. Probation · facility name and public address",
+          "url": "https://www.nvp.uscourts.gov/supervision/services/halfway-house/"
+        },
+        {
+          "label": "GEO operator property list · Aug 6, 2026 · page 19",
+          "url": "https://investors.geogroup.com/static-files/b0fa3371-5423-4b7b-94d6-267798dd44d6#page=19"
+        },
+        {
+          "label": "BOP residential reentry directory",
+          "url": "https://www.bop.gov/business/rrc_directory.jsp"
+        },
+        {
+          "label": "Census address geocoder · approximate position",
+          "url": "https://geocoding.geo.census.gov/geocoder/Geocoding_Services_API.html"
+        },
+        {
+          "label": "Census matched-address response",
+          "url": "https://geocoding.geo.census.gov/geocoder/locations/address?street=111+Taylor+St&city=San+Francisco&state=CA&benchmark=Public_AR_Current&format=json"
+        }
+      ]
+    },
+    {
+      "fictional": false,
+      "status": "source-listed",
+      "verifiedOn": "2026-10-08",
+      "reviewBy": "2027-01-06",
+      "id": "mohcd-2003-030",
+      "type": "former_public_housing",
+      "name": "Valencia Gardens",
+      "address": "340-370 Valencia St, San Francisco, CA 94103",
+      "coordinates": [
+        -122.4221751,
+        37.7671867
+      ],
+      "statusNote": "Former public housing in a HOPE VI development. SFHA documents a completed RAD conversion; the City portfolio lists this development as construction complete.",
+      "locationNote": "Approximate representative point published in the City housing portfolio (source updated May 21, 2026). It is not a surveyed entrance or a property boundary. A complex may span several blocks; parts can be nearer or farther from the route.",
+      "sources": [
+        {
+          "label": "City housing portfolio · public address, program and position",
+          "url": "https://data.sf.gov/d/pyxv-n29e"
+        },
+        {
+          "label": "City source record · 2003-030",
+          "url": "https://data.sfgov.org/resource/pyxv-n29e.json?%24where=mohcd_development_id+in+%28%272003-030%27%29&%24select=mohcd_development_id%2Cdevelopment_name%2Cmarketing_address%2Cproject_status%2Chousing_program_program_name%2Clatitude%2Clongitude"
+        },
+        {
+          "label": "SFHA 2024 annual plan · conversion history",
+          "url": "https://sfha.org/files/documents/Annual%20Plan%202024.pdf#page=41"
+        }
+      ]
+    },
+    {
+      "fictional": false,
+      "status": "source-listed",
+      "verifiedOn": "2026-10-08",
+      "reviewBy": "2027-01-06",
+      "id": "mohcd-2006-021a",
+      "type": "former_public_housing",
+      "name": "Hunters View Phase 1",
+      "address": "1101 Fairfax Ave, San Francisco, CA 94124",
+      "coordinates": [
+        -122.3812552,
+        37.73666676
+      ],
+      "statusNote": "Former public-housing site / replacement development in HOPE SF. The City lists this phase as construction complete; this label describes site history, not every current unit.",
+      "locationNote": "Approximate representative point published in the City housing portfolio (source updated May 21, 2026). It is not a surveyed entrance or a property boundary. A complex may span several blocks; parts can be nearer or farther from the route.",
+      "sources": [
+        {
+          "label": "City housing portfolio · public address, program and position",
+          "url": "https://data.sf.gov/d/pyxv-n29e"
+        },
+        {
+          "label": "City source record · 2006-021a",
+          "url": "https://data.sfgov.org/resource/pyxv-n29e.json?%24where=mohcd_development_id+in+%28%272006-021a%27%29&%24select=mohcd_development_id%2Cdevelopment_name%2Cmarketing_address%2Cproject_status%2Chousing_program_program_name%2Clatitude%2Clongitude"
+        },
+        {
+          "label": "SFHA 2024 annual plan · conversion history",
+          "url": "https://sfha.org/files/documents/Annual%20Plan%202024.pdf#page=29"
+        }
+      ]
+    },
+    {
+      "fictional": false,
+      "status": "source-listed",
+      "verifiedOn": "2026-10-08",
+      "reviewBy": "2027-01-06",
+      "id": "mohcd-2006-021b",
+      "type": "former_public_housing",
+      "name": "Hunters View Phase 2A",
+      "address": "848 Fairfax Avenue, San Francisco, CA 94124",
+      "coordinates": [
+        -122.3813667,
+        37.73593068
+      ],
+      "statusNote": "Former public-housing site / replacement development in HOPE SF. The City lists this phase as construction complete; this label describes site history, not every current unit.",
+      "locationNote": "Approximate representative point published in the City housing portfolio (source updated May 21, 2026). It is not a surveyed entrance or a property boundary. A complex may span several blocks; parts can be nearer or farther from the route.",
+      "sources": [
+        {
+          "label": "City housing portfolio · public address, program and position",
+          "url": "https://data.sf.gov/d/pyxv-n29e"
+        },
+        {
+          "label": "City source record · 2006-021b",
+          "url": "https://data.sfgov.org/resource/pyxv-n29e.json?%24where=mohcd_development_id+in+%28%272006-021b%27%29&%24select=mohcd_development_id%2Cdevelopment_name%2Cmarketing_address%2Cproject_status%2Chousing_program_program_name%2Clatitude%2Clongitude"
+        },
+        {
+          "label": "SFHA 2024 annual plan · conversion history",
+          "url": "https://sfha.org/files/documents/Annual%20Plan%202024.pdf#page=29"
+        }
+      ]
+    },
+    {
+      "fictional": false,
+      "status": "source-listed",
+      "verifiedOn": "2026-10-08",
+      "reviewBy": "2027-01-06",
+      "id": "mohcd-2006-021c",
+      "type": "former_public_housing",
+      "name": "Hunters View Phase 2B",
+      "address": "901 Fairfax Ave, San Francisco, CA 94124",
+      "coordinates": [
+        -122.3789497,
+        37.73535412
+      ],
+      "statusNote": "Former public-housing site / replacement development in HOPE SF. The City lists this phase as construction complete; this label describes site history, not every current unit.",
+      "locationNote": "Approximate representative point published in the City housing portfolio (source updated May 21, 2026). It is not a surveyed entrance or a property boundary. A complex may span several blocks; parts can be nearer or farther from the route.",
+      "sources": [
+        {
+          "label": "City housing portfolio · public address, program and position",
+          "url": "https://data.sf.gov/d/pyxv-n29e"
+        },
+        {
+          "label": "City source record · 2006-021c",
+          "url": "https://data.sfgov.org/resource/pyxv-n29e.json?%24where=mohcd_development_id+in+%28%272006-021c%27%29&%24select=mohcd_development_id%2Cdevelopment_name%2Cmarketing_address%2Cproject_status%2Chousing_program_program_name%2Clatitude%2Clongitude"
+        },
+        {
+          "label": "SFHA 2024 annual plan · conversion history",
+          "url": "https://sfha.org/files/documents/Annual%20Plan%202024.pdf#page=29"
+        }
+      ]
+    },
+    {
+      "fictional": false,
+      "status": "source-listed",
+      "verifiedOn": "2026-10-08",
+      "reviewBy": "2027-01-06",
+      "id": "mohcd-2006-021d",
+      "type": "former_public_housing",
+      "name": "Hunters View Phase III",
+      "address": "201 West Point Rd, San Francisco, CA 94124",
+      "coordinates": [
+        -122.379092,
+        37.73504944
+      ],
+      "statusNote": "Former public-housing site / replacement development in HOPE SF. The City lists this phase as construction complete; this label describes site history, not every current unit.",
+      "locationNote": "Approximate representative point published in the City housing portfolio (source updated May 21, 2026). It is not a surveyed entrance or a property boundary. A complex may span several blocks; parts can be nearer or farther from the route.",
+      "sources": [
+        {
+          "label": "City housing portfolio · public address, program and position",
+          "url": "https://data.sf.gov/d/pyxv-n29e"
+        },
+        {
+          "label": "City source record · 2006-021d",
+          "url": "https://data.sfgov.org/resource/pyxv-n29e.json?%24where=mohcd_development_id+in+%28%272006-021d%27%29&%24select=mohcd_development_id%2Cdevelopment_name%2Cmarketing_address%2Cproject_status%2Chousing_program_program_name%2Clatitude%2Clongitude"
+        },
+        {
+          "label": "SFHA 2024 annual plan · conversion history",
+          "url": "https://sfha.org/files/documents/Annual%20Plan%202024.pdf#page=29"
+        }
+      ]
+    },
+    {
+      "fictional": false,
+      "status": "source-listed",
+      "verifiedOn": "2026-10-08",
+      "reviewBy": "2027-01-06",
+      "id": "mohcd-2012-001a",
+      "type": "former_public_housing",
+      "name": "Alice Griffith Phase 1",
+      "address": "2600 Arelious Walker Dr, San Francisco, CA 94124",
+      "coordinates": [
+        -122.3848862,
+        37.71887779
+      ],
+      "statusNote": "Former public-housing site / replacement development in HOPE SF. The City lists this phase as construction complete; this label describes site history, not every current unit.",
+      "locationNote": "Approximate representative point published in the City housing portfolio (source updated May 21, 2026). It is not a surveyed entrance or a property boundary. A complex may span several blocks; parts can be nearer or farther from the route.",
+      "sources": [
+        {
+          "label": "City housing portfolio · public address, program and position",
+          "url": "https://data.sf.gov/d/pyxv-n29e"
+        },
+        {
+          "label": "City source record · 2012-001a",
+          "url": "https://data.sfgov.org/resource/pyxv-n29e.json?%24where=mohcd_development_id+in+%28%272012-001a%27%29&%24select=mohcd_development_id%2Cdevelopment_name%2Cmarketing_address%2Cproject_status%2Chousing_program_program_name%2Clatitude%2Clongitude"
+        },
+        {
+          "label": "SFHA 2024 annual plan · conversion history",
+          "url": "https://sfha.org/files/documents/Annual%20Plan%202024.pdf#page=29"
+        }
+      ]
+    },
+    {
+      "fictional": false,
+      "status": "source-listed",
+      "verifiedOn": "2026-10-08",
+      "reviewBy": "2027-01-06",
+      "id": "mohcd-2012-001b",
+      "type": "former_public_housing",
+      "name": "Alice Griffith Phase 2",
+      "address": "2700 Arelious Walker Dr, San Francisco, CA 94124",
+      "coordinates": [
+        -122.3854387,
+        37.71826896
+      ],
+      "statusNote": "Former public-housing site / replacement development in HOPE SF. The City lists this phase as construction complete; this label describes site history, not every current unit.",
+      "locationNote": "Approximate representative point published in the City housing portfolio (source updated May 21, 2026). It is not a surveyed entrance or a property boundary. A complex may span several blocks; parts can be nearer or farther from the route.",
+      "sources": [
+        {
+          "label": "City housing portfolio · public address, program and position",
+          "url": "https://data.sf.gov/d/pyxv-n29e"
+        },
+        {
+          "label": "City source record · 2012-001b",
+          "url": "https://data.sfgov.org/resource/pyxv-n29e.json?%24where=mohcd_development_id+in+%28%272012-001b%27%29&%24select=mohcd_development_id%2Cdevelopment_name%2Cmarketing_address%2Cproject_status%2Chousing_program_program_name%2Clatitude%2Clongitude"
+        },
+        {
+          "label": "SFHA 2024 annual plan · conversion history",
+          "url": "https://sfha.org/files/documents/Annual%20Plan%202024.pdf#page=29"
+        }
+      ]
+    },
+    {
+      "fictional": false,
+      "status": "source-listed",
+      "verifiedOn": "2026-10-08",
+      "reviewBy": "2027-01-06",
+      "id": "mohcd-2012-001c",
+      "type": "former_public_housing",
+      "name": "Alice Griffith — Phases 3A / 3B",
+      "address": "2500 Arelious Walker Dr, San Francisco, CA 94124",
+      "coordinates": [
+        -122.3842369,
+        37.71962424
+      ],
+      "statusNote": "Former public-housing site / replacement development in HOPE SF. The City lists this phase as construction complete; this label describes site history, not every current unit.",
+      "locationNote": "Approximate representative point published in the City housing portfolio (source updated May 21, 2026). It is not a surveyed entrance or a property boundary. A complex may span several blocks; parts can be nearer or farther from the route.",
+      "sources": [
+        {
+          "label": "City housing portfolio · public address, program and position",
+          "url": "https://data.sf.gov/d/pyxv-n29e"
+        },
+        {
+          "label": "City source record · 2012-001c, 2012-001d",
+          "url": "https://data.sfgov.org/resource/pyxv-n29e.json?%24where=mohcd_development_id+in+%28%272012-001c%27%2C%272012-001d%27%29&%24select=mohcd_development_id%2Cdevelopment_name%2Cmarketing_address%2Cproject_status%2Chousing_program_program_name%2Clatitude%2Clongitude"
+        },
+        {
+          "label": "SFHA 2024 annual plan · conversion history",
+          "url": "https://sfha.org/files/documents/Annual%20Plan%202024.pdf#page=29"
+        }
+      ]
+    },
+    {
+      "fictional": false,
+      "status": "source-listed",
+      "verifiedOn": "2026-10-08",
+      "reviewBy": "2027-01-06",
+      "id": "mohcd-2012-001e",
+      "type": "former_public_housing",
+      "name": "Alice Griffith Apartments Phase 4",
+      "address": "2800 Arelious Walker Dr, San Francisco, CA 94124",
+      "coordinates": [
+        -122.3859543,
+        37.71766764
+      ],
+      "statusNote": "Former public-housing site / replacement development in HOPE SF. The City lists this phase as construction complete; this label describes site history, not every current unit.",
+      "locationNote": "Approximate representative point published in the City housing portfolio (source updated May 21, 2026). It is not a surveyed entrance or a property boundary. A complex may span several blocks; parts can be nearer or farther from the route.",
+      "sources": [
+        {
+          "label": "City housing portfolio · public address, program and position",
+          "url": "https://data.sf.gov/d/pyxv-n29e"
+        },
+        {
+          "label": "City source record · 2012-001e",
+          "url": "https://data.sfgov.org/resource/pyxv-n29e.json?%24where=mohcd_development_id+in+%28%272012-001e%27%29&%24select=mohcd_development_id%2Cdevelopment_name%2Cmarketing_address%2Cproject_status%2Chousing_program_program_name%2Clatitude%2Clongitude"
+        },
+        {
+          "label": "SFHA 2024 annual plan · conversion history",
+          "url": "https://sfha.org/files/documents/Annual%20Plan%202024.pdf#page=29"
+        }
+      ]
+    },
+    {
+      "fictional": false,
+      "status": "source-listed",
+      "verifiedOn": "2026-10-08",
+      "reviewBy": "2027-01-06",
+      "id": "mohcd-2012-019a",
+      "type": "former_public_housing",
+      "name": "1101 Connecticut",
+      "address": "1101 Connecticut St, San Francisco, CA 94107",
+      "coordinates": [
+        -122.3963238,
+        37.75218059
+      ],
+      "statusNote": "Former public-housing site / replacement development in HOPE SF. The City lists this phase as construction complete; this label describes site history, not every current unit.",
+      "locationNote": "Approximate representative point published in the City housing portfolio (source updated May 21, 2026). It is not a surveyed entrance or a property boundary. A complex may span several blocks; parts can be nearer or farther from the route.",
+      "sources": [
+        {
+          "label": "City housing portfolio · public address, program and position",
+          "url": "https://data.sf.gov/d/pyxv-n29e"
+        },
+        {
+          "label": "City source record · 2012-019a",
+          "url": "https://data.sfgov.org/resource/pyxv-n29e.json?%24where=mohcd_development_id+in+%28%272012-019a%27%29&%24select=mohcd_development_id%2Cdevelopment_name%2Cmarketing_address%2Cproject_status%2Chousing_program_program_name%2Clatitude%2Clongitude"
+        },
+        {
+          "label": "SFHA 2024 annual plan · conversion history",
+          "url": "https://sfha.org/files/documents/Annual%20Plan%202024.pdf#page=29"
+        }
+      ]
+    },
+    {
+      "fictional": false,
+      "status": "source-listed",
+      "verifiedOn": "2026-10-08",
+      "reviewBy": "2027-01-06",
+      "id": "mohcd-2012-019b",
+      "type": "former_public_housing",
+      "name": "Eve Community Village (Potrero Block B)",
+      "address": "1108 Connecticut St, San Francisco, CA 94107",
+      "coordinates": [
+        -122.3966765,
+        37.75211281
+      ],
+      "statusNote": "Former public-housing site / replacement development in HOPE SF. The City lists this phase as construction complete; this label describes site history, not every current unit.",
+      "locationNote": "Approximate representative point published in the City housing portfolio (source updated May 21, 2026). It is not a surveyed entrance or a property boundary. A complex may span several blocks; parts can be nearer or farther from the route.",
+      "sources": [
+        {
+          "label": "City housing portfolio · public address, program and position",
+          "url": "https://data.sf.gov/d/pyxv-n29e"
+        },
+        {
+          "label": "City source record · 2012-019b",
+          "url": "https://data.sfgov.org/resource/pyxv-n29e.json?%24where=mohcd_development_id+in+%28%272012-019b%27%29&%24select=mohcd_development_id%2Cdevelopment_name%2Cmarketing_address%2Cproject_status%2Chousing_program_program_name%2Clatitude%2Clongitude"
+        },
+        {
+          "label": "SFHA 2024 annual plan · conversion history",
+          "url": "https://sfha.org/files/documents/Annual%20Plan%202024.pdf#page=29"
+        }
+      ]
+    },
+    {
+      "fictional": false,
+      "status": "source-listed",
+      "verifiedOn": "2026-10-08",
+      "reviewBy": "2027-01-06",
+      "id": "mohcd-2013-019",
+      "type": "former_public_housing",
+      "name": "430 Turk",
+      "address": "430 Turk St, San Francisco, CA 94102",
+      "coordinates": [
+        -122.416466,
+        37.78259393
+      ],
+      "statusNote": "Former public housing, converted through Rental Assistance Demonstration (RAD). The City portfolio lists this completed development in its RAD program.",
+      "locationNote": "Approximate representative point published in the City housing portfolio (source updated May 21, 2026). It is not a surveyed entrance or a property boundary. A complex may span several blocks; parts can be nearer or farther from the route.",
+      "sources": [
+        {
+          "label": "City housing portfolio · public address, program and position",
+          "url": "https://data.sf.gov/d/pyxv-n29e"
+        },
+        {
+          "label": "City source record · 2013-019",
+          "url": "https://data.sfgov.org/resource/pyxv-n29e.json?%24where=mohcd_development_id+in+%28%272013-019%27%29&%24select=mohcd_development_id%2Cdevelopment_name%2Cmarketing_address%2Cproject_status%2Chousing_program_program_name%2Clatitude%2Clongitude"
+        },
+        {
+          "label": "SFHA 2024 annual plan · conversion history",
+          "url": "https://sfha.org/files/documents/Annual%20Plan%202024.pdf#page=40"
+        }
+      ]
+    },
+    {
+      "fictional": false,
+      "status": "source-listed",
+      "verifiedOn": "2026-10-08",
+      "reviewBy": "2027-01-06",
+      "id": "mohcd-2013-020",
+      "type": "former_public_housing",
+      "name": "939-951 Eddy",
+      "address": "939 Eddy St, San Francisco, CA 94109",
+      "coordinates": [
+        -122.4230479,
+        37.78231591
+      ],
+      "statusNote": "Former public housing, converted through Rental Assistance Demonstration (RAD). The City portfolio lists this completed development in its RAD program.",
+      "locationNote": "Approximate representative point published in the City housing portfolio (source updated May 21, 2026). It is not a surveyed entrance or a property boundary. A complex may span several blocks; parts can be nearer or farther from the route.",
+      "sources": [
+        {
+          "label": "City housing portfolio · public address, program and position",
+          "url": "https://data.sf.gov/d/pyxv-n29e"
+        },
+        {
+          "label": "City source record · 2013-020",
+          "url": "https://data.sfgov.org/resource/pyxv-n29e.json?%24where=mohcd_development_id+in+%28%272013-020%27%29&%24select=mohcd_development_id%2Cdevelopment_name%2Cmarketing_address%2Cproject_status%2Chousing_program_program_name%2Clatitude%2Clongitude"
+        },
+        {
+          "label": "SFHA 2024 annual plan · conversion history",
+          "url": "https://sfha.org/files/documents/Annual%20Plan%202024.pdf#page=40"
+        }
+      ]
+    },
+    {
+      "fictional": false,
+      "status": "source-listed",
+      "verifiedOn": "2026-10-08",
+      "reviewBy": "2027-01-06",
+      "id": "mohcd-2013-022",
+      "type": "former_public_housing",
+      "name": "255 Woodside",
+      "address": "255 Woodside Ave, San Francisco, CA 94131",
+      "coordinates": [
+        -122.4552036,
+        37.74658239
+      ],
+      "statusNote": "Former public housing, converted through Rental Assistance Demonstration (RAD). The City portfolio lists this completed development in its RAD program.",
+      "locationNote": "Approximate representative point published in the City housing portfolio (source updated May 21, 2026). It is not a surveyed entrance or a property boundary. A complex may span several blocks; parts can be nearer or farther from the route.",
+      "sources": [
+        {
+          "label": "City housing portfolio · public address, program and position",
+          "url": "https://data.sf.gov/d/pyxv-n29e"
+        },
+        {
+          "label": "City source record · 2013-022",
+          "url": "https://data.sfgov.org/resource/pyxv-n29e.json?%24where=mohcd_development_id+in+%28%272013-022%27%29&%24select=mohcd_development_id%2Cdevelopment_name%2Cmarketing_address%2Cproject_status%2Chousing_program_program_name%2Clatitude%2Clongitude"
+        },
+        {
+          "label": "SFHA 2024 annual plan · conversion history",
+          "url": "https://sfha.org/files/documents/Annual%20Plan%202024.pdf#page=40"
+        }
+      ]
+    },
+    {
+      "fictional": false,
+      "status": "source-listed",
+      "verifiedOn": "2026-10-08",
+      "reviewBy": "2027-01-06",
+      "id": "mohcd-2013-023",
+      "type": "former_public_housing",
+      "name": "1880 Pine",
+      "address": "1880 Pine St, San Francisco, CA 94109",
+      "coordinates": [
+        -122.4265624,
+        37.78896004
+      ],
+      "statusNote": "Former public housing, converted through Rental Assistance Demonstration (RAD). The City portfolio lists this completed development in its RAD program.",
+      "locationNote": "Approximate representative point published in the City housing portfolio (source updated May 21, 2026). It is not a surveyed entrance or a property boundary. A complex may span several blocks; parts can be nearer or farther from the route.",
+      "sources": [
+        {
+          "label": "City housing portfolio · public address, program and position",
+          "url": "https://data.sf.gov/d/pyxv-n29e"
+        },
+        {
+          "label": "City source record · 2013-023",
+          "url": "https://data.sfgov.org/resource/pyxv-n29e.json?%24where=mohcd_development_id+in+%28%272013-023%27%29&%24select=mohcd_development_id%2Cdevelopment_name%2Cmarketing_address%2Cproject_status%2Chousing_program_program_name%2Clatitude%2Clongitude"
+        },
+        {
+          "label": "SFHA 2024 annual plan · conversion history",
+          "url": "https://sfha.org/files/documents/Annual%20Plan%202024.pdf#page=40"
+        }
+      ]
+    },
+    {
+      "fictional": false,
+      "status": "source-listed",
+      "verifiedOn": "2026-10-08",
+      "reviewBy": "2027-01-06",
+      "id": "mohcd-2013-024",
+      "type": "former_public_housing",
+      "name": "491 31st",
+      "address": "491 31st Ave, San Francisco, CA 94121",
+      "coordinates": [
+        -122.4912732,
+        37.78011989
+      ],
+      "statusNote": "Former public housing, converted through Rental Assistance Demonstration (RAD). The City portfolio lists this completed development in its RAD program.",
+      "locationNote": "Approximate representative point published in the City housing portfolio (source updated May 21, 2026). It is not a surveyed entrance or a property boundary. A complex may span several blocks; parts can be nearer or farther from the route.",
+      "sources": [
+        {
+          "label": "City housing portfolio · public address, program and position",
+          "url": "https://data.sf.gov/d/pyxv-n29e"
+        },
+        {
+          "label": "City source record · 2013-024",
+          "url": "https://data.sfgov.org/resource/pyxv-n29e.json?%24where=mohcd_development_id+in+%28%272013-024%27%29&%24select=mohcd_development_id%2Cdevelopment_name%2Cmarketing_address%2Cproject_status%2Chousing_program_program_name%2Clatitude%2Clongitude"
+        },
+        {
+          "label": "SFHA 2024 annual plan · conversion history",
+          "url": "https://sfha.org/files/documents/Annual%20Plan%202024.pdf#page=40"
+        }
+      ]
+    },
+    {
+      "fictional": false,
+      "status": "source-listed",
+      "verifiedOn": "2026-10-08",
+      "reviewBy": "2027-01-06",
+      "id": "mohcd-2013-025",
+      "type": "former_public_housing",
+      "name": "345 Arguello",
+      "address": "345 Arguello Blvd, San Francisco, CA 94118",
+      "coordinates": [
+        -122.4592872,
+        37.7842701
+      ],
+      "statusNote": "Former public housing, converted through Rental Assistance Demonstration (RAD). The City portfolio lists this completed development in its RAD program.",
+      "locationNote": "Approximate representative point published in the City housing portfolio (source updated May 21, 2026). It is not a surveyed entrance or a property boundary. A complex may span several blocks; parts can be nearer or farther from the route.",
+      "sources": [
+        {
+          "label": "City housing portfolio · public address, program and position",
+          "url": "https://data.sf.gov/d/pyxv-n29e"
+        },
+        {
+          "label": "City source record · 2013-025",
+          "url": "https://data.sfgov.org/resource/pyxv-n29e.json?%24where=mohcd_development_id+in+%28%272013-025%27%29&%24select=mohcd_development_id%2Cdevelopment_name%2Cmarketing_address%2Cproject_status%2Chousing_program_program_name%2Clatitude%2Clongitude"
+        },
+        {
+          "label": "SFHA 2024 annual plan · conversion history",
+          "url": "https://sfha.org/files/documents/Annual%20Plan%202024.pdf#page=40"
+        }
+      ]
+    },
+    {
+      "fictional": false,
+      "status": "source-listed",
+      "verifiedOn": "2026-10-08",
+      "reviewBy": "2027-01-06",
+      "id": "mohcd-2013-026",
+      "type": "former_public_housing",
+      "name": "227 Bay",
+      "address": "227 Bay St, San Francisco, CA 94133",
+      "coordinates": [
+        -122.4112711,
+        37.80561763
+      ],
+      "statusNote": "Former public housing, converted through Rental Assistance Demonstration (RAD). The City portfolio lists this completed development in its RAD program.",
+      "locationNote": "Approximate representative point published in the City housing portfolio (source updated May 21, 2026). It is not a surveyed entrance or a property boundary. A complex may span several blocks; parts can be nearer or farther from the route.",
+      "sources": [
+        {
+          "label": "City housing portfolio · public address, program and position",
+          "url": "https://data.sf.gov/d/pyxv-n29e"
+        },
+        {
+          "label": "City source record · 2013-026",
+          "url": "https://data.sfgov.org/resource/pyxv-n29e.json?%24where=mohcd_development_id+in+%28%272013-026%27%29&%24select=mohcd_development_id%2Cdevelopment_name%2Cmarketing_address%2Cproject_status%2Chousing_program_program_name%2Clatitude%2Clongitude"
+        },
+        {
+          "label": "SFHA 2024 annual plan · conversion history",
+          "url": "https://sfha.org/files/documents/Annual%20Plan%202024.pdf#page=40"
+        }
+      ]
+    },
+    {
+      "fictional": false,
+      "status": "source-listed",
+      "verifiedOn": "2026-10-08",
+      "reviewBy": "2027-01-06",
+      "id": "mohcd-2013-027",
+      "type": "former_public_housing",
+      "name": "462 Duboce",
+      "address": "462 Duboce Ave, San Francisco, CA 94117",
+      "coordinates": [
+        -122.4307234,
+        37.76949651
+      ],
+      "statusNote": "Former public housing, converted through Rental Assistance Demonstration (RAD). The City portfolio lists this completed development in its RAD program.",
+      "locationNote": "Approximate representative point published in the City housing portfolio (source updated May 21, 2026). It is not a surveyed entrance or a property boundary. A complex may span several blocks; parts can be nearer or farther from the route.",
+      "sources": [
+        {
+          "label": "City housing portfolio · public address, program and position",
+          "url": "https://data.sf.gov/d/pyxv-n29e"
+        },
+        {
+          "label": "City source record · 2013-027",
+          "url": "https://data.sfgov.org/resource/pyxv-n29e.json?%24where=mohcd_development_id+in+%28%272013-027%27%29&%24select=mohcd_development_id%2Cdevelopment_name%2Cmarketing_address%2Cproject_status%2Chousing_program_program_name%2Clatitude%2Clongitude"
+        },
+        {
+          "label": "SFHA 2024 annual plan · conversion history",
+          "url": "https://sfha.org/files/documents/Annual%20Plan%202024.pdf#page=40"
+        }
+      ]
+    },
+    {
+      "fictional": false,
+      "status": "source-listed",
+      "verifiedOn": "2026-10-08",
+      "reviewBy": "2027-01-06",
+      "id": "mohcd-2013-028",
+      "type": "former_public_housing",
+      "name": "666 Ellis",
+      "address": "666 Ellis St, San Francisco, CA 94109",
+      "coordinates": [
+        -122.4171552,
+        37.78444999
+      ],
+      "statusNote": "Former public housing, converted through Rental Assistance Demonstration (RAD). The City portfolio lists this completed development in its RAD program.",
+      "locationNote": "Approximate representative point published in the City housing portfolio (source updated May 21, 2026). It is not a surveyed entrance or a property boundary. A complex may span several blocks; parts can be nearer or farther from the route.",
+      "sources": [
+        {
+          "label": "City housing portfolio · public address, program and position",
+          "url": "https://data.sf.gov/d/pyxv-n29e"
+        },
+        {
+          "label": "City source record · 2013-028",
+          "url": "https://data.sfgov.org/resource/pyxv-n29e.json?%24where=mohcd_development_id+in+%28%272013-028%27%29&%24select=mohcd_development_id%2Cdevelopment_name%2Cmarketing_address%2Cproject_status%2Chousing_program_program_name%2Clatitude%2Clongitude"
+        },
+        {
+          "label": "SFHA 2024 annual plan · conversion history",
+          "url": "https://sfha.org/files/documents/Annual%20Plan%202024.pdf#page=40"
+        }
+      ]
+    },
+    {
+      "fictional": false,
+      "status": "source-listed",
+      "verifiedOn": "2026-10-08",
+      "reviewBy": "2027-01-06",
+      "id": "mohcd-2013-029",
+      "type": "former_public_housing",
+      "name": "Hunters Point East / West",
+      "address": "1068 Palou Ave, San Francisco, CA 94124",
+      "coordinates": [
+        -122.3787839,
+        37.73084204
+      ],
+      "statusNote": "Former public housing, converted through Rental Assistance Demonstration (RAD). The City portfolio lists this completed development in its RAD program.",
+      "locationNote": "Approximate representative point published in the City housing portfolio (source updated May 21, 2026). It is not a surveyed entrance or a property boundary. A complex may span several blocks; parts can be nearer or farther from the route.",
+      "sources": [
+        {
+          "label": "City housing portfolio · public address, program and position",
+          "url": "https://data.sf.gov/d/pyxv-n29e"
+        },
+        {
+          "label": "City source record · 2013-029",
+          "url": "https://data.sfgov.org/resource/pyxv-n29e.json?%24where=mohcd_development_id+in+%28%272013-029%27%29&%24select=mohcd_development_id%2Cdevelopment_name%2Cmarketing_address%2Cproject_status%2Chousing_program_program_name%2Clatitude%2Clongitude"
+        },
+        {
+          "label": "SFHA 2024 annual plan · conversion history",
+          "url": "https://sfha.org/files/documents/Annual%20Plan%202024.pdf#page=40"
+        }
+      ]
+    },
+    {
+      "fictional": false,
+      "status": "source-listed",
+      "verifiedOn": "2026-10-08",
+      "reviewBy": "2027-01-06",
+      "id": "mohcd-2013-030",
+      "type": "former_public_housing",
+      "name": "Holly Courts",
+      "address": "100 Appleton Ave, San Francisco, CA 94110",
+      "coordinates": [
+        -122.4221336,
+        37.73770891
+      ],
+      "statusNote": "Former public housing, converted through Rental Assistance Demonstration (RAD). The City portfolio lists this completed development in its RAD program.",
+      "locationNote": "Approximate representative point published in the City housing portfolio (source updated May 21, 2026). It is not a surveyed entrance or a property boundary. A complex may span several blocks; parts can be nearer or farther from the route.",
+      "sources": [
+        {
+          "label": "City housing portfolio · public address, program and position",
+          "url": "https://data.sf.gov/d/pyxv-n29e"
+        },
+        {
+          "label": "City source record · 2013-030",
+          "url": "https://data.sfgov.org/resource/pyxv-n29e.json?%24where=mohcd_development_id+in+%28%272013-030%27%29&%24select=mohcd_development_id%2Cdevelopment_name%2Cmarketing_address%2Cproject_status%2Chousing_program_program_name%2Clatitude%2Clongitude"
+        },
+        {
+          "label": "SFHA 2024 annual plan · conversion history",
+          "url": "https://sfha.org/files/documents/Annual%20Plan%202024.pdf#page=40"
+        }
+      ]
+    },
+    {
+      "fictional": false,
+      "status": "source-listed",
+      "verifiedOn": "2026-10-08",
+      "reviewBy": "2027-01-06",
+      "id": "mohcd-2013-031",
+      "type": "former_public_housing",
+      "name": "Robert B. Pitts Apartments",
+      "address": "1150 Scott St, San Francisco, CA 94102",
+      "coordinates": [
+        -122.4365549,
+        37.78041335
+      ],
+      "statusNote": "Former public housing, converted through Rental Assistance Demonstration (RAD). The City portfolio lists this completed development in its RAD program.",
+      "locationNote": "Approximate representative point published in the City housing portfolio (source updated May 21, 2026). It is not a surveyed entrance or a property boundary. A complex may span several blocks; parts can be nearer or farther from the route.",
+      "sources": [
+        {
+          "label": "City housing portfolio · public address, program and position",
+          "url": "https://data.sf.gov/d/pyxv-n29e"
+        },
+        {
+          "label": "City source record · 2013-031",
+          "url": "https://data.sfgov.org/resource/pyxv-n29e.json?%24where=mohcd_development_id+in+%28%272013-031%27%29&%24select=mohcd_development_id%2Cdevelopment_name%2Cmarketing_address%2Cproject_status%2Chousing_program_program_name%2Clatitude%2Clongitude"
+        },
+        {
+          "label": "SFHA 2024 annual plan · conversion history",
+          "url": "https://sfha.org/files/documents/Annual%20Plan%202024.pdf#page=40"
+        }
+      ]
+    },
+    {
+      "fictional": false,
+      "status": "source-listed",
+      "verifiedOn": "2026-10-08",
+      "reviewBy": "2027-01-06",
+      "id": "mohcd-2013-032",
+      "type": "former_public_housing",
+      "name": "25 Sanchez",
+      "address": "25 Sanchez St, San Francisco, CA 94114",
+      "coordinates": [
+        -122.4311372,
+        37.76889712
+      ],
+      "statusNote": "Former public housing, converted through Rental Assistance Demonstration (RAD). The City portfolio lists this completed development in its RAD program.",
+      "locationNote": "Approximate representative point published in the City housing portfolio (source updated May 21, 2026). It is not a surveyed entrance or a property boundary. A complex may span several blocks; parts can be nearer or farther from the route.",
+      "sources": [
+        {
+          "label": "City housing portfolio · public address, program and position",
+          "url": "https://data.sf.gov/d/pyxv-n29e"
+        },
+        {
+          "label": "City source record · 2013-032",
+          "url": "https://data.sfgov.org/resource/pyxv-n29e.json?%24where=mohcd_development_id+in+%28%272013-032%27%29&%24select=mohcd_development_id%2Cdevelopment_name%2Cmarketing_address%2Cproject_status%2Chousing_program_program_name%2Clatitude%2Clongitude"
+        },
+        {
+          "label": "SFHA 2024 annual plan · conversion history",
+          "url": "https://sfha.org/files/documents/Annual%20Plan%202024.pdf#page=40"
+        }
+      ]
+    },
+    {
+      "fictional": false,
+      "status": "source-listed",
+      "verifiedOn": "2026-10-08",
+      "reviewBy": "2027-01-06",
+      "id": "mohcd-2013-033",
+      "type": "former_public_housing",
+      "name": "990 Pacific",
+      "address": "990 Pacific Ave, San Francisco, CA 94133",
+      "coordinates": [
+        -122.4114771,
+        37.79639498
+      ],
+      "statusNote": "Former public housing, converted through Rental Assistance Demonstration (RAD). The City portfolio lists this completed development in its RAD program.",
+      "locationNote": "Approximate representative point published in the City housing portfolio (source updated May 21, 2026). It is not a surveyed entrance or a property boundary. A complex may span several blocks; parts can be nearer or farther from the route.",
+      "sources": [
+        {
+          "label": "City housing portfolio · public address, program and position",
+          "url": "https://data.sf.gov/d/pyxv-n29e"
+        },
+        {
+          "label": "City source record · 2013-033",
+          "url": "https://data.sfgov.org/resource/pyxv-n29e.json?%24where=mohcd_development_id+in+%28%272013-033%27%29&%24select=mohcd_development_id%2Cdevelopment_name%2Cmarketing_address%2Cproject_status%2Chousing_program_program_name%2Clatitude%2Clongitude"
+        },
+        {
+          "label": "SFHA 2024 annual plan · conversion history",
+          "url": "https://sfha.org/files/documents/Annual%20Plan%202024.pdf#page=40"
+        }
+      ]
+    },
+    {
+      "fictional": false,
+      "status": "source-listed",
+      "verifiedOn": "2026-10-08",
+      "reviewBy": "2027-01-06",
+      "id": "mohcd-2013-034",
+      "type": "former_public_housing",
+      "name": "1760 Bush",
+      "address": "1760 Bush St, San Francisco, CA 94109",
+      "coordinates": [
+        -122.4263725,
+        37.78814088
+      ],
+      "statusNote": "Former public housing, converted through Rental Assistance Demonstration (RAD). The City portfolio lists this completed development in its RAD program.",
+      "locationNote": "Approximate representative point published in the City housing portfolio (source updated May 21, 2026). It is not a surveyed entrance or a property boundary. A complex may span several blocks; parts can be nearer or farther from the route.",
+      "sources": [
+        {
+          "label": "City housing portfolio · public address, program and position",
+          "url": "https://data.sf.gov/d/pyxv-n29e"
+        },
+        {
+          "label": "City source record · 2013-034",
+          "url": "https://data.sfgov.org/resource/pyxv-n29e.json?%24where=mohcd_development_id+in+%28%272013-034%27%29&%24select=mohcd_development_id%2Cdevelopment_name%2Cmarketing_address%2Cproject_status%2Chousing_program_program_name%2Clatitude%2Clongitude"
+        },
+        {
+          "label": "SFHA 2024 annual plan · conversion history",
+          "url": "https://sfha.org/files/documents/Annual%20Plan%202024.pdf#page=40"
+        }
+      ]
+    },
+    {
+      "fictional": false,
+      "status": "source-listed",
+      "verifiedOn": "2026-10-08",
+      "reviewBy": "2027-01-06",
+      "id": "mohcd-2013-035",
+      "type": "former_public_housing",
+      "name": "2698 California",
+      "address": "2698 California St, San Francisco, CA 94115",
+      "coordinates": [
+        -122.4385465,
+        37.78842985
+      ],
+      "statusNote": "Former public housing, converted through Rental Assistance Demonstration (RAD). The City portfolio lists this completed development in its RAD program.",
+      "locationNote": "Approximate representative point published in the City housing portfolio (source updated May 21, 2026). It is not a surveyed entrance or a property boundary. A complex may span several blocks; parts can be nearer or farther from the route.",
+      "sources": [
+        {
+          "label": "City housing portfolio · public address, program and position",
+          "url": "https://data.sf.gov/d/pyxv-n29e"
+        },
+        {
+          "label": "City source record · 2013-035",
+          "url": "https://data.sfgov.org/resource/pyxv-n29e.json?%24where=mohcd_development_id+in+%28%272013-035%27%29&%24select=mohcd_development_id%2Cdevelopment_name%2Cmarketing_address%2Cproject_status%2Chousing_program_program_name%2Clatitude%2Clongitude"
+        },
+        {
+          "label": "SFHA 2024 annual plan · conversion history",
+          "url": "https://sfha.org/files/documents/Annual%20Plan%202024.pdf#page=40"
+        }
+      ]
+    },
+    {
+      "fictional": false,
+      "status": "source-listed",
+      "verifiedOn": "2026-10-08",
+      "reviewBy": "2027-01-06",
+      "id": "mohcd-2013-036",
+      "type": "former_public_housing",
+      "name": "Rosa Parks Apartments",
+      "address": "1251 Turk St, San Francisco, CA 94115",
+      "coordinates": [
+        -122.4293981,
+        37.78046422
+      ],
+      "statusNote": "Former public housing, converted through Rental Assistance Demonstration (RAD). The City portfolio lists this completed development in its RAD program.",
+      "locationNote": "Approximate representative point published in the City housing portfolio (source updated May 21, 2026). It is not a surveyed entrance or a property boundary. A complex may span several blocks; parts can be nearer or farther from the route.",
+      "sources": [
+        {
+          "label": "City housing portfolio · public address, program and position",
+          "url": "https://data.sf.gov/d/pyxv-n29e"
+        },
+        {
+          "label": "City source record · 2013-036",
+          "url": "https://data.sfgov.org/resource/pyxv-n29e.json?%24where=mohcd_development_id+in+%28%272013-036%27%29&%24select=mohcd_development_id%2Cdevelopment_name%2Cmarketing_address%2Cproject_status%2Chousing_program_program_name%2Clatitude%2Clongitude"
+        },
+        {
+          "label": "SFHA 2024 annual plan · conversion history",
+          "url": "https://sfha.org/files/documents/Annual%20Plan%202024.pdf#page=40"
+        }
+      ]
+    },
+    {
+      "fictional": false,
+      "status": "source-listed",
+      "verifiedOn": "2026-10-08",
+      "reviewBy": "2027-01-06",
+      "id": "mohcd-2013-037",
+      "type": "former_public_housing",
+      "name": "Kennedy Towers (JFK Towers)",
+      "address": "2451 Sacramento St, San Francisco, CA 94115",
+      "coordinates": [
+        -122.4330987,
+        37.7896375
+      ],
+      "statusNote": "Former public housing, converted through Rental Assistance Demonstration (RAD). The City portfolio lists this completed development in its RAD program.",
+      "locationNote": "Approximate representative point published in the City housing portfolio (source updated May 21, 2026). It is not a surveyed entrance or a property boundary. A complex may span several blocks; parts can be nearer or farther from the route.",
+      "sources": [
+        {
+          "label": "City housing portfolio · public address, program and position",
+          "url": "https://data.sf.gov/d/pyxv-n29e"
+        },
+        {
+          "label": "City source record · 2013-037",
+          "url": "https://data.sfgov.org/resource/pyxv-n29e.json?%24where=mohcd_development_id+in+%28%272013-037%27%29&%24select=mohcd_development_id%2Cdevelopment_name%2Cmarketing_address%2Cproject_status%2Chousing_program_program_name%2Clatitude%2Clongitude"
+        },
+        {
+          "label": "SFHA 2024 annual plan · conversion history",
+          "url": "https://sfha.org/files/documents/Annual%20Plan%202024.pdf#page=40"
+        }
+      ]
+    },
+    {
+      "fictional": false,
+      "status": "source-listed",
+      "verifiedOn": "2026-10-08",
+      "reviewBy": "2027-01-06",
+      "id": "mohcd-2013-038",
+      "type": "former_public_housing",
+      "name": "Rachel Townsend Apartments",
+      "address": "1750 McAllister St, San Francisco, CA 94115",
+      "coordinates": [
+        -122.4406623,
+        37.77779543
+      ],
+      "statusNote": "Former public housing, converted through Rental Assistance Demonstration (RAD). The City portfolio lists this completed development in its RAD program.",
+      "locationNote": "Approximate representative point published in the City housing portfolio (source updated May 21, 2026). It is not a surveyed entrance or a property boundary. A complex may span several blocks; parts can be nearer or farther from the route.",
+      "sources": [
+        {
+          "label": "City housing portfolio · public address, program and position",
+          "url": "https://data.sf.gov/d/pyxv-n29e"
+        },
+        {
+          "label": "City source record · 2013-038",
+          "url": "https://data.sfgov.org/resource/pyxv-n29e.json?%24where=mohcd_development_id+in+%28%272013-038%27%29&%24select=mohcd_development_id%2Cdevelopment_name%2Cmarketing_address%2Cproject_status%2Chousing_program_program_name%2Clatitude%2Clongitude"
+        },
+        {
+          "label": "SFHA 2024 annual plan · conversion history",
+          "url": "https://sfha.org/files/documents/Annual%20Plan%202024.pdf#page=40"
+        }
+      ]
+    },
+    {
+      "fictional": false,
+      "status": "source-listed",
+      "verifiedOn": "2026-10-08",
+      "reviewBy": "2027-01-06",
+      "id": "mohcd-2013-039",
+      "type": "former_public_housing",
+      "name": "Clementina Towers",
+      "address": "320 & 330 Clementina St, San Francisco, CA 94103",
+      "coordinates": [
+        -122.4026803,
+        37.78217673
+      ],
+      "statusNote": "Former public housing, converted through Rental Assistance Demonstration (RAD). The City portfolio lists this completed development in its RAD program.",
+      "locationNote": "Approximate representative point published in the City housing portfolio (source updated May 21, 2026). It is not a surveyed entrance or a property boundary. A complex may span several blocks; parts can be nearer or farther from the route.",
+      "sources": [
+        {
+          "label": "City housing portfolio · public address, program and position",
+          "url": "https://data.sf.gov/d/pyxv-n29e"
+        },
+        {
+          "label": "City source record · 2013-039",
+          "url": "https://data.sfgov.org/resource/pyxv-n29e.json?%24where=mohcd_development_id+in+%28%272013-039%27%29&%24select=mohcd_development_id%2Cdevelopment_name%2Cmarketing_address%2Cproject_status%2Chousing_program_program_name%2Clatitude%2Clongitude"
+        },
+        {
+          "label": "SFHA 2024 annual plan · conversion history",
+          "url": "https://sfha.org/files/documents/Annual%20Plan%202024.pdf#page=40"
+        }
+      ]
+    },
+    {
+      "fictional": false,
+      "status": "source-listed",
+      "verifiedOn": "2026-10-08",
+      "reviewBy": "2027-01-06",
+      "id": "mohcd-2013-040",
+      "type": "former_public_housing",
+      "name": "Westbrook Apartments",
+      "address": "40 Harbor Rd, San Francisco, CA 94124",
+      "coordinates": [
+        -122.375278,
+        37.73109299
+      ],
+      "statusNote": "Former public housing, converted through Rental Assistance Demonstration (RAD). The City portfolio lists this completed development in its RAD program.",
+      "locationNote": "Approximate representative point published in the City housing portfolio (source updated May 21, 2026). It is not a surveyed entrance or a property boundary. A complex may span several blocks; parts can be nearer or farther from the route.",
+      "sources": [
+        {
+          "label": "City housing portfolio · public address, program and position",
+          "url": "https://data.sf.gov/d/pyxv-n29e"
+        },
+        {
+          "label": "City source record · 2013-040",
+          "url": "https://data.sfgov.org/resource/pyxv-n29e.json?%24where=mohcd_development_id+in+%28%272013-040%27%29&%24select=mohcd_development_id%2Cdevelopment_name%2Cmarketing_address%2Cproject_status%2Chousing_program_program_name%2Clatitude%2Clongitude"
+        },
+        {
+          "label": "SFHA 2024 annual plan · conversion history",
+          "url": "https://sfha.org/files/documents/Annual%20Plan%202024.pdf#page=40"
+        }
+      ]
+    },
+    {
+      "fictional": false,
+      "status": "source-listed",
+      "verifiedOn": "2026-10-08",
+      "reviewBy": "2027-01-06",
+      "id": "mohcd-2013-041",
+      "type": "former_public_housing",
+      "name": "Westside Courts",
+      "address": "2501 Sutter St, San Francisco, CA 94115",
+      "coordinates": [
+        -122.4415901,
+        37.784879
+      ],
+      "statusNote": "Former public housing, converted through Rental Assistance Demonstration (RAD). The City portfolio lists this completed development in its RAD program.",
+      "locationNote": "Approximate representative point published in the City housing portfolio (source updated May 21, 2026). It is not a surveyed entrance or a property boundary. A complex may span several blocks; parts can be nearer or farther from the route.",
+      "sources": [
+        {
+          "label": "City housing portfolio · public address, program and position",
+          "url": "https://data.sf.gov/d/pyxv-n29e"
+        },
+        {
+          "label": "City source record · 2013-041",
+          "url": "https://data.sfgov.org/resource/pyxv-n29e.json?%24where=mohcd_development_id+in+%28%272013-041%27%29&%24select=mohcd_development_id%2Cdevelopment_name%2Cmarketing_address%2Cproject_status%2Chousing_program_program_name%2Clatitude%2Clongitude"
+        },
+        {
+          "label": "SFHA 2024 annual plan · conversion history",
+          "url": "https://sfha.org/files/documents/Annual%20Plan%202024.pdf#page=40"
+        }
+      ]
+    },
+    {
+      "fictional": false,
+      "status": "source-listed",
+      "verifiedOn": "2026-10-08",
+      "reviewBy": "2027-01-06",
+      "id": "mohcd-2013-042",
+      "type": "former_public_housing",
+      "name": "350 Ellis",
+      "address": "350 Ellis St, San Francisco, CA 94102",
+      "coordinates": [
+        -122.4120858,
+        37.78523841
+      ],
+      "statusNote": "Former public housing, converted through Rental Assistance Demonstration (RAD). The City portfolio lists this completed development in its RAD program.",
+      "locationNote": "Approximate representative point published in the City housing portfolio (source updated May 21, 2026). It is not a surveyed entrance or a property boundary. A complex may span several blocks; parts can be nearer or farther from the route.",
+      "sources": [
+        {
+          "label": "City housing portfolio · public address, program and position",
+          "url": "https://data.sf.gov/d/pyxv-n29e"
+        },
+        {
+          "label": "City source record · 2013-042",
+          "url": "https://data.sfgov.org/resource/pyxv-n29e.json?%24where=mohcd_development_id+in+%28%272013-042%27%29&%24select=mohcd_development_id%2Cdevelopment_name%2Cmarketing_address%2Cproject_status%2Chousing_program_program_name%2Clatitude%2Clongitude"
+        },
+        {
+          "label": "SFHA 2024 annual plan · conversion history",
+          "url": "https://sfha.org/files/documents/Annual%20Plan%202024.pdf#page=40"
+        }
+      ]
+    },
+    {
+      "fictional": false,
+      "status": "source-listed",
+      "verifiedOn": "2026-10-08",
+      "reviewBy": "2027-01-06",
+      "id": "mohcd-2013-043",
+      "type": "former_public_housing",
+      "name": "Alemany",
+      "address": "951 Ellsworth St, San Francisco, CA 94110",
+      "coordinates": [
+        -122.4165507,
+        37.73277762
+      ],
+      "statusNote": "Former public housing, converted through Rental Assistance Demonstration (RAD). The City portfolio lists this completed development in its RAD program.",
+      "locationNote": "Approximate representative point published in the City housing portfolio (source updated May 21, 2026). It is not a surveyed entrance or a property boundary. A complex may span several blocks; parts can be nearer or farther from the route.",
+      "sources": [
+        {
+          "label": "City housing portfolio · public address, program and position",
+          "url": "https://data.sf.gov/d/pyxv-n29e"
+        },
+        {
+          "label": "City source record · 2013-043",
+          "url": "https://data.sfgov.org/resource/pyxv-n29e.json?%24where=mohcd_development_id+in+%28%272013-043%27%29&%24select=mohcd_development_id%2Cdevelopment_name%2Cmarketing_address%2Cproject_status%2Chousing_program_program_name%2Clatitude%2Clongitude"
+        },
+        {
+          "label": "SFHA 2024 annual plan · conversion history",
+          "url": "https://sfha.org/files/documents/Annual%20Plan%202024.pdf#page=40"
+        }
+      ]
+    },
+    {
+      "fictional": false,
+      "status": "source-listed",
+      "verifiedOn": "2026-10-08",
+      "reviewBy": "2027-01-06",
+      "id": "mohcd-2013-044",
+      "type": "former_public_housing",
+      "name": "Mission Dolores",
+      "address": "1855 15th St, San Francisco, CA 94103",
+      "coordinates": [
+        -122.4255542,
+        37.76622033
+      ],
+      "statusNote": "Former public housing, converted through Rental Assistance Demonstration (RAD). The City portfolio lists this completed development in its RAD program.",
+      "locationNote": "Approximate representative point published in the City housing portfolio (source updated May 21, 2026). It is not a surveyed entrance or a property boundary. A complex may span several blocks; parts can be nearer or farther from the route.",
+      "sources": [
+        {
+          "label": "City housing portfolio · public address, program and position",
+          "url": "https://data.sf.gov/d/pyxv-n29e"
+        },
+        {
+          "label": "City source record · 2013-044",
+          "url": "https://data.sfgov.org/resource/pyxv-n29e.json?%24where=mohcd_development_id+in+%28%272013-044%27%29&%24select=mohcd_development_id%2Cdevelopment_name%2Cmarketing_address%2Cproject_status%2Chousing_program_program_name%2Clatitude%2Clongitude"
+        },
+        {
+          "label": "SFHA 2024 annual plan · conversion history",
+          "url": "https://sfha.org/files/documents/Annual%20Plan%202024.pdf#page=40"
+        }
+      ]
+    },
+    {
+      "fictional": false,
+      "status": "source-listed",
+      "verifiedOn": "2026-10-08",
+      "reviewBy": "2027-01-06",
+      "id": "mohcd-2013-045",
+      "type": "former_public_housing",
+      "name": "Ping Yuen North",
+      "address": "838 Pacific Ave, San Francisco, CA 94133",
+      "coordinates": [
+        -122.4091868,
+        37.79670734
+      ],
+      "statusNote": "Former public housing, converted through Rental Assistance Demonstration (RAD). The City portfolio lists this completed development in its RAD program.",
+      "locationNote": "Approximate representative point published in the City housing portfolio (source updated May 21, 2026). It is not a surveyed entrance or a property boundary. A complex may span several blocks; parts can be nearer or farther from the route.",
+      "sources": [
+        {
+          "label": "City housing portfolio · public address, program and position",
+          "url": "https://data.sf.gov/d/pyxv-n29e"
+        },
+        {
+          "label": "City source record · 2013-045",
+          "url": "https://data.sfgov.org/resource/pyxv-n29e.json?%24where=mohcd_development_id+in+%28%272013-045%27%29&%24select=mohcd_development_id%2Cdevelopment_name%2Cmarketing_address%2Cproject_status%2Chousing_program_program_name%2Clatitude%2Clongitude"
+        },
+        {
+          "label": "SFHA 2024 annual plan · conversion history",
+          "url": "https://sfha.org/files/documents/Annual%20Plan%202024.pdf#page=40"
+        }
+      ]
+    },
+    {
+      "fictional": false,
+      "status": "source-listed",
+      "verifiedOn": "2026-10-08",
+      "reviewBy": "2027-01-06",
+      "id": "mohcd-2013-047",
+      "type": "former_public_housing",
+      "name": "3850 18th",
+      "address": "3850 18th St, San Francisco, CA 94114",
+      "coordinates": [
+        -122.4295712,
+        37.76132403
+      ],
+      "statusNote": "Former public housing, converted through Rental Assistance Demonstration (RAD). The City portfolio lists this completed development in its RAD program.",
+      "locationNote": "Approximate representative point published in the City housing portfolio (source updated May 21, 2026). It is not a surveyed entrance or a property boundary. A complex may span several blocks; parts can be nearer or farther from the route.",
+      "sources": [
+        {
+          "label": "City housing portfolio · public address, program and position",
+          "url": "https://data.sf.gov/d/pyxv-n29e"
+        },
+        {
+          "label": "City source record · 2013-047",
+          "url": "https://data.sfgov.org/resource/pyxv-n29e.json?%24where=mohcd_development_id+in+%28%272013-047%27%29&%24select=mohcd_development_id%2Cdevelopment_name%2Cmarketing_address%2Cproject_status%2Chousing_program_program_name%2Clatitude%2Clongitude"
+        },
+        {
+          "label": "SFHA 2024 annual plan · conversion history",
+          "url": "https://sfha.org/files/documents/Annual%20Plan%202024.pdf#page=40"
+        }
+      ]
+    },
+    {
+      "fictional": false,
+      "status": "source-listed",
+      "verifiedOn": "2026-10-08",
+      "reviewBy": "2027-01-06",
+      "id": "mohcd-2013-048",
+      "type": "former_public_housing",
+      "name": "Ping Yuen",
+      "address": "655, 711-795 and 895 Pacific Ave, San Francisco, CA 94133",
+      "coordinates": [
+        -122.4096422,
+        37.79640391
+      ],
+      "statusNote": "Former public housing, converted through Rental Assistance Demonstration (RAD). The City portfolio lists this completed development in its RAD program.",
+      "locationNote": "Approximate representative point published in the City housing portfolio (source updated May 21, 2026). It is not a surveyed entrance or a property boundary. A complex may span several blocks; parts can be nearer or farther from the route.",
+      "sources": [
+        {
+          "label": "City housing portfolio · public address, program and position",
+          "url": "https://data.sf.gov/d/pyxv-n29e"
+        },
+        {
+          "label": "City source record · 2013-048",
+          "url": "https://data.sfgov.org/resource/pyxv-n29e.json?%24where=mohcd_development_id+in+%28%272013-048%27%29&%24select=mohcd_development_id%2Cdevelopment_name%2Cmarketing_address%2Cproject_status%2Chousing_program_program_name%2Clatitude%2Clongitude"
+        },
+        {
+          "label": "SFHA 2024 annual plan · conversion history",
+          "url": "https://sfha.org/files/documents/Annual%20Plan%202024.pdf#page=40"
+        }
+      ]
+    },
+    {
+      "fictional": false,
+      "status": "source-listed",
+      "verifiedOn": "2026-10-08",
+      "reviewBy": "2027-01-06",
+      "id": "mohcd-2015-033a",
+      "type": "former_public_housing",
+      "name": "290 Malosi (Sunnydale Block 6)",
+      "address": "290 Malosi St, San Francisco, CA 94134",
+      "coordinates": [
+        -122.4179371,
+        37.7105757
+      ],
+      "statusNote": "Former public-housing site / replacement development in HOPE SF. The City lists this phase as construction complete; this label describes site history, not every current unit.",
+      "locationNote": "Approximate representative point published in the City housing portfolio (source updated May 21, 2026). It is not a surveyed entrance or a property boundary. A complex may span several blocks; parts can be nearer or farther from the route.",
+      "sources": [
+        {
+          "label": "City housing portfolio · public address, program and position",
+          "url": "https://data.sf.gov/d/pyxv-n29e"
+        },
+        {
+          "label": "City source record · 2015-033a",
+          "url": "https://data.sfgov.org/resource/pyxv-n29e.json?%24where=mohcd_development_id+in+%28%272015-033a%27%29&%24select=mohcd_development_id%2Cdevelopment_name%2Cmarketing_address%2Cproject_status%2Chousing_program_program_name%2Clatitude%2Clongitude"
+        },
+        {
+          "label": "SFHA 2024 annual plan · conversion history",
+          "url": "https://sfha.org/files/documents/Annual%20Plan%202024.pdf#page=29"
+        }
+      ]
+    },
+    {
+      "fictional": false,
+      "status": "source-listed",
+      "verifiedOn": "2026-10-08",
+      "reviewBy": "2027-01-06",
+      "id": "mohcd-2015-033b",
+      "type": "former_public_housing",
+      "name": "1491 Sunnydale Avenue (Casala aka Parcel Q)",
+      "address": "1491 Sunnydale Ave, San Francisco, CA 94134",
+      "coordinates": [
+        -122.4158537,
+        37.71163875
+      ],
+      "statusNote": "Former public-housing site / replacement development in HOPE SF. The City lists this phase as construction complete; this label describes site history, not every current unit.",
+      "locationNote": "Approximate representative point published in the City housing portfolio (source updated May 21, 2026). It is not a surveyed entrance or a property boundary. A complex may span several blocks; parts can be nearer or farther from the route.",
+      "sources": [
+        {
+          "label": "City housing portfolio · public address, program and position",
+          "url": "https://data.sf.gov/d/pyxv-n29e"
+        },
+        {
+          "label": "City source record · 2015-033b",
+          "url": "https://data.sfgov.org/resource/pyxv-n29e.json?%24where=mohcd_development_id+in+%28%272015-033b%27%29&%24select=mohcd_development_id%2Cdevelopment_name%2Cmarketing_address%2Cproject_status%2Chousing_program_program_name%2Clatitude%2Clongitude"
+        },
+        {
+          "label": "SFHA 2024 annual plan · conversion history",
+          "url": "https://sfha.org/files/documents/Annual%20Plan%202024.pdf#page=29"
+        }
+      ]
+    },
+    {
+      "fictional": false,
+      "status": "source-listed",
+      "verifiedOn": "2026-10-08",
+      "reviewBy": "2027-01-06",
+      "id": "mohcd-2015-033c",
+      "type": "former_public_housing",
+      "name": "Sunnydale Block 3A",
+      "address": "1529 Sunnydale Ave, San Francisco, CA 94134",
+      "coordinates": [
+        -122.41667,
+        37.7116761
+      ],
+      "statusNote": "Former public-housing site / replacement development in HOPE SF. The City lists this phase as construction complete; this label describes site history, not every current unit.",
+      "locationNote": "Approximate representative point published in the City housing portfolio (source updated May 21, 2026). It is not a surveyed entrance or a property boundary. A complex may span several blocks; parts can be nearer or farther from the route.",
+      "sources": [
+        {
+          "label": "City housing portfolio · public address, program and position",
+          "url": "https://data.sf.gov/d/pyxv-n29e"
+        },
+        {
+          "label": "City source record · 2015-033c",
+          "url": "https://data.sfgov.org/resource/pyxv-n29e.json?%24where=mohcd_development_id+in+%28%272015-033c%27%29&%24select=mohcd_development_id%2Cdevelopment_name%2Cmarketing_address%2Cproject_status%2Chousing_program_program_name%2Clatitude%2Clongitude"
+        },
+        {
+          "label": "SFHA 2024 annual plan · conversion history",
+          "url": "https://sfha.org/files/documents/Annual%20Plan%202024.pdf#page=29"
+        }
+      ]
+    },
+    {
+      "fictional": false,
+      "status": "source-listed",
+      "verifiedOn": "2026-10-08",
+      "reviewBy": "2027-01-06",
+      "id": "mohcd-2015-033f",
+      "type": "former_public_housing",
+      "name": "Sunnydale Block 3B",
+      "address": "1533 Sunnydale Ave, San Francisco, CA 94134",
+      "coordinates": [
+        -122.4163238,
+        37.71191795
+      ],
+      "statusNote": "Former public-housing site / replacement development in HOPE SF. The City lists this phase as construction complete; this label describes site history, not every current unit.",
+      "locationNote": "Approximate representative point published in the City housing portfolio (source updated May 21, 2026). It is not a surveyed entrance or a property boundary. A complex may span several blocks; parts can be nearer or farther from the route.",
+      "sources": [
+        {
+          "label": "City housing portfolio · public address, program and position",
+          "url": "https://data.sf.gov/d/pyxv-n29e"
+        },
+        {
+          "label": "City source record · 2015-033f",
+          "url": "https://data.sfgov.org/resource/pyxv-n29e.json?%24where=mohcd_development_id+in+%28%272015-033f%27%29&%24select=mohcd_development_id%2Cdevelopment_name%2Cmarketing_address%2Cproject_status%2Chousing_program_program_name%2Clatitude%2Clongitude"
+        },
+        {
+          "label": "SFHA 2024 annual plan · conversion history",
+          "url": "https://sfha.org/files/documents/Annual%20Plan%202024.pdf#page=29"
+        }
+      ]
+    },
+    {
+      "fictional": false,
+      "status": "source-listed",
+      "verifiedOn": "2026-10-08",
+      "reviewBy": "2027-01-06",
+      "id": "mohcd-2017-041",
+      "type": "former_public_housing",
+      "name": "Hayes Valley South HOPE VI",
+      "address": "401 Rose St, San Francisco, CA 94102",
+      "coordinates": [
+        -122.427312,
+        37.77291705
+      ],
+      "statusNote": "Former public housing in a HOPE VI development. SFHA documents a completed RAD conversion; the City portfolio lists this development as construction complete.",
+      "locationNote": "Approximate representative point published in the City housing portfolio (source updated May 21, 2026). It is not a surveyed entrance or a property boundary. A complex may span several blocks; parts can be nearer or farther from the route.",
+      "sources": [
+        {
+          "label": "City housing portfolio · public address, program and position",
+          "url": "https://data.sf.gov/d/pyxv-n29e"
+        },
+        {
+          "label": "City source record · 2017-041",
+          "url": "https://data.sfgov.org/resource/pyxv-n29e.json?%24where=mohcd_development_id+in+%28%272017-041%27%29&%24select=mohcd_development_id%2Cdevelopment_name%2Cmarketing_address%2Cproject_status%2Chousing_program_program_name%2Clatitude%2Clongitude"
+        },
+        {
+          "label": "SFHA 2024 annual plan · conversion history",
+          "url": "https://sfha.org/files/documents/Annual%20Plan%202024.pdf#page=41"
+        }
+      ]
+    },
+    {
+      "fictional": false,
+      "status": "source-listed",
+      "verifiedOn": "2026-10-08",
+      "reviewBy": "2027-01-06",
+      "id": "mohcd-2017-042",
+      "type": "former_public_housing",
+      "name": "Bernal Dwellings HOPE VI",
+      "address": "3138 Kamille Ct, San Francisco, CA 94110",
+      "coordinates": [
+        -122.4122064,
+        37.74898221
+      ],
+      "statusNote": "Former public housing in a HOPE VI development. SFHA documents a completed RAD conversion; the City portfolio lists this development as construction complete.",
+      "locationNote": "Approximate representative point published in the City housing portfolio (source updated May 21, 2026). It is not a surveyed entrance or a property boundary. A complex may span several blocks; parts can be nearer or farther from the route.",
+      "sources": [
+        {
+          "label": "City housing portfolio · public address, program and position",
+          "url": "https://data.sf.gov/d/pyxv-n29e"
+        },
+        {
+          "label": "City source record · 2017-042",
+          "url": "https://data.sfgov.org/resource/pyxv-n29e.json?%24where=mohcd_development_id+in+%28%272017-042%27%29&%24select=mohcd_development_id%2Cdevelopment_name%2Cmarketing_address%2Cproject_status%2Chousing_program_program_name%2Clatitude%2Clongitude"
+        },
+        {
+          "label": "SFHA 2024 annual plan · conversion history",
+          "url": "https://sfha.org/files/documents/Annual%20Plan%202024.pdf#page=41"
+        }
+      ]
+    },
+    {
+      "fictional": false,
+      "status": "source-listed",
+      "verifiedOn": "2026-10-08",
+      "reviewBy": "2027-01-06",
+      "id": "mohcd-2017-051",
+      "type": "former_public_housing",
+      "name": "Hayes Valley North  HOPE VI",
+      "address": "650 Linden St, San Francisco, CA 94102",
+      "coordinates": [
+        -122.4286878,
+        37.77571559
+      ],
+      "statusNote": "Former public housing in a HOPE VI development. SFHA documents a completed RAD conversion; the City portfolio lists this development as construction complete.",
+      "locationNote": "Approximate representative point published in the City housing portfolio (source updated May 21, 2026). It is not a surveyed entrance or a property boundary. A complex may span several blocks; parts can be nearer or farther from the route.",
+      "sources": [
+        {
+          "label": "City housing portfolio · public address, program and position",
+          "url": "https://data.sf.gov/d/pyxv-n29e"
+        },
+        {
+          "label": "City source record · 2017-051",
+          "url": "https://data.sfgov.org/resource/pyxv-n29e.json?%24where=mohcd_development_id+in+%28%272017-051%27%29&%24select=mohcd_development_id%2Cdevelopment_name%2Cmarketing_address%2Cproject_status%2Chousing_program_program_name%2Clatitude%2Clongitude"
+        },
+        {
+          "label": "SFHA 2024 annual plan · conversion history",
+          "url": "https://sfha.org/files/documents/Annual%20Plan%202024.pdf#page=41"
+        }
+      ]
+    },
+    {
+      "fictional": false,
+      "status": "source-listed",
+      "verifiedOn": "2026-10-08",
+      "reviewBy": "2027-01-06",
+      "id": "mohcd-2018-052a",
+      "type": "former_public_housing",
+      "name": "SFHA Scattered Sites - Noriega",
+      "address": "4101 Noriega St, San Francisco, CA 94122",
+      "coordinates": [
+        -122.507629,
+        37.75270683
+      ],
+      "statusNote": "Former SFHA scattered-site public housing. SFHA documents conversion to project-based vouchers and nonprofit management; the City portfolio lists this completed property.",
+      "locationNote": "Approximate representative point published in the City housing portfolio (source updated May 21, 2026). It is not a surveyed entrance or a property boundary. A complex may span several blocks; parts can be nearer or farther from the route.",
+      "sources": [
+        {
+          "label": "City housing portfolio · public address, program and position",
+          "url": "https://data.sf.gov/d/pyxv-n29e"
+        },
+        {
+          "label": "City source record · 2018-052a",
+          "url": "https://data.sfgov.org/resource/pyxv-n29e.json?%24where=mohcd_development_id+in+%28%272018-052a%27%29&%24select=mohcd_development_id%2Cdevelopment_name%2Cmarketing_address%2Cproject_status%2Chousing_program_program_name%2Clatitude%2Clongitude"
+        },
+        {
+          "label": "SFHA 2024 annual plan · conversion history",
+          "url": "https://sfha.org/files/documents/Annual%20Plan%202024.pdf#page=38"
+        }
+      ]
+    },
+    {
+      "fictional": false,
+      "status": "source-listed",
+      "verifiedOn": "2026-10-08",
+      "reviewBy": "2027-01-06",
+      "id": "mohcd-2018-052b",
+      "type": "former_public_housing",
+      "name": "SFHA Scattered Sites - Great Hwy",
+      "address": "2206 Great Highway, San Francisco, CA 94116",
+      "coordinates": [
+        -122.5070475,
+        37.74417268
+      ],
+      "statusNote": "Former SFHA scattered-site public housing. SFHA documents conversion to project-based vouchers and nonprofit management; the City portfolio lists this completed property.",
+      "locationNote": "Approximate representative point published in the City housing portfolio (source updated May 21, 2026). It is not a surveyed entrance or a property boundary. A complex may span several blocks; parts can be nearer or farther from the route.",
+      "sources": [
+        {
+          "label": "City housing portfolio · public address, program and position",
+          "url": "https://data.sf.gov/d/pyxv-n29e"
+        },
+        {
+          "label": "City source record · 2018-052b",
+          "url": "https://data.sfgov.org/resource/pyxv-n29e.json?%24where=mohcd_development_id+in+%28%272018-052b%27%29&%24select=mohcd_development_id%2Cdevelopment_name%2Cmarketing_address%2Cproject_status%2Chousing_program_program_name%2Clatitude%2Clongitude"
+        },
+        {
+          "label": "SFHA 2024 annual plan · conversion history",
+          "url": "https://sfha.org/files/documents/Annual%20Plan%202024.pdf#page=38"
+        }
+      ]
+    },
+    {
+      "fictional": false,
+      "status": "source-listed",
+      "verifiedOn": "2026-10-08",
+      "reviewBy": "2027-01-06",
+      "id": "mohcd-2018-052c",
+      "type": "former_public_housing",
+      "name": "SFHA Scattered Sites - Randolph",
+      "address": "200 Randolph St, San Francisco, CA 94132",
+      "coordinates": [
+        -122.4646158,
+        37.7145386
+      ],
+      "statusNote": "Former SFHA scattered-site public housing. SFHA documents conversion to project-based vouchers and nonprofit management; the City portfolio lists this completed property.",
+      "locationNote": "Approximate representative point published in the City housing portfolio (source updated May 21, 2026). It is not a surveyed entrance or a property boundary. A complex may span several blocks; parts can be nearer or farther from the route.",
+      "sources": [
+        {
+          "label": "City housing portfolio · public address, program and position",
+          "url": "https://data.sf.gov/d/pyxv-n29e"
+        },
+        {
+          "label": "City source record · 2018-052c",
+          "url": "https://data.sfgov.org/resource/pyxv-n29e.json?%24where=mohcd_development_id+in+%28%272018-052c%27%29&%24select=mohcd_development_id%2Cdevelopment_name%2Cmarketing_address%2Cproject_status%2Chousing_program_program_name%2Clatitude%2Clongitude"
+        },
+        {
+          "label": "SFHA 2024 annual plan · conversion history",
+          "url": "https://sfha.org/files/documents/Annual%20Plan%202024.pdf#page=38"
+        }
+      ]
+    },
+    {
+      "fictional": false,
+      "status": "source-listed",
+      "verifiedOn": "2026-10-08",
+      "reviewBy": "2027-01-06",
+      "id": "mohcd-2018-052d",
+      "type": "former_public_housing",
+      "name": "SFHA Scattered Sites - Noe",
+      "address": "363 Noe St, San Francisco, CA 94114",
+      "coordinates": [
+        -122.4327492,
+        37.7632888
+      ],
+      "statusNote": "Former SFHA scattered-site public housing. SFHA documents conversion to project-based vouchers and nonprofit management; the City portfolio lists this completed property.",
+      "locationNote": "Approximate representative point published in the City housing portfolio (source updated May 21, 2026). It is not a surveyed entrance or a property boundary. A complex may span several blocks; parts can be nearer or farther from the route.",
+      "sources": [
+        {
+          "label": "City housing portfolio · public address, program and position",
+          "url": "https://data.sf.gov/d/pyxv-n29e"
+        },
+        {
+          "label": "City source record · 2018-052d",
+          "url": "https://data.sfgov.org/resource/pyxv-n29e.json?%24where=mohcd_development_id+in+%28%272018-052d%27%29&%24select=mohcd_development_id%2Cdevelopment_name%2Cmarketing_address%2Cproject_status%2Chousing_program_program_name%2Clatitude%2Clongitude"
+        },
+        {
+          "label": "SFHA 2024 annual plan · conversion history",
+          "url": "https://sfha.org/files/documents/Annual%20Plan%202024.pdf#page=38"
+        }
+      ]
+    },
+    {
+      "fictional": false,
+      "status": "source-listed",
+      "verifiedOn": "2026-10-08",
+      "reviewBy": "2027-01-06",
+      "id": "mohcd-2018-052e",
+      "type": "former_public_housing",
+      "name": "SFHA Scattered Sites — Eddy",
+      "address": "1357-1371 Eddy St, San Francisco, CA 94115",
+      "coordinates": [
+        -122.4298105,
+        37.78151141
+      ],
+      "statusNote": "Former SFHA scattered-site public housing. SFHA documents conversion to project-based vouchers and nonprofit management; the City portfolio lists this completed property.",
+      "locationNote": "Approximate representative point published in the City housing portfolio (source updated May 21, 2026). It is not a surveyed entrance or a property boundary. A complex may span several blocks; parts can be nearer or farther from the route.",
+      "sources": [
+        {
+          "label": "City housing portfolio · public address, program and position",
+          "url": "https://data.sf.gov/d/pyxv-n29e"
+        },
+        {
+          "label": "City source record · 2018-052e",
+          "url": "https://data.sfgov.org/resource/pyxv-n29e.json?%24where=mohcd_development_id+in+%28%272018-052e%27%29&%24select=mohcd_development_id%2Cdevelopment_name%2Cmarketing_address%2Cproject_status%2Chousing_program_program_name%2Clatitude%2Clongitude"
+        },
+        {
+          "label": "SFHA 2024 annual plan · conversion history",
+          "url": "https://sfha.org/files/documents/Annual%20Plan%202024.pdf#page=38"
+        }
+      ]
+    },
+    {
+      "fictional": false,
+      "status": "source-listed",
+      "verifiedOn": "2026-10-08",
+      "reviewBy": "2027-01-06",
+      "id": "thc-drake",
+      "type": "reentry_housing",
+      "name": "New Horizons — Drake Hotel",
+      "address": "235 Eddy St, San Francisco, CA 94102",
+      "coordinates": [
+        -122.411532468733,
+        37.784009477977
+      ],
+      "statusNote": "SFAPD and the operator list a residential reentry / transitional housing program at the Drake Hotel. Source-listed only; current admissions and on-site conditions are not verified.",
+      "locationNote": "Approximate Census address-range position for the publicly listed address. This is not a surveyed entrance or a property boundary; other parts of the site may be nearer or farther from your route.",
+      "sources": [
+        {
+          "label": "THC property listing · address and program",
+          "url": "https://www.thclinic.org/en/properties/drake-hotel/"
+        },
+        {
+          "label": "THC current recovery programs",
+          "url": "https://www.thclinic.org/en/program/transitional-housing/"
+        },
+        {
+          "label": "SFAPD · reentry services catalog, February 2026",
+          "url": "https://media.api.sf.gov/documents/Complete_SFAPD_Catalog_of_Reentry_Services_For_Website_-_2.25.2026.pdf"
+        },
+        {
+          "label": "Census matched public address · approximate position",
+          "url": "https://geocoding.geo.census.gov/geocoder/locations/address?street=235+Eddy+St&city=San+Francisco&state=CA&benchmark=Public_AR_Current&format=json"
+        }
+      ]
+    },
+    {
+      "fictional": false,
+      "status": "source-listed",
+      "verifiedOn": "2026-10-08",
+      "reviewBy": "2027-01-06",
+      "id": "westside-minna",
+      "type": "reentry_housing",
+      "name": "The Minna Project",
+      "address": "509 Minna St, San Francisco, CA 94103",
+      "coordinates": [
+        -122.408331376842,
+        37.780321246619
+      ],
+      "statusNote": "SFAPD and the operator list a residential reentry housing program. The public address is documented by SF DPH and a 2024 City contract review. Source-listed only; current admissions and on-site conditions are not verified.",
+      "locationNote": "Approximate Census address-range position for the publicly listed address. This is not a surveyed entrance or a property boundary; other parts of the site may be nearer or farther from your route.",
+      "sources": [
+        {
+          "label": "Positive Directions · current program listing",
+          "url": "https://www.positivedirectionsequalschange.org/programs-dfg"
+        },
+        {
+          "label": "SF DPH · published residential address",
+          "url": "https://media.api.sf.gov/documents/DPH_MHSF_Implementation_Report_2023.pdf"
+        },
+        {
+          "label": "SFAPD · reentry services catalog, February 2026",
+          "url": "https://media.api.sf.gov/documents/Complete_SFAPD_Catalog_of_Reentry_Services_For_Website_-_2.25.2026.pdf"
+        },
+        {
+          "label": "Census matched public address · approximate position",
+          "url": "https://geocoding.geo.census.gov/geocoder/locations/address?street=509+Minna+St&city=San+Francisco&state=CA&benchmark=Public_AR_Current&format=json"
+        }
+      ]
+    },
+    {
+      "fictional": false,
+      "status": "source-listed",
+      "verifiedOn": "2026-10-08",
+      "reviewBy": "2027-01-06",
+      "id": "westside-trp",
+      "type": "reentry_housing",
+      "name": "Positive Directions TRP Academy",
+      "address": "630 Geary St, San Francisco, CA 94102",
+      "coordinates": [
+        -122.413773135946,
+        37.78670911423
+      ],
+      "statusNote": "The operator lists a residential reentry / transitional housing program; the public address is corroborated in the City’s May 2024 contract review. Source-listed only; current admissions and on-site conditions are not verified.",
+      "locationNote": "Approximate Census address-range position for the publicly listed address. This is not a surveyed entrance or a property boundary; other parts of the site may be nearer or farther from your route.",
+      "sources": [
+        {
+          "label": "Westside · current TRP Academy program",
+          "url": "https://www.westside-health.org/treatment-recovery-and-prevention-trp-academy-tenderloin"
+        },
+        {
+          "label": "SF Budget and Legislative Analyst · public address, May 2024",
+          "url": "https://sfgov.legistar.com/View.ashx?GUID=A5A3369E-4EEB-448E-AD14-79A13A494EAE&ID=12884743&M=F"
+        },
+        {
+          "label": "SFAPD · reentry services catalog, February 2026",
+          "url": "https://media.api.sf.gov/documents/Complete_SFAPD_Catalog_of_Reentry_Services_For_Website_-_2.25.2026.pdf"
+        },
+        {
+          "label": "Census matched public address · approximate position",
+          "url": "https://geocoding.geo.census.gov/geocoder/locations/address?street=630+Geary+St&city=San+Francisco&state=CA&benchmark=Public_AR_Current&format=json"
+        }
+      ]
+    },
+    {
+      "fictional": false,
+      "status": "source-listed",
+      "verifiedOn": "2026-10-08",
+      "reviewBy": "2027-01-06",
+      "id": "salvation-mcfee",
+      "type": "reentry_housing",
+      "name": "Joseph McFee Center",
+      "address": "3550 Cesar Chavez St, San Francisco, CA 94110",
+      "coordinates": [
+        -122.420874878136,
+        37.748198600614
+      ],
+      "statusNote": "Recovery housing included in SFAPD’s reentry services catalog. This broader program is not classified here as a federal halfway house. Source-listed only; current admissions and on-site conditions are not verified.",
+      "locationNote": "Approximate Census address-range position for the publicly listed address. This is not a surveyed entrance or a property boundary; other parts of the site may be nearer or farther from your route.",
+      "sources": [
+        {
+          "label": "Salvation Army · current recovery housing program",
+          "url": "https://www.salvationarmyusa.org/usa-western-territory/golden-state/san-francisco-metro-area/recovery/"
+        },
+        {
+          "label": "Program partner · public center address",
+          "url": "https://www.mentoringmensmovement.org/what-we-do"
+        },
+        {
+          "label": "SFAPD · reentry services catalog, February 2026",
+          "url": "https://media.api.sf.gov/documents/Complete_SFAPD_Catalog_of_Reentry_Services_For_Website_-_2.25.2026.pdf"
+        },
+        {
+          "label": "Census matched public address · approximate position",
+          "url": "https://geocoding.geo.census.gov/geocoder/locations/address?street=3550+Cesar+Chavez+St&city=San+Francisco&state=CA&benchmark=Public_AR_Current&format=json"
+        }
+      ]
+    },
+    {
+      "fictional": false,
+      "status": "source-listed",
+      "verifiedOn": "2026-10-08",
+      "reviewBy": "2027-01-06",
+      "id": "rsn-cw",
+      "type": "reentry_housing",
+      "name": "CW Hotel — FOF Stabilization Housing",
+      "address": "917 Folsom St, San Francisco, CA 94107",
+      "coordinates": [
+        -122.403729341868,
+        37.779913425525
+      ],
+      "statusNote": "SFAPD lists the CW Hotel residential reentry program operated by Recovery Survival Network. The street address is published in City hotel records; the operator’s office address is not used. Source-listed only; current admissions and on-site conditions are not verified.",
+      "locationNote": "Approximate Census address-range position for the publicly listed address. This is not a surveyed entrance or a property boundary; other parts of the site may be nearer or farther from your route.",
+      "sources": [
+        {
+          "label": "City hotel inventory · CW Hotel public address",
+          "url": "https://sfgov.legistar.com/View.ashx?GUID=EC14D4E4-C161-45B9-8376-2ED2D3292F6B&ID=11079865&M=F"
+        },
+        {
+          "label": "RSN · reentry services",
+          "url": "https://www.rsn2000.org/reentry.htm"
+        },
+        {
+          "label": "SFAPD · reentry services catalog, February 2026",
+          "url": "https://media.api.sf.gov/documents/Complete_SFAPD_Catalog_of_Reentry_Services_For_Website_-_2.25.2026.pdf"
+        },
+        {
+          "label": "Census matched public address · approximate position",
+          "url": "https://geocoding.geo.census.gov/geocoder/locations/address?street=917+Folsom+St&city=San+Francisco&state=CA&benchmark=Public_AR_Current&format=json"
+        }
+      ]
+    },
+    {
+      "fictional": false,
+      "status": "source-listed",
+      "verifiedOn": "2026-10-08",
+      "reviewBy": "2027-01-06",
+      "id": "westside-billie",
+      "type": "reentry_housing",
+      "name": "Billie Holiday Center",
+      "address": "93 6th St, San Francisco, CA 94103",
+      "coordinates": [
+        -122.408770578376,
+        37.781101403735
+      ],
+      "statusNote": "The operator lists this residential reentry navigation / stabilization center. Program founders published its street address in 2023; current program listings corroborate the program. Source-listed only; current admissions and on-site conditions are not verified.",
+      "locationNote": "Approximate Census address-range position for the publicly listed address. This is not a surveyed entrance or a property boundary; other parts of the site may be nearer or farther from your route.",
+      "sources": [
+        {
+          "label": "Westside · current Billie Holiday Center program",
+          "url": "https://www.westside-health.org/node/87"
+        },
+        {
+          "label": "Program founders · published center address, January 2023",
+          "url": "https://sfbayview.com/2023/01/positive-directions-equals-change-brings-specialized-help-to-sf/"
+        },
+        {
+          "label": "SFAPD · reentry services catalog, February 2026",
+          "url": "https://media.api.sf.gov/documents/Complete_SFAPD_Catalog_of_Reentry_Services_For_Website_-_2.25.2026.pdf"
+        },
+        {
+          "label": "Census matched public address · approximate position",
+          "url": "https://geocoding.geo.census.gov/geocoder/locations/address?street=93+6th+St&city=San+Francisco&state=CA&benchmark=Public_AR_Current&format=json"
+        }
+      ]
+    },
+    {
+      "fictional": false,
+      "status": "source-listed",
+      "verifiedOn": "2026-10-08",
+      "reviewBy": "2027-01-06",
+      "id": "cjcj-cameo",
+      "type": "reentry_housing",
+      "name": "Cameo House",
+      "address": "424 Guerrero St, San Francisco, CA 94110",
+      "coordinates": [
+        -122.4243918,
+        37.76431278
+      ],
+      "statusNote": "Residential alternative-sentencing / reentry program listed by CJCJ. The City portfolio independently publishes the residential property address. Source-listed only; current admissions and on-site conditions are not verified.",
+      "locationNote": "Approximate representative point published in the City housing portfolio (source updated May 21, 2026). It is not a surveyed entrance or a property boundary. A complex may span several blocks; parts can be nearer or farther from the route.",
+      "sources": [
+        {
+          "label": "CJCJ · current residential program",
+          "url": "https://www.cjcj.org/our-programs/cameo-house"
+        },
+        {
+          "label": "City housing portfolio · residential address and position",
+          "url": "https://data.sf.gov/d/pyxv-n29e"
+        }
+      ]
+    }
+  ]
+}

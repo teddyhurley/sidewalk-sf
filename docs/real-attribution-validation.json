@@ -1,0 +1,292 @@
+{
+  "status": "independent calculation completed; human domain review pending",
+  "snapshotSha256": "52e26fe7945d8d8c79f87bfd239aa07750cd0ed9bb1d5064d99827a9ece4b5b3",
+  "method": "Application point-to-segment algorithm versus Shapely 2.2 / pyproj 3.8, EPSG:32610, using 10 actual Mapbox walking lines and all normalized published pedestrian-involved crashes. Only aggregate results retained.",
+  "limitation": "Verifies arithmetic attribution to published points. Does not verify true crash position, sidewalk side, reporting completeness, current design or personal risk. This is a second computational method, not an independent human or field review.",
+  "routes": [
+    {
+      "area": "Downtown",
+      "pointsChecked": 1278,
+      "nearbyMaxDifferenceMeters": 0.4212,
+      "thresholds": [
+        {
+          "meters": 25,
+          "appCount": 3,
+          "gisCount": 3,
+          "disagreements": 0,
+          "beyondHalfMeter": 0
+        },
+        {
+          "meters": 50,
+          "appCount": 3,
+          "gisCount": 3,
+          "disagreements": 0,
+          "beyondHalfMeter": 0
+        },
+        {
+          "meters": 100,
+          "appCount": 5,
+          "gisCount": 5,
+          "disagreements": 0,
+          "beyondHalfMeter": 0
+        }
+      ]
+    },
+    {
+      "area": "Mission",
+      "pointsChecked": 1278,
+      "nearbyMaxDifferenceMeters": 0.3857,
+      "thresholds": [
+        {
+          "meters": 25,
+          "appCount": 4,
+          "gisCount": 4,
+          "disagreements": 0,
+          "beyondHalfMeter": 0
+        },
+        {
+          "meters": 50,
+          "appCount": 4,
+          "gisCount": 4,
+          "disagreements": 0,
+          "beyondHalfMeter": 0
+        },
+        {
+          "meters": 100,
+          "appCount": 6,
+          "gisCount": 6,
+          "disagreements": 0,
+          "beyondHalfMeter": 0
+        }
+      ]
+    },
+    {
+      "area": "Civic Center",
+      "pointsChecked": 1278,
+      "nearbyMaxDifferenceMeters": 0.3774,
+      "thresholds": [
+        {
+          "meters": 25,
+          "appCount": 16,
+          "gisCount": 16,
+          "disagreements": 0,
+          "beyondHalfMeter": 0
+        },
+        {
+          "meters": 50,
+          "appCount": 16,
+          "gisCount": 16,
+          "disagreements": 0,
+          "beyondHalfMeter": 0
+        },
+        {
+          "meters": 100,
+          "appCount": 29,
+          "gisCount": 29,
+          "disagreements": 0,
+          "beyondHalfMeter": 0
+        }
+      ]
+    },
+    {
+      "area": "North Beach",
+      "pointsChecked": 1278,
+      "nearbyMaxDifferenceMeters": 0.4066,
+      "thresholds": [
+        {
+          "meters": 25,
+          "appCount": 7,
+          "gisCount": 7,
+          "disagreements": 0,
+          "beyondHalfMeter": 0
+        },
+        {
+          "meters": 50,
+          "appCount": 7,
+          "gisCount": 7,
+          "disagreements": 0,
+          "beyondHalfMeter": 0
+        },
+        {
+          "meters": 100,
+          "appCount": 11,
+          "gisCount": 11,
+          "disagreements": 0,
+          "beyondHalfMeter": 0
+        }
+      ]
+    },
+    {
+      "area": "Richmond",
+      "pointsChecked": 1278,
+      "nearbyMaxDifferenceMeters": 0.1936,
+      "thresholds": [
+        {
+          "meters": 25,
+          "appCount": 3,
+          "gisCount": 3,
+          "disagreements": 0,
+          "beyondHalfMeter": 0
+        },
+        {
+          "meters": 50,
+          "appCount": 3,
+          "gisCount": 3,
+          "disagreements": 0,
+          "beyondHalfMeter": 0
+        },
+        {
+          "meters": 100,
+          "appCount": 4,
+          "gisCount": 4,
+          "disagreements": 0,
+          "beyondHalfMeter": 0
+        }
+      ]
+    },
+    {
+      "area": "Sunset",
+      "pointsChecked": 1278,
+      "nearbyMaxDifferenceMeters": 0.4363,
+      "thresholds": [
+        {
+          "meters": 25,
+          "appCount": 2,
+          "gisCount": 2,
+          "disagreements": 0,
+          "beyondHalfMeter": 0
+        },
+        {
+          "meters": 50,
+          "appCount": 2,
+          "gisCount": 2,
+          "disagreements": 0,
+          "beyondHalfMeter": 0
+        },
+        {
+          "meters": 100,
+          "appCount": 2,
+          "gisCount": 2,
+          "disagreements": 0,
+          "beyondHalfMeter": 0
+        }
+      ]
+    },
+    {
+      "area": "Castro",
+      "pointsChecked": 1278,
+      "nearbyMaxDifferenceMeters": 0.3882,
+      "thresholds": [
+        {
+          "meters": 25,
+          "appCount": 3,
+          "gisCount": 3,
+          "disagreements": 0,
+          "beyondHalfMeter": 0
+        },
+        {
+          "meters": 50,
+          "appCount": 3,
+          "gisCount": 3,
+          "disagreements": 0,
+          "beyondHalfMeter": 0
+        },
+        {
+          "meters": 100,
+          "appCount": 5,
+          "gisCount": 5,
+          "disagreements": 0,
+          "beyondHalfMeter": 0
+        }
+      ]
+    },
+    {
+      "area": "Potrero",
+      "pointsChecked": 1278,
+      "nearbyMaxDifferenceMeters": 0.1591,
+      "thresholds": [
+        {
+          "meters": 25,
+          "appCount": 0,
+          "gisCount": 0,
+          "disagreements": 0,
+          "beyondHalfMeter": 0
+        },
+        {
+          "meters": 50,
+          "appCount": 0,
+          "gisCount": 0,
+          "disagreements": 0,
+          "beyondHalfMeter": 0
+        },
+        {
+          "meters": 100,
+          "appCount": 2,
+          "gisCount": 2,
+          "disagreements": 0,
+          "beyondHalfMeter": 0
+        }
+      ]
+    },
+    {
+      "area": "Bayview",
+      "pointsChecked": 1278,
+      "nearbyMaxDifferenceMeters": 0.1825,
+      "thresholds": [
+        {
+          "meters": 25,
+          "appCount": 3,
+          "gisCount": 3,
+          "disagreements": 0,
+          "beyondHalfMeter": 0
+        },
+        {
+          "meters": 50,
+          "appCount": 3,
+          "gisCount": 3,
+          "disagreements": 0,
+          "beyondHalfMeter": 0
+        },
+        {
+          "meters": 100,
+          "appCount": 8,
+          "gisCount": 8,
+          "disagreements": 0,
+          "beyondHalfMeter": 0
+        }
+      ]
+    },
+    {
+      "area": "Marina",
+      "pointsChecked": 1278,
+      "nearbyMaxDifferenceMeters": 0.3565,
+      "thresholds": [
+        {
+          "meters": 25,
+          "appCount": 1,
+          "gisCount": 1,
+          "disagreements": 0,
+          "beyondHalfMeter": 0
+        },
+        {
+          "meters": 50,
+          "appCount": 3,
+          "gisCount": 3,
+          "disagreements": 0,
+          "beyondHalfMeter": 0
+        },
+        {
+          "meters": 100,
+          "appCount": 9,
+          "gisCount": 9,
+          "disagreements": 0,
+          "beyondHalfMeter": 0
+        }
+      ]
+    }
+  ],
+  "pairChecks": 12780,
+  "maxNearbyDifferenceMeters": 0.4363,
+  "thresholdDisagreements": 0,
+  "disagreementsBeyondHalfMeter": 0
+}

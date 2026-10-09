@@ -1,0 +1,8 @@
+{
+  "status": "passed-mechanical-checks",
+  "attemptedAt": "2026-10-08T17:27:11.960Z",
+  "asOf": "2026-10-07",
+  "completeSnapshot": true,
+  "sha256": "df4599044b66051a5a45d50b0c70788f04c1634178ecccb0f05ddf0a9b736491",
+  "reviewStage": "local-data-preview"
+}

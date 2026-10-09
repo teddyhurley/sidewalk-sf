@@ -1,0 +1,11 @@
+.env
+.env.*
+!.env.example
+node_modules/
+coverage/
+.DS_Store
+*.tar.gz
+*.log
+.openai/local*
+data/live-*.json
+data/

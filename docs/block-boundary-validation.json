@@ -1,0 +1,47 @@
+{
+  "datasetId": "e2st-aufe",
+  "title": "Census 2020: Blocks for San Francisco Clipped to the Shoreline",
+  "url": "https://data.sf.gov/d/e2st-aufe",
+  "sourceUpdatedAt": "2022-07-25T21:00:48.000Z",
+  "retrievedAt": "2026-10-08T16:53:13.145Z",
+  "query": "1=1",
+  "fields": [
+    "geoid20",
+    "multipolygon"
+  ],
+  "rows": 5954,
+  "uniqueKeys": 5954,
+  "pages": 6,
+  "reconciled": true,
+  "vintage": 2020,
+  "identifierNormalization": "Publisher GEOIDs omit the leading state zero; restored to 15 digits.",
+  "usedBlocks": 5950,
+  "outsideEnvelope": 4,
+  "license": "https://opendatacommons.org/licenses/pddl/1.0/",
+  "purpose": "Boundary geometry only; no population, housing or demographic attributes requested.",
+  "topology": {
+    "validatedBlocks": 5950,
+    "engine": "Shapely / GEOS",
+    "repairs": [
+      {
+        "id": "060750126022000",
+        "issue": "Ring Self-intersection[-122.42714 37.805433]",
+        "method": "GEOS make_valid; polygon components retained",
+        "relativeAreaChange": 3.9391370292808005e-16
+      },
+      {
+        "id": "060750171012002",
+        "issue": "Ring Self-intersection[-122.446287 37.76231]",
+        "method": "GEOS make_valid; polygon components retained",
+        "relativeAreaChange": 2.5694036493050084e-16
+      },
+      {
+        "id": "060750301021006",
+        "issue": "Ring Self-intersection[-122.456014 37.752359]",
+        "method": "GEOS make_valid; polygon components retained",
+        "relativeAreaChange": 0
+      }
+    ]
+  },
+  "sha256": "0a1ec7a8cf25eb85b11ada1a4b6ccd376e64bec566c855956bb8f2db9a526c0c"
+}

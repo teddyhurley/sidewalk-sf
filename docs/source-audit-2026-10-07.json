@@ -1,0 +1,551 @@
+{
+  "purpose": "Metadata and aggregate availability audit; not a complete evidence snapshot or route assessment",
+  "retrievedAt": "2026-10-08T02:45:04.905Z",
+  "sources": [
+    {
+      "id": "ubvf-ztfx",
+      "kind": "crashes",
+      "date": "collision_date",
+      "required": [
+        "unique_id",
+        "case_id_pkey",
+        "tb_latitude",
+        "tb_longitude",
+        "dph_col_grp_description",
+        "collision_date"
+      ],
+      "categories": "dph_col_grp_description",
+      "metadataUrl": "https://data.sfgov.org/api/views/ubvf-ztfx.json",
+      "verifiedAt": "2026-10-08T02:44:54.752Z",
+      "title": "Traffic Crashes Resulting in Injury",
+      "catalogUpdatedAt": "2026-10-07T18:46:17.000Z",
+      "fields": [
+        {
+          "name": "unique_id",
+          "type": "text"
+        },
+        {
+          "name": "cnn_intrsctn_fkey",
+          "type": "text"
+        },
+        {
+          "name": "cnn_sgmt_fkey",
+          "type": "text"
+        },
+        {
+          "name": "case_id_pkey",
+          "type": "text"
+        },
+        {
+          "name": "tb_latitude",
+          "type": "number"
+        },
+        {
+          "name": "tb_longitude",
+          "type": "number"
+        },
+        {
+          "name": "geocode_source",
+          "type": "text"
+        },
+        {
+          "name": "geocode_location",
+          "type": "text"
+        },
+        {
+          "name": "collision_datetime",
+          "type": "calendar_date"
+        },
+        {
+          "name": "collision_date",
+          "type": "calendar_date"
+        },
+        {
+          "name": "collision_time",
+          "type": "text"
+        },
+        {
+          "name": "accident_year",
+          "type": "text"
+        },
+        {
+          "name": "month",
+          "type": "text"
+        },
+        {
+          "name": "day_of_week",
+          "type": "text"
+        },
+        {
+          "name": "time_cat",
+          "type": "text"
+        },
+        {
+          "name": "juris",
+          "type": "text"
+        },
+        {
+          "name": "officer_id",
+          "type": "text"
+        },
+        {
+          "name": "reporting_district",
+          "type": "text"
+        },
+        {
+          "name": "beat_number",
+          "type": "text"
+        },
+        {
+          "name": "primary_rd",
+          "type": "text"
+        },
+        {
+          "name": "secondary_rd",
+          "type": "text"
+        },
+        {
+          "name": "distance",
+          "type": "number"
+        },
+        {
+          "name": "direction",
+          "type": "text"
+        },
+        {
+          "name": "weather_1",
+          "type": "text"
+        },
+        {
+          "name": "weather_2",
+          "type": "text"
+        },
+        {
+          "name": "collision_severity",
+          "type": "text"
+        },
+        {
+          "name": "type_of_collision",
+          "type": "text"
+        },
+        {
+          "name": "mviw",
+          "type": "text"
+        },
+        {
+          "name": "ped_action",
+          "type": "text"
+        },
+        {
+          "name": "road_surface",
+          "type": "text"
+        },
+        {
+          "name": "road_cond_1",
+          "type": "text"
+        },
+        {
+          "name": "road_cond_2",
+          "type": "text"
+        },
+        {
+          "name": "lighting",
+          "type": "text"
+        },
+        {
+          "name": "control_device",
+          "type": "text"
+        },
+        {
+          "name": "intersection",
+          "type": "text"
+        },
+        {
+          "name": "vz_pcf_code",
+          "type": "text"
+        },
+        {
+          "name": "vz_pcf_group",
+          "type": "text"
+        },
+        {
+          "name": "vz_pcf_description",
+          "type": "text"
+        },
+        {
+          "name": "vz_pcf_link",
+          "type": "text"
+        },
+        {
+          "name": "number_killed",
+          "type": "number"
+        },
+        {
+          "name": "number_injured",
+          "type": "number"
+        },
+        {
+          "name": "street_view",
+          "type": "text"
+        },
+        {
+          "name": "dph_col_grp",
+          "type": "text"
+        },
+        {
+          "name": "dph_col_grp_description",
+          "type": "text"
+        },
+        {
+          "name": "party_at_fault",
+          "type": "text"
+        },
+        {
+          "name": "party1_type",
+          "type": "text"
+        },
+        {
+          "name": "party1_dir_of_travel",
+          "type": "text"
+        },
+        {
+          "name": "party1_move_pre_acc",
+          "type": "text"
+        },
+        {
+          "name": "party2_type",
+          "type": "text"
+        },
+        {
+          "name": "party2_dir_of_travel",
+          "type": "text"
+        },
+        {
+          "name": "party2_move_pre_acc",
+          "type": "text"
+        },
+        {
+          "name": "point",
+          "type": "point"
+        },
+        {
+          "name": "data_as_of",
+          "type": "calendar_date"
+        },
+        {
+          "name": "data_updated_at",
+          "type": "calendar_date"
+        },
+        {
+          "name": "data_loaded_at",
+          "type": "calendar_date"
+        },
+        {
+          "name": "analysis_neighborhood",
+          "type": "text"
+        },
+        {
+          "name": "supervisor_district",
+          "type": "text"
+        },
+        {
+          "name": "police_district",
+          "type": "text"
+        }
+      ],
+      "missingFields": [],
+      "aggregateProbe": [
+        {
+          "rows": "66384",
+          "earliest": "2005-01-01T00:00:00.000",
+          "latest": "2026-08-31T00:00:00.000"
+        }
+      ],
+      "categoryProbe": [
+        {
+          "dph_col_grp_description": "Bicycle Only",
+          "rows": "1241"
+        },
+        {
+          "dph_col_grp_description": "Bicycle-Parked Car",
+          "rows": "473"
+        },
+        {
+          "dph_col_grp_description": "Bicycle-Pedestrian",
+          "rows": "522"
+        },
+        {
+          "dph_col_grp_description": "Bicycle-Unknown/Not Stated",
+          "rows": "7"
+        },
+        {
+          "dph_col_grp_description": "Pedestrian Only or Pedestrian-Parked Car",
+          "rows": "35"
+        },
+        {
+          "dph_col_grp_description": "Unknown/Not Stated",
+          "rows": "23"
+        },
+        {
+          "dph_col_grp_description": "Vehicle-Bicycle",
+          "rows": "8910"
+        },
+        {
+          "dph_col_grp_description": "Vehicle-Bicycle-Pedestrian",
+          "rows": "20"
+        },
+        {
+          "dph_col_grp_description": "Vehicle-Pedestrian",
+          "rows": "15795"
+        },
+        {
+          "dph_col_grp_description": "Vehicle(s) Only Involved",
+          "rows": "39356"
+        },
+        {
+          "rows": "2"
+        }
+      ],
+      "schemaVerified": true
+    },
+    {
+      "id": "wg3w-h783",
+      "kind": "reports",
+      "date": "incident_date",
+      "required": [
+        "row_id",
+        "incident_id",
+        "incident_category",
+        "incident_date",
+        "latitude",
+        "longitude"
+      ],
+      "metadataUrl": "https://data.sfgov.org/api/views/wg3w-h783.json",
+      "verifiedAt": "2026-10-08T02:44:54.801Z",
+      "title": "Police Department Incident Reports: 2018 to Present",
+      "catalogUpdatedAt": "2026-10-07T16:56:21.000Z",
+      "fields": [
+        {
+          "name": "row_id",
+          "type": "text"
+        },
+        {
+          "name": "incident_datetime",
+          "type": "calendar_date"
+        },
+        {
+          "name": "incident_date",
+          "type": "calendar_date"
+        },
+        {
+          "name": "incident_time",
+          "type": "text"
+        },
+        {
+          "name": "incident_year",
+          "type": "text"
+        },
+        {
+          "name": "incident_day_of_week",
+          "type": "text"
+        },
+        {
+          "name": "report_datetime",
+          "type": "calendar_date"
+        },
+        {
+          "name": "incident_id",
+          "type": "text"
+        },
+        {
+          "name": "incident_number",
+          "type": "text"
+        },
+        {
+          "name": "cad_number",
+          "type": "text"
+        },
+        {
+          "name": "report_type_code",
+          "type": "text"
+        },
+        {
+          "name": "report_type_description",
+          "type": "text"
+        },
+        {
+          "name": "filed_online",
+          "type": "checkbox"
+        },
+        {
+          "name": "incident_code",
+          "type": "text"
+        },
+        {
+          "name": "incident_category",
+          "type": "text"
+        },
+        {
+          "name": "incident_subcategory",
+          "type": "text"
+        },
+        {
+          "name": "incident_description",
+          "type": "text"
+        },
+        {
+          "name": "resolution",
+          "type": "text"
+        },
+        {
+          "name": "intersection",
+          "type": "text"
+        },
+        {
+          "name": "cnn",
+          "type": "text"
+        },
+        {
+          "name": "police_district",
+          "type": "text"
+        },
+        {
+          "name": "analysis_neighborhood",
+          "type": "text"
+        },
+        {
+          "name": "supervisor_district",
+          "type": "text"
+        },
+        {
+          "name": "supervisor_district_2012",
+          "type": "text"
+        },
+        {
+          "name": "latitude",
+          "type": "number"
+        },
+        {
+          "name": "longitude",
+          "type": "number"
+        },
+        {
+          "name": "point",
+          "type": "point"
+        },
+        {
+          "name": "data_as_of",
+          "type": "calendar_date"
+        },
+        {
+          "name": "data_loaded_at",
+          "type": "calendar_date"
+        }
+      ],
+      "missingFields": [],
+      "aggregateProbe": [
+        {
+          "rows": "1069860",
+          "earliest": "2018-01-01T00:00:00.000",
+          "latest": "2026-10-05T00:00:00.000"
+        }
+      ],
+      "schemaVerified": true
+    },
+    {
+      "id": "enwt-3u8m",
+      "kind": "hin",
+      "required": [
+        "cnn_sgmt_pkey",
+        "geom",
+        "full_street_name"
+      ],
+      "metadataUrl": "https://data.sfgov.org/api/views/enwt-3u8m.json",
+      "verifiedAt": "2026-10-08T02:44:54.802Z",
+      "title": "2024 High Injury Network",
+      "catalogUpdatedAt": "2026-03-23T21:13:53.000Z",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "number"
+        },
+        {
+          "name": "cnn_sgmt_pkey",
+          "type": "text"
+        },
+        {
+          "name": "street_name",
+          "type": "text"
+        },
+        {
+          "name": "street_type",
+          "type": "text"
+        },
+        {
+          "name": "street_layer",
+          "type": "text"
+        },
+        {
+          "name": "full_street_name",
+          "type": "text"
+        },
+        {
+          "name": "class_code",
+          "type": "number"
+        },
+        {
+          "name": "duel_car_way_yn",
+          "type": "checkbox"
+        },
+        {
+          "name": "duel_car_way_id",
+          "type": "number"
+        },
+        {
+          "name": "f_node_cnn_intrsctn_fkey",
+          "type": "text"
+        },
+        {
+          "name": "t_node_cnn_intrsctn_fkey",
+          "type": "text"
+        },
+        {
+          "name": "corrected_length_miles",
+          "type": "number"
+        },
+        {
+          "name": "direction",
+          "type": "text"
+        },
+        {
+          "name": "shape__length",
+          "type": "number"
+        },
+        {
+          "name": "geom",
+          "type": "multiline"
+        },
+        {
+          "name": "data_as_of",
+          "type": "calendar_date"
+        },
+        {
+          "name": "data_loaded_at",
+          "type": "calendar_date"
+        }
+      ],
+      "missingFields": [],
+      "aggregateProbe": [
+        {
+          "rows": "5917"
+        }
+      ],
+      "schemaVerified": true
+    }
+  ],
+  "limitations": [
+    "Latest event date does not establish complete coverage.",
+    "Category semantics and reporting bias need review.",
+    "No route evidence was enabled."
+  ]
+}

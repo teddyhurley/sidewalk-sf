@@ -1,0 +1,54 @@
+# Password-protected test deployment. Creating this Blueprint incurs hosting cost.
+services:
+  - type: web
+    name: sidewalk-sf
+    runtime: node
+    region: oregon
+    plan: 0.5c-512mb
+    numInstances: 1
+    buildCommand: npm run check && npm test
+    startCommand: npm start
+    healthCheckPath: /healthz
+    autoDeployTrigger: checksPass
+    disk:
+      name: sidewalk-evidence
+      mountPath: /var/data/sidewalk
+      sizeGB: 1
+    envVars:
+      - key: NODE_VERSION
+        value: "22"
+      - key: NODE_ENV
+        value: production
+      - key: NODE_OPTIONS
+        value: --max-old-space-size=256
+      - key: HOST
+        value: 0.0.0.0
+      - key: DATA_DIR
+        value: /var/data/sidewalk
+      - key: LIVE_EVIDENCE_PREVIEW
+        value: "1"
+      - key: AUTO_REFRESH
+        value: "1"
+      - key: PREVIEW_AUTH_REQUIRED
+        value: "1"
+      - key: PREVIEW_USERNAME
+        value: sidewalk
+      - key: PREVIEW_PASSWORD
+        generateValue: true
+      # Conservative default; validate proxy attribution on the deployed service.
+      - key: TRUST_PROXY_HOPS
+        value: "1"
+      - key: DAILY_PROVIDER_REQUEST_BUDGET
+        value: "1000"
+      - key: MINUTE_PROVIDER_REQUEST_BUDGET
+        value: "120"
+      - key: COLLISION_FROM
+        value: "2024-07-01"
+      - key: COLLISION_THROUGH
+        value: "2026-06-30"
+      - key: MAPBOX_PUBLIC_TOKEN
+        sync: false
+      - key: MAPBOX_SERVER_TOKEN
+        sync: false
+      - key: SOCRATA_APP_TOKEN
+        sync: false

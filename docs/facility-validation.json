@@ -1,0 +1,1591 @@
+{
+  "reviewedOn": "2026-10-08",
+  "scope": "61 reviewed public-place listings: source-bounded expansion, not an exhaustive inventory of San Francisco facilities. No confidential residence coordinates are retained.",
+  "counts": {
+    "public_housing": 2,
+    "halfway_house": 1,
+    "former_public_housing": 51,
+    "reentry_housing": 7
+  },
+  "housingSource": {
+    "dataset": "pyxv-n29e",
+    "url": "https://data.sf.gov/d/pyxv-n29e",
+    "checkedAt": "2026-10-08T18:23:32.603Z",
+    "publisherCount": 850,
+    "beforeRowsUpdatedAt": 1779396593,
+    "afterRowsUpdatedAt": 1779396593,
+    "publisherUpdated": "2026-05-21T20:49:53.000Z",
+    "retrievedRows": 850,
+    "uniqueSourceIds": 850,
+    "selectedFormerHousingRows": 52,
+    "mappedFormerHousingListings": 51,
+    "geometry": "Publisher representative points, not entrances or footprints.",
+    "selection": "Exact RAD and HOPE SF program values plus nine individually reviewed HOPE VI / SFHA scattered-site IDs. Only Construction Complete records included. Generic affordable or transitional housing is not classified as public housing.",
+    "merged": [
+      {
+        "sourceIds": [
+          "2012-001c",
+          "2012-001d"
+        ],
+        "reason": "Same published marketing address and essentially identical coordinates; one combined Alice Griffith Phase 3A / 3B listing."
+      }
+    ],
+    "records": [
+      {
+        "mohcd_development_id": "2003-030",
+        "development_name": "Valencia Gardens",
+        "marketing_address": "340-370 Valencia St",
+        "marketing_zip_code": "94103",
+        "project_status": "Construction Complete",
+        "development_type": "New Construction",
+        "general_housing_program": "MOHCD 100% Affordable (New Development)",
+        "housing_program_program_name": "Multifamily Rental Program",
+        "latitude": "37.7671867",
+        "longitude": "-122.4221751"
+      },
+      {
+        "mohcd_development_id": "2006-021a",
+        "development_name": "Hunters View Phase 1",
+        "marketing_address": "1101 Fairfax Ave",
+        "marketing_zip_code": "94124",
+        "project_status": "Construction Complete",
+        "development_type": "New Construction",
+        "general_housing_program": "MOHCD 100% Affordable (New Development)",
+        "housing_program_program_name": "HOPE SF",
+        "multiphase_or_multisite_project_name": "Hunters View HOPE SF",
+        "latitude": "37.73666676",
+        "longitude": "-122.3812552"
+      },
+      {
+        "mohcd_development_id": "2006-021b",
+        "development_name": "Hunters View Phase 2A",
+        "marketing_address": "848 Fairfax Avenue",
+        "marketing_zip_code": "94124",
+        "project_status": "Construction Complete",
+        "development_type": "New Construction",
+        "general_housing_program": "MOHCD 100% Affordable (New Development)",
+        "housing_program_program_name": "HOPE SF",
+        "multiphase_or_multisite_project_name": "Hunters View HOPE SF",
+        "latitude": "37.73593068",
+        "longitude": "-122.3813667"
+      },
+      {
+        "mohcd_development_id": "2006-021c",
+        "development_name": "Hunters View Phase 2B",
+        "marketing_address": "901 Fairfax Ave",
+        "marketing_zip_code": "94124",
+        "project_status": "Construction Complete",
+        "development_type": "New Construction",
+        "general_housing_program": "MOHCD 100% Affordable (New Development)",
+        "housing_program_program_name": "HOPE SF",
+        "multiphase_or_multisite_project_name": "Hunters View HOPE SF",
+        "latitude": "37.73535412",
+        "longitude": "-122.3789497"
+      },
+      {
+        "mohcd_development_id": "2006-021d",
+        "development_name": "Hunters View Phase III",
+        "marketing_address": "201 West Point Rd",
+        "marketing_zip_code": "94124",
+        "project_status": "Construction Complete",
+        "development_type": "New Construction",
+        "general_housing_program": "MOHCD 100% Affordable (New Development)",
+        "housing_program_program_name": "HOPE SF",
+        "multiphase_or_multisite_project_name": "Hunters View HOPE SF",
+        "latitude": "37.73504944",
+        "longitude": "-122.379092"
+      },
+      {
+        "mohcd_development_id": "2012-001a",
+        "development_name": "Alice Griffith Phase 1",
+        "marketing_address": "2600 Arelious Walker Dr",
+        "marketing_zip_code": "94124",
+        "project_status": "Construction Complete",
+        "development_type": "New Construction",
+        "general_housing_program": "MOHCD 100% Affordable (New Development)",
+        "housing_program_program_name": "HOPE SF",
+        "multiphase_or_multisite_project_name": "Alice Griffith HOPE SF",
+        "latitude": "37.71887779",
+        "longitude": "-122.3848862"
+      },
+      {
+        "mohcd_development_id": "2012-001b",
+        "development_name": "Alice Griffith Phase 2",
+        "marketing_address": "2700 Arelious Walker Dr",
+        "marketing_zip_code": "94124",
+        "project_status": "Construction Complete",
+        "development_type": "New Construction",
+        "general_housing_program": "MOHCD 100% Affordable (New Development)",
+        "housing_program_program_name": "HOPE SF",
+        "multiphase_or_multisite_project_name": "Alice Griffith HOPE SF",
+        "latitude": "37.71826896",
+        "longitude": "-122.3854387"
+      },
+      {
+        "mohcd_development_id": "2012-001c",
+        "development_name": "Alice Griffith - Phase 3A",
+        "marketing_address": "2500 Arelious Walker Dr",
+        "marketing_zip_code": "94124",
+        "project_status": "Construction Complete",
+        "development_type": "New Construction",
+        "general_housing_program": "MOHCD 100% Affordable (New Development)",
+        "housing_program_program_name": "HOPE SF",
+        "multiphase_or_multisite_project_name": "Alice Griffith HOPE SF",
+        "latitude": "37.71962424",
+        "longitude": "-122.3842369"
+      },
+      {
+        "mohcd_development_id": "2012-001d",
+        "development_name": "Alice Griffith - Phase 3B (Block 1B)",
+        "marketing_address": "2500 Arelious Walker Dr",
+        "marketing_zip_code": "94124",
+        "project_status": "Construction Complete",
+        "development_type": "New Construction",
+        "general_housing_program": "MOHCD 100% Affordable (New Development)",
+        "housing_program_program_name": "HOPE SF",
+        "multiphase_or_multisite_project_name": "Alice Griffith HOPE SF",
+        "latitude": "37.71962424",
+        "longitude": "-122.3842368"
+      },
+      {
+        "mohcd_development_id": "2012-001e",
+        "development_name": "Alice Griffith Apartments Phase 4",
+        "marketing_address": "2800 Arelious Walker Dr",
+        "marketing_zip_code": "94124",
+        "project_status": "Construction Complete",
+        "development_type": "New Construction",
+        "general_housing_program": "MOHCD 100% Affordable (New Development)",
+        "housing_program_program_name": "HOPE SF",
+        "multiphase_or_multisite_project_name": "Alice Griffith HOPE SF",
+        "latitude": "37.71766764",
+        "longitude": "-122.3859543"
+      },
+      {
+        "mohcd_development_id": "2012-019a",
+        "development_name": "1101 Connecticut",
+        "marketing_address": "1101 Connecticut St",
+        "marketing_zip_code": "94107",
+        "project_status": "Construction Complete",
+        "development_type": "New Construction",
+        "general_housing_program": "MOHCD 100% Affordable (New Development)",
+        "housing_program_program_name": "HOPE SF",
+        "multiphase_or_multisite_project_name": "Potrero HOPE SF",
+        "latitude": "37.75218059",
+        "longitude": "-122.3963238"
+      },
+      {
+        "mohcd_development_id": "2012-019b",
+        "development_name": "Eve Community Village (Potrero Block B)",
+        "marketing_address": "1108 Connecticut St",
+        "marketing_zip_code": "94107",
+        "project_status": "Construction Complete",
+        "development_type": "New Construction",
+        "general_housing_program": "MOHCD 100% Affordable (New Development)",
+        "housing_program_program_name": "HOPE SF",
+        "multiphase_or_multisite_project_name": "Potrero HOPE SF",
+        "latitude": "37.75211281",
+        "longitude": "-122.3966765"
+      },
+      {
+        "mohcd_development_id": "2013-019",
+        "development_name": "430 Turk",
+        "marketing_address": "430 Turk St",
+        "marketing_zip_code": "94102",
+        "project_status": "Construction Complete",
+        "development_type": "Rehabilitation",
+        "general_housing_program": "MOHCD 100% Affordable (New Development)",
+        "housing_program_program_name": "Rental Assistance Demonstration Program",
+        "latitude": "37.78259393",
+        "longitude": "-122.416466"
+      },
+      {
+        "mohcd_development_id": "2013-020",
+        "development_name": "939-951 Eddy",
+        "marketing_address": "939 Eddy St",
+        "marketing_zip_code": "94109",
+        "project_status": "Construction Complete",
+        "development_type": "Rehabilitation",
+        "general_housing_program": "MOHCD 100% Affordable (New Development)",
+        "housing_program_program_name": "Rental Assistance Demonstration Program",
+        "latitude": "37.78231591",
+        "longitude": "-122.4230479"
+      },
+      {
+        "mohcd_development_id": "2013-022",
+        "development_name": "255 Woodside",
+        "marketing_address": "255 Woodside Ave",
+        "marketing_zip_code": "94131",
+        "project_status": "Construction Complete",
+        "development_type": "Rehabilitation",
+        "general_housing_program": "MOHCD 100% Affordable (New Development)",
+        "housing_program_program_name": "Rental Assistance Demonstration Program",
+        "latitude": "37.74658239",
+        "longitude": "-122.4552036"
+      },
+      {
+        "mohcd_development_id": "2013-023",
+        "development_name": "1880 Pine",
+        "marketing_address": "1880 Pine St",
+        "marketing_zip_code": "94109",
+        "project_status": "Construction Complete",
+        "development_type": "Rehabilitation",
+        "general_housing_program": "MOHCD 100% Affordable (New Development)",
+        "housing_program_program_name": "Rental Assistance Demonstration Program",
+        "latitude": "37.78896004",
+        "longitude": "-122.4265624"
+      },
+      {
+        "mohcd_development_id": "2013-024",
+        "development_name": "491 31st",
+        "marketing_address": "491 31st Ave",
+        "marketing_zip_code": "94121",
+        "project_status": "Construction Complete",
+        "development_type": "Rehabilitation",
+        "general_housing_program": "MOHCD 100% Affordable (New Development)",
+        "housing_program_program_name": "Rental Assistance Demonstration Program",
+        "latitude": "37.78011989",
+        "longitude": "-122.4912732"
+      },
+      {
+        "mohcd_development_id": "2013-025",
+        "development_name": "345 Arguello",
+        "marketing_address": "345 Arguello Blvd",
+        "marketing_zip_code": "94118",
+        "project_status": "Construction Complete",
+        "development_type": "Rehabilitation",
+        "general_housing_program": "MOHCD 100% Affordable (New Development)",
+        "housing_program_program_name": "Rental Assistance Demonstration Program",
+        "latitude": "37.7842701",
+        "longitude": "-122.4592872"
+      },
+      {
+        "mohcd_development_id": "2013-026",
+        "development_name": "227 Bay",
+        "marketing_address": "227 Bay St",
+        "marketing_zip_code": "94133",
+        "project_status": "Construction Complete",
+        "development_type": "Rehabilitation",
+        "general_housing_program": "MOHCD 100% Affordable (New Development)",
+        "housing_program_program_name": "Rental Assistance Demonstration Program",
+        "latitude": "37.80561763",
+        "longitude": "-122.4112711"
+      },
+      {
+        "mohcd_development_id": "2013-027",
+        "development_name": "462 Duboce",
+        "marketing_address": "462 Duboce Ave",
+        "marketing_zip_code": "94117",
+        "project_status": "Construction Complete",
+        "development_type": "Rehabilitation",
+        "general_housing_program": "MOHCD 100% Affordable (New Development)",
+        "housing_program_program_name": "Rental Assistance Demonstration Program",
+        "latitude": "37.76949651",
+        "longitude": "-122.4307234"
+      },
+      {
+        "mohcd_development_id": "2013-028",
+        "development_name": "666 Ellis",
+        "marketing_address": "666 Ellis St",
+        "marketing_zip_code": "94109",
+        "project_status": "Construction Complete",
+        "development_type": "Rehabilitation",
+        "general_housing_program": "MOHCD 100% Affordable (New Development)",
+        "housing_program_program_name": "Rental Assistance Demonstration Program",
+        "latitude": "37.78444999",
+        "longitude": "-122.4171552"
+      },
+      {
+        "mohcd_development_id": "2013-029",
+        "development_name": "Hunters Point East / West",
+        "marketing_address": "1068 Palou Ave",
+        "marketing_zip_code": "94124",
+        "project_status": "Construction Complete",
+        "development_type": "Rehabilitation",
+        "general_housing_program": "MOHCD 100% Affordable (New Development)",
+        "housing_program_program_name": "Rental Assistance Demonstration Program",
+        "latitude": "37.73084204",
+        "longitude": "-122.3787839"
+      },
+      {
+        "mohcd_development_id": "2013-030",
+        "development_name": "Holly Courts",
+        "marketing_address": "100 Appleton Ave",
+        "marketing_zip_code": "94110",
+        "project_status": "Construction Complete",
+        "development_type": "Rehabilitation",
+        "general_housing_program": "MOHCD 100% Affordable (New Development)",
+        "housing_program_program_name": "Rental Assistance Demonstration Program",
+        "latitude": "37.73770891",
+        "longitude": "-122.4221336"
+      },
+      {
+        "mohcd_development_id": "2013-031",
+        "development_name": "Robert B. Pitts Apartments",
+        "marketing_address": "1150 Scott St",
+        "marketing_zip_code": "94102",
+        "project_status": "Construction Complete",
+        "development_type": "Rehabilitation",
+        "general_housing_program": "MOHCD 100% Affordable (New Development)",
+        "housing_program_program_name": "Rental Assistance Demonstration Program",
+        "latitude": "37.78041335",
+        "longitude": "-122.4365549"
+      },
+      {
+        "mohcd_development_id": "2013-032",
+        "development_name": "25 Sanchez",
+        "marketing_address": "25 Sanchez St",
+        "marketing_zip_code": "94114",
+        "project_status": "Construction Complete",
+        "development_type": "Rehabilitation",
+        "general_housing_program": "MOHCD 100% Affordable (New Development)",
+        "housing_program_program_name": "Rental Assistance Demonstration Program",
+        "latitude": "37.76889712",
+        "longitude": "-122.4311372"
+      },
+      {
+        "mohcd_development_id": "2013-033",
+        "development_name": "990 Pacific",
+        "marketing_address": "990 Pacific Ave",
+        "marketing_zip_code": "94133",
+        "project_status": "Construction Complete",
+        "development_type": "Rehabilitation",
+        "general_housing_program": "MOHCD 100% Affordable (New Development)",
+        "housing_program_program_name": "Rental Assistance Demonstration Program",
+        "latitude": "37.79639498",
+        "longitude": "-122.4114771"
+      },
+      {
+        "mohcd_development_id": "2013-034",
+        "development_name": "1760 Bush",
+        "marketing_address": "1760 Bush St",
+        "marketing_zip_code": "94109",
+        "project_status": "Construction Complete",
+        "development_type": "Rehabilitation",
+        "general_housing_program": "MOHCD 100% Affordable (New Development)",
+        "housing_program_program_name": "Rental Assistance Demonstration Program",
+        "latitude": "37.78814088",
+        "longitude": "-122.4263725"
+      },
+      {
+        "mohcd_development_id": "2013-035",
+        "development_name": "2698 California",
+        "marketing_address": "2698 California St",
+        "marketing_zip_code": "94115",
+        "project_status": "Construction Complete",
+        "development_type": "Rehabilitation",
+        "general_housing_program": "MOHCD 100% Affordable (New Development)",
+        "housing_program_program_name": "Rental Assistance Demonstration Program",
+        "latitude": "37.78842985",
+        "longitude": "-122.4385465"
+      },
+      {
+        "mohcd_development_id": "2013-036",
+        "development_name": "Rosa Parks Apartments",
+        "marketing_address": "1251 Turk St",
+        "marketing_zip_code": "94115",
+        "project_status": "Construction Complete",
+        "development_type": "Rehabilitation",
+        "general_housing_program": "MOHCD 100% Affordable (New Development)",
+        "housing_program_program_name": "Rental Assistance Demonstration Program",
+        "latitude": "37.78046422",
+        "longitude": "-122.4293981"
+      },
+      {
+        "mohcd_development_id": "2013-037",
+        "development_name": "Kennedy Towers (JFK Towers)",
+        "marketing_address": "2451 Sacramento St",
+        "marketing_zip_code": "94115",
+        "project_status": "Construction Complete",
+        "development_type": "Rehabilitation",
+        "general_housing_program": "MOHCD 100% Affordable (New Development)",
+        "housing_program_program_name": "Rental Assistance Demonstration Program",
+        "latitude": "37.7896375",
+        "longitude": "-122.4330987"
+      },
+      {
+        "mohcd_development_id": "2013-038",
+        "development_name": "Rachel Townsend Apartments",
+        "marketing_address": "1750 McAllister St",
+        "marketing_zip_code": "94115",
+        "project_status": "Construction Complete",
+        "development_type": "Rehabilitation",
+        "general_housing_program": "MOHCD 100% Affordable (New Development)",
+        "housing_program_program_name": "Rental Assistance Demonstration Program",
+        "latitude": "37.77779543",
+        "longitude": "-122.4406623"
+      },
+      {
+        "mohcd_development_id": "2013-039",
+        "development_name": "Clementina Towers",
+        "marketing_address": "320 & 330 Clementina St",
+        "marketing_zip_code": "94103",
+        "project_status": "Construction Complete",
+        "development_type": "Rehabilitation",
+        "general_housing_program": "MOHCD 100% Affordable (New Development)",
+        "housing_program_program_name": "Rental Assistance Demonstration Program",
+        "latitude": "37.78217673",
+        "longitude": "-122.4026803"
+      },
+      {
+        "mohcd_development_id": "2013-040",
+        "development_name": "Westbrook Apartments",
+        "marketing_address": "40 Harbor Rd",
+        "marketing_zip_code": "94124",
+        "project_status": "Construction Complete",
+        "development_type": "Rehabilitation",
+        "general_housing_program": "MOHCD 100% Affordable (New Development)",
+        "housing_program_program_name": "Rental Assistance Demonstration Program",
+        "latitude": "37.73109299",
+        "longitude": "-122.375278"
+      },
+      {
+        "mohcd_development_id": "2013-041",
+        "development_name": "Westside Courts",
+        "marketing_address": "2501 Sutter St",
+        "marketing_zip_code": "94115",
+        "project_status": "Construction Complete",
+        "development_type": "Rehabilitation",
+        "general_housing_program": "MOHCD 100% Affordable (New Development)",
+        "housing_program_program_name": "Rental Assistance Demonstration Program",
+        "latitude": "37.784879",
+        "longitude": "-122.4415901"
+      },
+      {
+        "mohcd_development_id": "2013-042",
+        "development_name": "350 Ellis",
+        "marketing_address": "350 Ellis St",
+        "marketing_zip_code": "94102",
+        "project_status": "Construction Complete",
+        "development_type": "Rehabilitation",
+        "general_housing_program": "MOHCD 100% Affordable (New Development)",
+        "housing_program_program_name": "Rental Assistance Demonstration Program",
+        "latitude": "37.78523841",
+        "longitude": "-122.4120858"
+      },
+      {
+        "mohcd_development_id": "2013-043",
+        "development_name": "Alemany",
+        "marketing_address": "951 Ellsworth St",
+        "marketing_zip_code": "94110",
+        "project_status": "Construction Complete",
+        "development_type": "Rehabilitation",
+        "general_housing_program": "MOHCD 100% Affordable (New Development)",
+        "housing_program_program_name": "Rental Assistance Demonstration Program",
+        "latitude": "37.73277762",
+        "longitude": "-122.4165507"
+      },
+      {
+        "mohcd_development_id": "2013-044",
+        "development_name": "Mission Dolores",
+        "marketing_address": "1855 15th St",
+        "marketing_zip_code": "94103",
+        "project_status": "Construction Complete",
+        "development_type": "Rehabilitation",
+        "general_housing_program": "MOHCD 100% Affordable (New Development)",
+        "housing_program_program_name": "Rental Assistance Demonstration Program",
+        "latitude": "37.76622033",
+        "longitude": "-122.4255542"
+      },
+      {
+        "mohcd_development_id": "2013-045",
+        "development_name": "Ping Yuen North",
+        "marketing_address": "838 Pacific Ave",
+        "marketing_zip_code": "94133",
+        "project_status": "Construction Complete",
+        "development_type": "Rehabilitation",
+        "general_housing_program": "MOHCD 100% Affordable (New Development)",
+        "housing_program_program_name": "Rental Assistance Demonstration Program",
+        "latitude": "37.79670734",
+        "longitude": "-122.4091868"
+      },
+      {
+        "mohcd_development_id": "2013-047",
+        "development_name": "3850 18th",
+        "marketing_address": "3850 18th St",
+        "marketing_zip_code": "94114",
+        "project_status": "Construction Complete",
+        "development_type": "Rehabilitation",
+        "general_housing_program": "MOHCD 100% Affordable (New Development)",
+        "housing_program_program_name": "Rental Assistance Demonstration Program",
+        "latitude": "37.76132403",
+        "longitude": "-122.4295712"
+      },
+      {
+        "mohcd_development_id": "2013-048",
+        "development_name": "Ping Yuen",
+        "marketing_address": "655, 711-795 and 895 Pacific Ave",
+        "marketing_zip_code": "94133",
+        "project_status": "Construction Complete",
+        "development_type": "Rehabilitation",
+        "general_housing_program": "MOHCD 100% Affordable (New Development)",
+        "housing_program_program_name": "Rental Assistance Demonstration Program",
+        "latitude": "37.79640391",
+        "longitude": "-122.4096422"
+      },
+      {
+        "mohcd_development_id": "2015-033a",
+        "development_name": "290 Malosi (Sunnydale Block 6)",
+        "marketing_address": "290 Malosi St",
+        "marketing_zip_code": "94134",
+        "project_status": "Construction Complete",
+        "development_type": "New Construction",
+        "general_housing_program": "MOHCD 100% Affordable (New Development)",
+        "housing_program_program_name": "HOPE SF",
+        "multiphase_or_multisite_project_name": "Sunnydale HOPE SF",
+        "latitude": "37.7105757",
+        "longitude": "-122.4179371"
+      },
+      {
+        "mohcd_development_id": "2015-033b",
+        "development_name": "1491 Sunnydale Avenue (Casala aka Parcel Q)",
+        "marketing_address": "1491 Sunnydale Ave",
+        "marketing_zip_code": "94134",
+        "project_status": "Construction Complete",
+        "development_type": "New Construction",
+        "general_housing_program": "MOHCD 100% Affordable (New Development)",
+        "housing_program_program_name": "HOPE SF",
+        "multiphase_or_multisite_project_name": "Sunnydale HOPE SF",
+        "latitude": "37.71163875",
+        "longitude": "-122.4158537"
+      },
+      {
+        "mohcd_development_id": "2015-033c",
+        "development_name": "Sunnydale Block 3A",
+        "marketing_address": "1529 Sunnydale Ave",
+        "marketing_zip_code": "94134",
+        "project_status": "Construction Complete",
+        "development_type": "New Construction",
+        "general_housing_program": "MOHCD 100% Affordable (New Development)",
+        "housing_program_program_name": "HOPE SF",
+        "multiphase_or_multisite_project_name": "Sunnydale HOPE SF",
+        "latitude": "37.7116761",
+        "longitude": "-122.41667"
+      },
+      {
+        "mohcd_development_id": "2015-033f",
+        "development_name": "Sunnydale Block 3B",
+        "marketing_address": "1533 Sunnydale Ave",
+        "marketing_zip_code": "94134",
+        "project_status": "Construction Complete",
+        "development_type": "New Construction",
+        "general_housing_program": "MOHCD 100% Affordable (New Development)",
+        "housing_program_program_name": "HOPE SF",
+        "multiphase_or_multisite_project_name": "Sunnydale HOPE SF",
+        "latitude": "37.71191795",
+        "longitude": "-122.4163238"
+      },
+      {
+        "mohcd_development_id": "2017-041",
+        "development_name": "Hayes Valley South HOPE VI",
+        "marketing_address": "401 Rose St",
+        "marketing_zip_code": "94102",
+        "project_status": "Construction Complete",
+        "development_type": "Rehabilitation",
+        "general_housing_program": "MOHCD 100% Affordable (New Development)",
+        "housing_program_program_name": "Multifamily Rental Program",
+        "latitude": "37.77291705",
+        "longitude": "-122.427312"
+      },
+      {
+        "mohcd_development_id": "2017-042",
+        "development_name": "Bernal Dwellings HOPE VI",
+        "marketing_address": "3138 Kamille Ct",
+        "marketing_zip_code": "94110",
+        "project_status": "Construction Complete",
+        "development_type": "Rehabilitation",
+        "general_housing_program": "MOHCD 100% Affordable (New Development)",
+        "housing_program_program_name": "Multifamily Rental Program",
+        "latitude": "37.74898221",
+        "longitude": "-122.4122064"
+      },
+      {
+        "mohcd_development_id": "2017-051",
+        "development_name": "Hayes Valley North  HOPE VI",
+        "marketing_address": "650 Linden St",
+        "marketing_zip_code": "94102",
+        "project_status": "Construction Complete",
+        "development_type": "Rehabilitation",
+        "general_housing_program": "MOHCD 100% Affordable (New Development)",
+        "housing_program_program_name": "Multifamily Rental Program",
+        "latitude": "37.77571559",
+        "longitude": "-122.4286878"
+      },
+      {
+        "mohcd_development_id": "2018-052a",
+        "development_name": "SFHA Scattered Sites - Noriega",
+        "marketing_address": "4101 Noriega St",
+        "marketing_zip_code": "94122",
+        "project_status": "Construction Complete",
+        "development_type": "Rehabilitation",
+        "general_housing_program": "MOHCD 100% Affordable (New Development)",
+        "housing_program_program_name": "Multifamily Securities Program",
+        "multiphase_or_multisite_project_name": "SFHA Scattered Sites",
+        "latitude": "37.75270683",
+        "longitude": "-122.507629"
+      },
+      {
+        "mohcd_development_id": "2018-052b",
+        "development_name": "SFHA Scattered Sites - Great Hwy",
+        "marketing_address": "2206 Great Highway",
+        "marketing_zip_code": "94116",
+        "project_status": "Construction Complete",
+        "development_type": "Rehabilitation",
+        "general_housing_program": "MOHCD 100% Affordable (New Development)",
+        "housing_program_program_name": "Multifamily Securities Program",
+        "multiphase_or_multisite_project_name": "SFHA Scattered Sites",
+        "latitude": "37.74417268",
+        "longitude": "-122.5070475"
+      },
+      {
+        "mohcd_development_id": "2018-052c",
+        "development_name": "SFHA Scattered Sites - Randolph",
+        "marketing_address": "200 Randolph St",
+        "marketing_zip_code": "94132",
+        "project_status": "Construction Complete",
+        "development_type": "Rehabilitation",
+        "general_housing_program": "MOHCD 100% Affordable (New Development)",
+        "housing_program_program_name": "Multifamily Securities Program",
+        "multiphase_or_multisite_project_name": "SFHA Scattered Sites",
+        "latitude": "37.7145386",
+        "longitude": "-122.4646158"
+      },
+      {
+        "mohcd_development_id": "2018-052d",
+        "development_name": "SFHA Scattered Sites - Noe",
+        "marketing_address": "363 Noe St",
+        "marketing_zip_code": "94114",
+        "project_status": "Construction Complete",
+        "development_type": "Rehabilitation",
+        "general_housing_program": "MOHCD 100% Affordable (New Development)",
+        "housing_program_program_name": "Multifamily Securities Program",
+        "multiphase_or_multisite_project_name": "SFHA Scattered Sites",
+        "latitude": "37.7632888",
+        "longitude": "-122.4327492"
+      },
+      {
+        "mohcd_development_id": "2018-052e",
+        "development_name": "SFHA Scattered Sites - Eddy",
+        "marketing_address": "1357-1371 Eddy St",
+        "marketing_zip_code": "94115",
+        "project_status": "Construction Complete",
+        "development_type": "Rehabilitation",
+        "general_housing_program": "MOHCD 100% Affordable (New Development)",
+        "housing_program_program_name": "Multifamily Securities Program",
+        "multiphase_or_multisite_project_name": "SFHA Scattered Sites",
+        "latitude": "37.78151141",
+        "longitude": "-122.4298105"
+      },
+      {
+        "mohcd_development_id": "1999-015",
+        "development_name": "Cameo House",
+        "marketing_address": "424 Guerrero St",
+        "marketing_zip_code": "94110",
+        "project_status": "Construction Complete",
+        "development_type": "Rehabilitation",
+        "general_housing_program": "MOHCD 100% Affordable (New Development)",
+        "housing_program_program_name": "Transitional",
+        "latitude": "37.76431278",
+        "longitude": "-122.4243918"
+      }
+    ],
+    "mapping": [
+      {
+        "id": "mohcd-2003-030",
+        "group": "HOPE VI",
+        "sourceIds": [
+          "2003-030"
+        ]
+      },
+      {
+        "id": "mohcd-2006-021a",
+        "group": "HOPE SF",
+        "sourceIds": [
+          "2006-021a"
+        ]
+      },
+      {
+        "id": "mohcd-2006-021b",
+        "group": "HOPE SF",
+        "sourceIds": [
+          "2006-021b"
+        ]
+      },
+      {
+        "id": "mohcd-2006-021c",
+        "group": "HOPE SF",
+        "sourceIds": [
+          "2006-021c"
+        ]
+      },
+      {
+        "id": "mohcd-2006-021d",
+        "group": "HOPE SF",
+        "sourceIds": [
+          "2006-021d"
+        ]
+      },
+      {
+        "id": "mohcd-2012-001a",
+        "group": "HOPE SF",
+        "sourceIds": [
+          "2012-001a"
+        ]
+      },
+      {
+        "id": "mohcd-2012-001b",
+        "group": "HOPE SF",
+        "sourceIds": [
+          "2012-001b"
+        ]
+      },
+      {
+        "id": "mohcd-2012-001c",
+        "group": "HOPE SF",
+        "sourceIds": [
+          "2012-001c",
+          "2012-001d"
+        ]
+      },
+      {
+        "id": "mohcd-2012-001e",
+        "group": "HOPE SF",
+        "sourceIds": [
+          "2012-001e"
+        ]
+      },
+      {
+        "id": "mohcd-2012-019a",
+        "group": "HOPE SF",
+        "sourceIds": [
+          "2012-019a"
+        ]
+      },
+      {
+        "id": "mohcd-2012-019b",
+        "group": "HOPE SF",
+        "sourceIds": [
+          "2012-019b"
+        ]
+      },
+      {
+        "id": "mohcd-2013-019",
+        "group": "RAD",
+        "sourceIds": [
+          "2013-019"
+        ]
+      },
+      {
+        "id": "mohcd-2013-020",
+        "group": "RAD",
+        "sourceIds": [
+          "2013-020"
+        ]
+      },
+      {
+        "id": "mohcd-2013-022",
+        "group": "RAD",
+        "sourceIds": [
+          "2013-022"
+        ]
+      },
+      {
+        "id": "mohcd-2013-023",
+        "group": "RAD",
+        "sourceIds": [
+          "2013-023"
+        ]
+      },
+      {
+        "id": "mohcd-2013-024",
+        "group": "RAD",
+        "sourceIds": [
+          "2013-024"
+        ]
+      },
+      {
+        "id": "mohcd-2013-025",
+        "group": "RAD",
+        "sourceIds": [
+          "2013-025"
+        ]
+      },
+      {
+        "id": "mohcd-2013-026",
+        "group": "RAD",
+        "sourceIds": [
+          "2013-026"
+        ]
+      },
+      {
+        "id": "mohcd-2013-027",
+        "group": "RAD",
+        "sourceIds": [
+          "2013-027"
+        ]
+      },
+      {
+        "id": "mohcd-2013-028",
+        "group": "RAD",
+        "sourceIds": [
+          "2013-028"
+        ]
+      },
+      {
+        "id": "mohcd-2013-029",
+        "group": "RAD",
+        "sourceIds": [
+          "2013-029"
+        ]
+      },
+      {
+        "id": "mohcd-2013-030",
+        "group": "RAD",
+        "sourceIds": [
+          "2013-030"
+        ]
+      },
+      {
+        "id": "mohcd-2013-031",
+        "group": "RAD",
+        "sourceIds": [
+          "2013-031"
+        ]
+      },
+      {
+        "id": "mohcd-2013-032",
+        "group": "RAD",
+        "sourceIds": [
+          "2013-032"
+        ]
+      },
+      {
+        "id": "mohcd-2013-033",
+        "group": "RAD",
+        "sourceIds": [
+          "2013-033"
+        ]
+      },
+      {
+        "id": "mohcd-2013-034",
+        "group": "RAD",
+        "sourceIds": [
+          "2013-034"
+        ]
+      },
+      {
+        "id": "mohcd-2013-035",
+        "group": "RAD",
+        "sourceIds": [
+          "2013-035"
+        ]
+      },
+      {
+        "id": "mohcd-2013-036",
+        "group": "RAD",
+        "sourceIds": [
+          "2013-036"
+        ]
+      },
+      {
+        "id": "mohcd-2013-037",
+        "group": "RAD",
+        "sourceIds": [
+          "2013-037"
+        ]
+      },
+      {
+        "id": "mohcd-2013-038",
+        "group": "RAD",
+        "sourceIds": [
+          "2013-038"
+        ]
+      },
+      {
+        "id": "mohcd-2013-039",
+        "group": "RAD",
+        "sourceIds": [
+          "2013-039"
+        ]
+      },
+      {
+        "id": "mohcd-2013-040",
+        "group": "RAD",
+        "sourceIds": [
+          "2013-040"
+        ]
+      },
+      {
+        "id": "mohcd-2013-041",
+        "group": "RAD",
+        "sourceIds": [
+          "2013-041"
+        ]
+      },
+      {
+        "id": "mohcd-2013-042",
+        "group": "RAD",
+        "sourceIds": [
+          "2013-042"
+        ]
+      },
+      {
+        "id": "mohcd-2013-043",
+        "group": "RAD",
+        "sourceIds": [
+          "2013-043"
+        ]
+      },
+      {
+        "id": "mohcd-2013-044",
+        "group": "RAD",
+        "sourceIds": [
+          "2013-044"
+        ]
+      },
+      {
+        "id": "mohcd-2013-045",
+        "group": "RAD",
+        "sourceIds": [
+          "2013-045"
+        ]
+      },
+      {
+        "id": "mohcd-2013-047",
+        "group": "RAD",
+        "sourceIds": [
+          "2013-047"
+        ]
+      },
+      {
+        "id": "mohcd-2013-048",
+        "group": "RAD",
+        "sourceIds": [
+          "2013-048"
+        ]
+      },
+      {
+        "id": "mohcd-2015-033a",
+        "group": "HOPE SF",
+        "sourceIds": [
+          "2015-033a"
+        ]
+      },
+      {
+        "id": "mohcd-2015-033b",
+        "group": "HOPE SF",
+        "sourceIds": [
+          "2015-033b"
+        ]
+      },
+      {
+        "id": "mohcd-2015-033c",
+        "group": "HOPE SF",
+        "sourceIds": [
+          "2015-033c"
+        ]
+      },
+      {
+        "id": "mohcd-2015-033f",
+        "group": "HOPE SF",
+        "sourceIds": [
+          "2015-033f"
+        ]
+      },
+      {
+        "id": "mohcd-2017-041",
+        "group": "HOPE VI",
+        "sourceIds": [
+          "2017-041"
+        ]
+      },
+      {
+        "id": "mohcd-2017-042",
+        "group": "HOPE VI",
+        "sourceIds": [
+          "2017-042"
+        ]
+      },
+      {
+        "id": "mohcd-2017-051",
+        "group": "HOPE VI",
+        "sourceIds": [
+          "2017-051"
+        ]
+      },
+      {
+        "id": "mohcd-2018-052a",
+        "group": "Scattered sites",
+        "sourceIds": [
+          "2018-052a"
+        ]
+      },
+      {
+        "id": "mohcd-2018-052b",
+        "group": "Scattered sites",
+        "sourceIds": [
+          "2018-052b"
+        ]
+      },
+      {
+        "id": "mohcd-2018-052c",
+        "group": "Scattered sites",
+        "sourceIds": [
+          "2018-052c"
+        ]
+      },
+      {
+        "id": "mohcd-2018-052d",
+        "group": "Scattered sites",
+        "sourceIds": [
+          "2018-052d"
+        ]
+      },
+      {
+        "id": "mohcd-2018-052e",
+        "group": "Scattered sites",
+        "sourceIds": [
+          "2018-052e"
+        ]
+      }
+    ]
+  },
+  "reentrySource": {
+    "catalog": "https://media.api.sf.gov/documents/Complete_SFAPD_Catalog_of_Reentry_Services_For_Website_-_2.25.2026.pdf",
+    "catalogProgramsReviewed": 13,
+    "catalogProgramsMapped": 6,
+    "additionalProgram": "Cameo House, supported independently by CJCJ and MOHCD",
+    "unmapped": [
+      {
+        "name": "FOF TAYA",
+        "reason": "Current catalog names the program but does not publish a verified residential address."
+      },
+      {
+        "name": "Leroy Looper Graduate Program",
+        "reason": "Older sources name Sharon Hotel / Sixth Street; the current operator page says Eddy and Larkin. No pin until the address conflict is resolved. Do not substitute Looper Residence at 875 Post."
+      },
+      {
+        "name": "Phatt Chance",
+        "reason": "Operator contact page provides a mailing address, not an explicitly identified residence."
+      },
+      {
+        "name": "Our House",
+        "reason": "Operator names Lower Haight but its footer is the organizational office; no verified public residence address."
+      },
+      {
+        "name": "Her House",
+        "reason": "No unambiguous public residential address verified in reviewed operator/current City sources."
+      },
+      {
+        "name": "Her House Expansion",
+        "reason": "Program verified, residence address not verified."
+      },
+      {
+        "name": "Senior Ex-Offender Program",
+        "reason": "Current catalog describes scattered residential sites without a public site-by-site directory; operator/service offices excluded."
+      }
+    ]
+  },
+  "otherCoverageGaps": [
+    "Remaining original Sunnydale/Potrero buildings and individual buildings within multi-block sites are not inferred from representative marketing points.",
+    "No claim to all privately run halfway houses, CDCR placements, sober-living homes or residential reentry programs.",
+    "Nonresidential offices, planned projects and confidential residences excluded."
+  ],
+  "geocodes": [
+    {
+      "street": "1300 Buchanan St",
+      "url": "https://geocoding.geo.census.gov/geocoder/locations/address?street=1300+Buchanan+St&city=San+Francisco&state=CA&benchmark=Public_AR_Current&format=json",
+      "retrievedAt": "2026-10-08T18:04:35.426Z",
+      "result": {
+        "input": {
+          "address": {
+            "city": "San Francisco",
+            "street": "1300 Buchanan St",
+            "state": "CA"
+          },
+          "benchmark": {
+            "isDefault": true,
+            "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+            "id": "4",
+            "benchmarkName": "Public_AR_Current"
+          }
+        },
+        "addressMatches": [
+          {
+            "tigerLine": {
+              "side": "R",
+              "tigerLineId": "192283692"
+            },
+            "coordinates": {
+              "x": -122.428980699528,
+              "y": 37.781912533112
+            },
+            "addressComponents": {
+              "zip": "94115",
+              "streetName": "BUCHANAN",
+              "preType": "",
+              "city": "SAN FRANCISCO",
+              "preDirection": "",
+              "suffixDirection": "",
+              "fromAddress": "1300",
+              "state": "CA",
+              "suffixType": "ST",
+              "toAddress": "1398",
+              "suffixQualifier": "",
+              "preQualifier": ""
+            },
+            "matchedAddress": "1300 BUCHANAN ST, SAN FRANCISCO, CA, 94115"
+          }
+        ]
+      }
+    },
+    {
+      "street": "455 Bay St",
+      "url": "https://geocoding.geo.census.gov/geocoder/locations/address?street=455+Bay+St&city=San+Francisco&state=CA&benchmark=Public_AR_Current&format=json",
+      "retrievedAt": "2026-10-08T18:04:35.428Z",
+      "result": {
+        "input": {
+          "address": {
+            "city": "San Francisco",
+            "street": "455 Bay St",
+            "state": "CA"
+          },
+          "benchmark": {
+            "isDefault": true,
+            "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+            "id": "4",
+            "benchmarkName": "Public_AR_Current"
+          }
+        },
+        "addressMatches": [
+          {
+            "tigerLine": {
+              "side": "L",
+              "tigerLineId": "192280351"
+            },
+            "coordinates": {
+              "x": -122.414487589839,
+              "y": 37.805451507496
+            },
+            "addressComponents": {
+              "zip": "94133",
+              "streetName": "BAY",
+              "preType": "",
+              "city": "SAN FRANCISCO",
+              "preDirection": "",
+              "suffixDirection": "",
+              "fromAddress": "401",
+              "state": "CA",
+              "suffixType": "ST",
+              "toAddress": "499",
+              "suffixQualifier": "",
+              "preQualifier": ""
+            },
+            "matchedAddress": "455 BAY ST, SAN FRANCISCO, CA, 94133"
+          }
+        ]
+      }
+    },
+    {
+      "street": "111 Taylor St",
+      "url": "https://geocoding.geo.census.gov/geocoder/locations/address?street=111+Taylor+St&city=San+Francisco&state=CA&benchmark=Public_AR_Current&format=json",
+      "retrievedAt": "2026-10-08T18:04:35.429Z",
+      "result": {
+        "input": {
+          "address": {
+            "city": "San Francisco",
+            "street": "111 Taylor St",
+            "state": "CA"
+          },
+          "benchmark": {
+            "isDefault": true,
+            "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+            "id": "4",
+            "benchmarkName": "Public_AR_Current"
+          }
+        },
+        "addressMatches": [
+          {
+            "tigerLine": {
+              "side": "L",
+              "tigerLineId": "655805923"
+            },
+            "coordinates": {
+              "x": -122.410870815512,
+              "y": 37.783374579493
+            },
+            "addressComponents": {
+              "zip": "94102",
+              "streetName": "TAYLOR",
+              "preType": "",
+              "city": "SAN FRANCISCO",
+              "preDirection": "",
+              "suffixDirection": "",
+              "fromAddress": "101",
+              "state": "CA",
+              "suffixType": "ST",
+              "toAddress": "173",
+              "suffixQualifier": "",
+              "preQualifier": ""
+            },
+            "matchedAddress": "111 TAYLOR ST, SAN FRANCISCO, CA, 94102"
+          }
+        ]
+      }
+    },
+    {
+      "street": "235 Eddy St",
+      "url": "https://geocoding.geo.census.gov/geocoder/locations/address?street=235+Eddy+St&city=San+Francisco&state=CA&benchmark=Public_AR_Current&format=json",
+      "retrievedAt": "2026-10-08T18:24:52.754Z",
+      "result": {
+        "input": {
+          "address": {
+            "city": "San Francisco",
+            "street": "235 Eddy St",
+            "state": "CA"
+          },
+          "benchmark": {
+            "isDefault": true,
+            "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+            "id": "4",
+            "benchmarkName": "Public_AR_Current"
+          }
+        },
+        "addressMatches": [
+          {
+            "tigerLine": {
+              "side": "R",
+              "tigerLineId": "192294321"
+            },
+            "coordinates": {
+              "x": -122.411532468733,
+              "y": 37.784009477977
+            },
+            "addressComponents": {
+              "zip": "94102",
+              "streetName": "EDDY",
+              "preType": "",
+              "city": "SAN FRANCISCO",
+              "preDirection": "",
+              "suffixDirection": "",
+              "fromAddress": "299",
+              "state": "CA",
+              "suffixType": "ST",
+              "toAddress": "201",
+              "suffixQualifier": "",
+              "preQualifier": ""
+            },
+            "matchedAddress": "235 EDDY ST, SAN FRANCISCO, CA, 94102"
+          }
+        ]
+      }
+    },
+    {
+      "street": "509 Minna St",
+      "url": "https://geocoding.geo.census.gov/geocoder/locations/address?street=509+Minna+St&city=San+Francisco&state=CA&benchmark=Public_AR_Current&format=json",
+      "retrievedAt": "2026-10-08T18:24:52.757Z",
+      "result": {
+        "input": {
+          "address": {
+            "city": "San Francisco",
+            "street": "509 Minna St",
+            "state": "CA"
+          },
+          "benchmark": {
+            "isDefault": true,
+            "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+            "id": "4",
+            "benchmarkName": "Public_AR_Current"
+          }
+        },
+        "addressMatches": [
+          {
+            "tigerLine": {
+              "side": "L",
+              "tigerLineId": "192287361"
+            },
+            "coordinates": {
+              "x": -122.408331376842,
+              "y": 37.780321246619
+            },
+            "addressComponents": {
+              "zip": "94103",
+              "streetName": "MINNA",
+              "preType": "",
+              "city": "SAN FRANCISCO",
+              "preDirection": "",
+              "suffixDirection": "",
+              "fromAddress": "501",
+              "state": "CA",
+              "suffixType": "ST",
+              "toAddress": "549",
+              "suffixQualifier": "",
+              "preQualifier": ""
+            },
+            "matchedAddress": "509 MINNA ST, SAN FRANCISCO, CA, 94103"
+          }
+        ]
+      }
+    },
+    {
+      "street": "630 Geary St",
+      "url": "https://geocoding.geo.census.gov/geocoder/locations/address?street=630+Geary+St&city=San+Francisco&state=CA&benchmark=Public_AR_Current&format=json",
+      "retrievedAt": "2026-10-08T18:24:52.756Z",
+      "result": {
+        "input": {
+          "address": {
+            "city": "San Francisco",
+            "street": "630 Geary St",
+            "state": "CA"
+          },
+          "benchmark": {
+            "isDefault": true,
+            "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+            "id": "4",
+            "benchmarkName": "Public_AR_Current"
+          }
+        },
+        "addressMatches": [
+          {
+            "tigerLine": {
+              "side": "R",
+              "tigerLineId": "638036525"
+            },
+            "coordinates": {
+              "x": -122.413773135946,
+              "y": 37.78670911423
+            },
+            "addressComponents": {
+              "zip": "94102",
+              "streetName": "GEARY",
+              "preType": "",
+              "city": "SAN FRANCISCO",
+              "preDirection": "",
+              "suffixDirection": "",
+              "fromAddress": "630",
+              "state": "CA",
+              "suffixType": "ST",
+              "toAddress": "636",
+              "suffixQualifier": "",
+              "preQualifier": ""
+            },
+            "matchedAddress": "630 GEARY ST, SAN FRANCISCO, CA, 94102"
+          }
+        ]
+      }
+    },
+    {
+      "street": "3550 Cesar Chavez St",
+      "url": "https://geocoding.geo.census.gov/geocoder/locations/address?street=3550+Cesar+Chavez+St&city=San+Francisco&state=CA&benchmark=Public_AR_Current&format=json",
+      "retrievedAt": "2026-10-08T18:24:52.905Z",
+      "result": {
+        "input": {
+          "address": {
+            "city": "San Francisco",
+            "street": "3550 Cesar Chavez St",
+            "state": "CA"
+          },
+          "benchmark": {
+            "isDefault": true,
+            "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+            "id": "4",
+            "benchmarkName": "Public_AR_Current"
+          }
+        },
+        "addressMatches": [
+          {
+            "tigerLine": {
+              "side": "R",
+              "tigerLineId": "658047803"
+            },
+            "coordinates": {
+              "x": -122.420874878136,
+              "y": 37.748198600614
+            },
+            "addressComponents": {
+              "zip": "94110",
+              "streetName": "CESAR CHAVEZ",
+              "preType": "",
+              "city": "SAN FRANCISCO",
+              "preDirection": "",
+              "suffixDirection": "",
+              "fromAddress": "3500",
+              "state": "CA",
+              "suffixType": "ST",
+              "toAddress": "3698",
+              "suffixQualifier": "",
+              "preQualifier": ""
+            },
+            "matchedAddress": "3550 CESAR CHAVEZ ST, SAN FRANCISCO, CA, 94110"
+          }
+        ]
+      }
+    },
+    {
+      "street": "917 Folsom St",
+      "url": "https://geocoding.geo.census.gov/geocoder/locations/address?street=917+Folsom+St&city=San+Francisco&state=CA&benchmark=Public_AR_Current&format=json",
+      "retrievedAt": "2026-10-08T18:24:53.031Z",
+      "result": {
+        "input": {
+          "address": {
+            "city": "San Francisco",
+            "street": "917 Folsom St",
+            "state": "CA"
+          },
+          "benchmark": {
+            "isDefault": true,
+            "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+            "id": "4",
+            "benchmarkName": "Public_AR_Current"
+          }
+        },
+        "addressMatches": [
+          {
+            "tigerLine": {
+              "side": "L",
+              "tigerLineId": "192287748"
+            },
+            "coordinates": {
+              "x": -122.403729341868,
+              "y": 37.779913425525
+            },
+            "addressComponents": {
+              "zip": "94107",
+              "streetName": "FOLSOM",
+              "preType": "",
+              "city": "SAN FRANCISCO",
+              "preDirection": "",
+              "suffixDirection": "",
+              "fromAddress": "901",
+              "state": "CA",
+              "suffixType": "ST",
+              "toAddress": "945",
+              "suffixQualifier": "",
+              "preQualifier": ""
+            },
+            "matchedAddress": "917 FOLSOM ST, SAN FRANCISCO, CA, 94107"
+          }
+        ]
+      }
+    },
+    {
+      "street": "93 6th St",
+      "url": "https://geocoding.geo.census.gov/geocoder/locations/address?street=93+6th+St&city=San+Francisco&state=CA&benchmark=Public_AR_Current&format=json",
+      "retrievedAt": "2026-10-08T18:24:52.764Z",
+      "result": {
+        "input": {
+          "address": {
+            "city": "San Francisco",
+            "street": "93 6th St",
+            "state": "CA"
+          },
+          "benchmark": {
+            "isDefault": true,
+            "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+            "id": "4",
+            "benchmarkName": "Public_AR_Current"
+          }
+        },
+        "addressMatches": [
+          {
+            "tigerLine": {
+              "side": "L",
+              "tigerLineId": "192287352"
+            },
+            "coordinates": {
+              "x": -122.408770578376,
+              "y": 37.781101403735
+            },
+            "addressComponents": {
+              "zip": "94103",
+              "streetName": "6TH",
+              "preType": "",
+              "city": "SAN FRANCISCO",
+              "preDirection": "",
+              "suffixDirection": "",
+              "fromAddress": "57",
+              "state": "CA",
+              "suffixType": "ST",
+              "toAddress": "99",
+              "suffixQualifier": "",
+              "preQualifier": ""
+            },
+            "matchedAddress": "93 6TH ST, SAN FRANCISCO, CA, 94103"
+          }
+        ]
+      }
+    }
+  ],
+  "communityLeadReview": {
+    "reviewedOn": "2026-10-08",
+    "addedListings": 0,
+    "policy": "Community and Reddit posts may identify leads. A mapped residence needs an unambiguous, publicly advertised site address and current program corroboration. Mailing/contact addresses, private or confidential homes, and old program associations are not enough.",
+    "redditOutcome": "Program-name searches on Reddit did not yield an address that could be corroborated. No Reddit claims or inferred residence coordinates enter the directory.",
+    "leads": [
+      {
+        "program": "Phatt Chance",
+        "sources": [
+          "https://sf-goso.org/housings/transitional-housing/phatt-chance-community-services-housing/",
+          "https://phattchance.org/contact-us/"
+        ],
+        "finding": "Community directory search listing repeats 2443 Fillmore #216. Operator explicitly calls it a mailing address. The directory page itself returned HTTP 502 on direct retrieval.",
+        "decision": "Not mapped; mailing address does not verify a residence."
+      },
+      {
+        "program": "Her House",
+        "sources": [
+          "https://www.sisterscircle.net/partners.html",
+          "https://westside-health.org/her-house-fillmore-district",
+          "https://www.westside-health.org/contact-us"
+        ],
+        "finding": "Community partner lists 1153 Oak in its Her House Contact section. Westside lists the same address for organization contact and case-management services; its Her House page does not identify a separate residence. Co-location is unverified.",
+        "decision": "Not mapped; partner lead retained pending explicit residential-site confirmation."
+      },
+      {
+        "program": "Her House Expansion",
+        "sources": [
+          "https://www.positivedirectionsequalschange.org/programs-dfg"
+        ],
+        "finding": "Partner names program but does not provide an unambiguous public residence address.",
+        "decision": "Not mapped."
+      },
+      {
+        "program": "Our House",
+        "sources": [
+          "https://www.positivedirectionsequalschange.org/programs-dfg",
+          "https://www.westside-health.org/our-house-fillmore-district",
+          "https://www.westside-health.org/contact-us"
+        ],
+        "finding": "Program described in Lower Haight. Organizational contact address is not residential-site confirmation.",
+        "decision": "Not mapped."
+      },
+      {
+        "program": "Senior Ex-Offender Program",
+        "sources": [
+          "https://sf-goso.org/support-services/senior-ex-offender-program-supportive-services/",
+          "https://www.bhpmss.org/senior-ex-offender-program"
+        ],
+        "finding": "Community listing gives a service address; operator describes two transitional homes but does not identify their addresses. Operator page also gives program contacts and a reentry hub. Direct community-page retrieval returned HTTP 502.",
+        "decision": "Not mapped; contact/hub addresses are not substituted for residences."
+      },
+      {
+        "program": "FOF TAYA / earlier Norma Hotel program",
+        "sources": [
+          "https://missionlocal.org/2019/11/twenty-three-beds-for-justice-involved-youth-slated-for-norma-hotel-at-23rd-and-mission/",
+          "https://media.api.sf.gov/documents/SFAPD_Catalog_of_Reentry_Services_6.23.2022.pdf",
+          "https://media.api.sf.gov/documents/Complete_SFAPD_Catalog_of_Reentry_Services_For_Website_-_2.25.2026.pdf"
+        ],
+        "finding": "2019 local reporting and 2022 City catalog associate the earlier TAYA program with Norma Hotel. These historical sources do not confirm the current FOF TAYA residence.",
+        "decision": "Not mapped; current program-to-address link unresolved."
+      },
+      {
+        "program": "Leroy Looper Graduate Program",
+        "sources": [
+          "https://www.thclinic.org/en/2023/02/10/launch-of-leroy-looper-graduate-program/",
+          "https://www.thclinic.org/en/program/transitional-housing/"
+        ],
+        "finding": "Historical launch names Sixth and Howard; current operator page says Eddy and Larkin.",
+        "decision": "Not mapped; conflicting locations remain unresolved."
+      }
+    ]
+  }
+}

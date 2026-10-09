@@ -1,0 +1,107 @@
+{
+  "checkedAt": "2026-10-08T17:31:31.008Z",
+  "datasetId": "wg3w-h783",
+  "asOf": "2026-10-07",
+  "sourceUpdatedAt": "2026-10-08T17:01:00.000Z",
+  "query": "incident_date >= '2025-10-07T00:00:00' AND incident_date < '2026-10-08T00:00:00' AND incident_category in ('Assault','Robbery','Homicide','Rape','Sex Offense') AND report_type_description in ('Initial','Coplogic Initial','Vehicle Initial')",
+  "quality": {
+    "inputRows": 7950,
+    "rejectedRows": 0,
+    "distinctEntities": 7292,
+    "conflictingEntities": 0,
+    "missingLocationEntities": 23,
+    "mappableEntities": 7269,
+    "taxonomyMismatches": 0
+  },
+  "byWindow": [
+    {
+      "months": 3,
+      "from": "2026-07-07",
+      "through": "2026-10-07",
+      "uniqueReports": 1882,
+      "categories": [
+        {
+          "category": "Assault",
+          "mappedReports": 1617
+        },
+        {
+          "category": "Robbery",
+          "mappedReports": 328
+        },
+        {
+          "category": "Homicide",
+          "mappedReports": 1
+        },
+        {
+          "category": "Rape",
+          "mappedReports": 1
+        },
+        {
+          "category": "Sex Offense",
+          "mappedReports": 14
+        }
+      ]
+    },
+    {
+      "months": 6,
+      "from": "2026-04-07",
+      "through": "2026-10-07",
+      "uniqueReports": 3719,
+      "categories": [
+        {
+          "category": "Assault",
+          "mappedReports": 3177
+        },
+        {
+          "category": "Robbery",
+          "mappedReports": 660
+        },
+        {
+          "category": "Homicide",
+          "mappedReports": 3
+        },
+        {
+          "category": "Rape",
+          "mappedReports": 6
+        },
+        {
+          "category": "Sex Offense",
+          "mappedReports": 34
+        }
+      ]
+    },
+    {
+      "months": 12,
+      "from": "2025-10-07",
+      "through": "2026-10-07",
+      "uniqueReports": 7269,
+      "categories": [
+        {
+          "category": "Assault",
+          "mappedReports": 6161
+        },
+        {
+          "category": "Robbery",
+          "mappedReports": 1304
+        },
+        {
+          "category": "Homicide",
+          "mappedReports": 12
+        },
+        {
+          "category": "Rape",
+          "mappedReports": 13
+        },
+        {
+          "category": "Sex Offense",
+          "mappedReports": 71
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Initial published reports only; multiple categories can share one report.",
+    "Public confidential and juvenile records are withheld. Homicide is known to be undercounted.",
+    "This is not an official UCR violent-crime total or a complete crime inventory."
+  ]
+}

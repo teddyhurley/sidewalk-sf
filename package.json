@@ -1,0 +1,21 @@
+{
+  "name": "sidewalk-sf",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "An evidence-aware walking-route comparison, with an offline fictional SF demo.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server.mjs",
+    "dev": "node --env-file-if-exists=.env --watch server.mjs",
+    "test": "node --test test/*.test.mjs",
+    "check": "node scripts/check.mjs",
+    "demo:offline": "node scripts/build-offline.mjs",
+    "data:blocks": "node --env-file-if-exists=.env scripts/ingest-blocks.mjs",
+    "data:refresh": "node --env-file-if-exists=.env scripts/ingest-evidence.mjs",
+    "data:validate": "node --env-file-if-exists=.env scripts/validate-evidence.mjs"
+  },
+  "license": "MIT"
+}
