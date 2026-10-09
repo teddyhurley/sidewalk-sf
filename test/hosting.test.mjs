@@ -13,6 +13,8 @@ test('preview authentication fails closed and hosting rejects absent or weak pas
  assert.throws(()=>hostingOptions({RENDER:'true'}));assert.throws(()=>hostingOptions({PREVIEW_AUTH_REQUIRED:'1',PREVIEW_PASSWORD:'short'}));
  assert.throws(()=>hostingOptions({TRUST_PROXY_HOPS:'-1'}));assert.throws(()=>hostingOptions({DAILY_PROVIDER_REQUEST_BUDGET:'NaN'}));
  assert.equal(hostingOptions({RENDER:'true',PREVIEW_AUTH_REQUIRED:'1',PREVIEW_PASSWORD:password}).auth.required,true);
+ assert.throws(()=>hostingOptions({RENDER:'true',PREVIEW_AUTH_REQUIRED:'1',PREVIEW_PASSWORD:password,TRUST_PROXY_HOPS:'1'}));
+ assert.equal(hostingOptions({RENDER:'true',PREVIEW_AUTH_REQUIRED:'1',PREVIEW_PASSWORD:password,TRUST_PROXY_HOPS:'0'}).trustedProxyHops,0);
 });
 test('untrusted forwarded IPs are ignored; configured hops use the right-hand chain',()=>{
  const req={socket:{remoteAddress:'127.0.0.1'},headers:{'x-forwarded-for':'1.2.3.4, 198.51.100.8, 10.0.0.1'}};

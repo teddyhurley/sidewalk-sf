@@ -35,9 +35,9 @@ services:
         value: sidewalk
       - key: PREVIEW_PASSWORD
         generateValue: true
-      # Conservative default; validate proxy attribution on the deployed service.
+      # Do not infer visitor identity from an unverified hosting proxy chain.
       - key: TRUST_PROXY_HOPS
-        value: "1"
+        value: "0"
       - key: DAILY_PROVIDER_REQUEST_BUDGET
         value: "1000"
       - key: MINUTE_PROVIDER_REQUEST_BUDGET

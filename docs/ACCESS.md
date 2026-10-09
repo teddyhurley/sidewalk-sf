@@ -1,6 +1,6 @@
 # Exactly what is needed
 
-**October 8 update:** [teddyhurley/sidewalk-sf](https://github.com/teddyhurley/sidewalk-sf) contains the complete public source, and GitHub's automated checks pass. Render recognizes the repository and Blueprint but requires a payment method before setup can continue. Paid activation, token transfer and hosted verification remain pending. See [DEPLOYMENT.md](DEPLOYMENT.md).
+**October 8 update:** [teddyhurley/sidewalk-sf](https://github.com/teddyhurley/sidewalk-sf) contains the complete public source, and GitHub's automated checks pass. The owner approved the $7.25/month base cost and transfer of existing API tokens. The protected app is deployed at [sidewalk-sf.onrender.com](https://sidewalk-sf.onrender.com); its first hosted refresh and live route comparison passed. See [DEPLOYMENT.md](DEPLOYMENT.md) for access and remaining validation.
 
 ## To use the fictional demo
 
@@ -29,7 +29,7 @@ Repository creation used the authenticated GitHub browser; subsequent source pub
 
 ## Selected hosting
 
-Render is selected for this PM interview portfolio: a Hobby workspace, one small $7/month web service and a 1 GB persistent disk at $0.25/month, before taxes and usage. No paid service has been activated. The remaining owner action is to add a payment method in Render and approve activation and transfer of the existing Mapbox/Socrata tokens into Render. Deployment steps are in [DEPLOYMENT.md](DEPLOYMENT.md).
+Render is active for the protected preview: a Hobby workspace, one small $7/month web service and a 1 GB persistent disk at $0.25/month, before taxes and usage. The existing Mapbox and Socrata tokens are stored in Render environment settings. Username is `sidewalk`; retrieve the generated `PREVIEW_PASSWORD` from this service's Environment page. Keep it out of links, chat and GitHub. No additional token is needed to try the preview. Verify browser token restrictions, account usage notifications and actual phone behavior before broader sharing. Deployment details are in [DEPLOYMENT.md](DEPLOYMENT.md).
 
 ## Model vs execution environment
 

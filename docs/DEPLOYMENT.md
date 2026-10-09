@@ -2,6 +2,14 @@
 
 The deployment target is `teddyhurley/sidewalk-sf` on GitHub and a password-protected Render web service. The repository is public portfolio source; the running app remains a test preview pending phone, user-comprehension and domain review. No safety conclusion follows from deployment or passing tests.
 
+## Active preview — October 8, 2026
+
+URL: https://sidewalk-sf.onrender.com. Use username `sidewalk` and the generated `PREVIEW_PASSWORD` from [Render → Environment](https://dashboard.render.com/web/srv-db47o9m0tbcc73deimog/env). Open the URL in Safari or Chrome; the Codex in-app browser could not open the HTTP Basic challenge during verification. No password is stored in the repository or URL.
+
+The owner approved activation and token transfer. Render's initial deploy of `24d9e6f0365622da7df35c92997e4f08fcad0116` passed in 34 seconds. The first data refresh passed at 10:32 PM Pacific on October 8, and authenticated status showed both sources usable with an October 8 evidence date. A hosted Taylor Street → Buchanan Street comparison returned three real routes. Both map styles accepted the hosted origin as referrer. These are endpoint checks, not a completed phone/browser usability study.
+
+Blueprint `sidewalk-sf-preview` manages one service and disk. Its daily refresh runs inside the service; GitHub check success gates future code deployments. Actual phone sign-in, external map-app handoff, account billing/usage notifications and independent domain/comprehension review remain outstanding. Do not equate the available URL with a public-launch decision.
+
 ## Resources and cost
 
 `render.yaml` defines one Oregon Node web service (`0.5c-512mb`) and a 1 GB disk mounted at `/var/data/sidewalk`. Render pricing reviewed October 8, 2026: $7/month compute plus $0.25/month disk, before taxes and usage charges. Hobby workspace; no Pro workspace, database, separate worker or custom domain required. Mapbox charges are separate and account-wide. Source: https://render.com/pricing and https://render.com/docs/disks.
@@ -36,7 +44,7 @@ For a code rollback, choose the last verified commit in Render and deploy it. Fo
 
 Preview auth fails closed on Render if missing or disabled; keep `PREVIEW_AUTH_REQUIRED=1`. Removing protection for a public launch requires an explicit reviewed code/configuration change, not just deleting the password.
 
-The server ignores forwarded IPs locally. The Blueprint trusts one rightmost proxy hop; verify attribution on the actual host before widening access. More than one hosting proxy may cause several visitors to share a conservative limit. Leftmost, user-supplied IPs are never trusted blindly. Independent per-process budgets also limit weighted geocoding/routing requests: 120 units per minute and 1,000 per 24 hours, with each route search reserving 13 units. They reset on process restart and exclude map-tile loads, so they are not a guaranteed billing cap. Invalid or failed requests can consume units. These limits are intended for a small protected pilot, not a public high-volume service.
+The server ignores forwarded IPs locally and on Render (`TRUST_PROXY_HOPS=0`). Hosted requests did not establish reliable visitor identity through the proxy chain, so the preview rejects nonzero trust on Render. Socket-peer limits are a coarse shared throttle, not a verified per-person allowance; several visitors can share it and upstream connections can use different peers. Independent per-process budgets limit weighted geocoding/routing requests across all identities: 120 units per minute and 1,000 per 24 hours, with each route search reserving 13 units. They reset on process restart and exclude map-tile loads, so they are not a guaranteed billing cap. Invalid or failed requests can consume units. These limits are intended for a small protected pilot, not a public high-volume service.
 
 Security headers restrict script origins, disallow framing, and mark the preview noindex. Address inputs are sent in POST bodies; HTTP Basic auth must only be used on the host's HTTPS URL. Saved trip inputs remain in the user's browser. Native walking directions, user comprehension, independent domain review, monitoring delivery, billing settings and hosted proxy behavior still require verification.
 

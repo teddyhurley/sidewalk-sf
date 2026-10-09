@@ -1,6 +1,6 @@
 # Hosting decision for the PM portfolio
 
-**October 8 update:** The complete [public GitHub source](https://github.com/teddyhurley/sidewalk-sf) is published and automated checks pass. The owner has authorized Render setup for a protected test deployment. Render requires a payment method before setup can continue; cost approval and token transfer remain pending, and no paid resource has been activated. See [DEPLOYMENT.md](DEPLOYMENT.md) for the current Blueprint, $7.25/month base estimate including durable storage, access protection and refresh design. Broad public-app launch remains subject to the validation gates.
+**October 8 update:** The complete [public GitHub source](https://github.com/teddyhurley/sidewalk-sf) is published and automated checks pass. Following owner approval of recurring cost and token transfer, the [protected Render preview](https://sidewalk-sf.onrender.com) is active. Render confirmed $7/month compute plus $0.25/month disk before tax and additional usage. The first hosted source refresh, password gate and live comparison passed. See [DEPLOYMENT.md](DEPLOYMENT.md) for access and operating details. Broad public-app launch remains subject to the validation gates.
 
 ## Historical decision record — October 7
 

@@ -11,7 +11,7 @@ export function attachLiveContext(comparison,journey,{buffer,incidentMonths}){
   const match=(r,m)=>{const seen=new Set();return e.records.flatMap(record=>{const n=nearestSegment(record.coordinates,r.coordinates);if(n.meters>m||seen.has(record.id))return [];seen.add(record.id);return [{...record,segment:n.index,offset:n.meters}];});};
   comparison.routes=comparison.routes.map(r=>{const matches=usable?match(r,buffer):[];return {...r,matches,counts:usable?{collision:matches.length,incident:null}:null,sensitivity:usable?[25,50,100].map(m=>({meters:m,collision:match(r,m).length,incident:null})):[]};});
   for(const r of comparison.routes)r.shared=r.matches.filter(a=>comparison.routes[0].matches.some(b=>a.id===b.id)).length;
-  comparison.status={usable,label:usable?'Real data · local preview':e.sources.crashes.health.label,reason:'Mapped historical records only. Field conditions, reporting completeness and exposure are unknown.'};
+  comparison.status={usable,label:usable?'Real data · preview':e.sources.crashes.health.label,reason:'Mapped historical records only. Field conditions, reporting completeness and exposure are unknown.'};
   comparison.incidentStatus={usable:false,label:'Reports near street blocks',reason:'Masked police locations provide context near official block shapes. Counts do not locate incidents on a particular block or route.'};
   comparison.collisionWindow=e.collisionWindow;
   comparison.areaReports=e.areaReports.windows[incidentMonths];

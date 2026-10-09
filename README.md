@@ -8,6 +8,8 @@ The configured app opens in **Live routing** by default, with the address form e
 
 ## Deploy a protected preview
 
+The owner-approved test preview is available at [sidewalk-sf.onrender.com](https://sidewalk-sf.onrender.com) with a password. Access instructions and verification limits are in the [deployment guide](docs/DEPLOYMENT.md). It is a small validation pilot; no public safety assurance or broad launch is implied.
+
 The root [Render Blueprint](render.yaml) provisions one web service and a 1 GB evidence disk. It includes password protection, daily staged data refresh with publisher reconciliation, and automatic loading of validated snapshots. See the [deployment guide](docs/DEPLOYMENT.md) for cost, credentials, refresh behavior and remaining hosted checks. Creating the service incurs hosting charges; local use remains available.
 
 ## Run in one command

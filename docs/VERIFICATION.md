@@ -1,6 +1,6 @@
 # Verification record
 
-Validation: October 7–8, 2026 (America/Los_Angeles). Public GitHub source is published; the hosted app is not yet deployed. Earlier sections preserve iteration history; the latest deployment results are at the end.
+Validation: October 7–8, 2026 (America/Los_Angeles). Public GitHub source and a password-protected Render preview are published. Earlier sections preserve iteration history; the latest deployment results are at the end.
 
 ## Initial local verification — October 7, 2026
 
@@ -168,3 +168,13 @@ The new server was checked at port 4174 with security headers enabled. Taylor St
 The complete source was published at https://github.com/teddyhurley/sidewalk-sf in commit `ca77ccd5e23df1c54b3ea5ec171296d6635cd755`. All 80 files matched the local source byte-for-byte, and no extra remote files were present. A scan against the configured credentials and generic secret patterns passed; `.env` and raw evidence snapshots are excluded. Both initial GitHub workflows passed, including [Checks run 37887072096](https://github.com/teddyhurley/sidewalk-sf/actions/runs/37887072096). The redundant older workflow was then removed; the retained pinned workflow covers syntax, all 97 tests and the offline build.
 
 Render's authenticated Blueprint flow recognizes the repository and `render.yaml`, but requires a payment method before configuration can continue. Owner approval for the $7.25/month base service/storage cost and token transfer is pending. No service or billable resource has been activated, and no hosted URL has been verified.
+
+## Active Render preview — October 8, 2026
+
+Following explicit owner approval of recurring cost and token transfer, Render deployed commit `24d9e6f0365622da7df35c92997e4f08fcad0116` to https://sidewalk-sf.onrender.com in 34 seconds. The dashboard confirmed one $7/month service plus one $0.25/month disk. The first refresh passed at 10:32 PM Pacific; authenticated `/api/status` showed `current`, evidence date October 8, and both sources usable. Existing token values stayed out of GitHub and verification output.
+
+External HTTPS checks confirmed public `/healthz` returned only process status; the interface, application script, configuration and evidence-status endpoints all required authentication. Authenticated geocoding exposed multiple Taylor candidates; the exact street match was deliberately selected. The hosted Taylor Street to Buchanan Street comparison returned three provider routes with real evidence and 3/6/12-month report windows. Public map styles `streets-v12` and `dark-v11` both responded successfully when sent the actual hosted origin as referrer. Live provider paths and geocodes were retained only in process memory for the check.
+
+The in-app browser reported `ERR_BLOCKED_BY_CLIENT` while opening the protected URL. Therefore hosted visual rendering, browser password entry and native phone handoffs are not certified by this run. Earlier local UI checks and current hosted endpoint checks are distinct. The remaining owner step is to open the preview in Safari/Chrome using the Render-held password and try the phone workflow.
+
+A bounded hosted throttle check sent 121 invalid geocoding queries with varied forwarded headers within 8.23 seconds: 120 returned validation errors and the next returned HTTP 429. No Mapbox requests were made. Separate smaller checks did not establish reliable visitor identity through the proxy path. The final Blueprint therefore sets `TRUST_PROXY_HOPS=0`, and Render startup rejects a nonzero value. Socket-peer throttles are documented as coarse shared limits; the independently verified global budget remains the usage backstop. The test suite also checks that Render cannot start with unverified proxy trust.
