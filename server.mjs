@@ -8,7 +8,7 @@ import {walkingOptions} from './lib/route-options.mjs';
 import {routingEvidence} from './lib/route-guidance.mjs';
 import {loadBlocks} from './lib/block-evidence.mjs';
 import {reviewedFacilityDirectory} from './dist/lib/facilities.mjs';
-import {clientAddress,previewAuthorized,createBudget,hostingOptions} from './lib/hosting.mjs';
+import {clientAddress,createBudget,hostingOptions} from './lib/hosting.mjs';
 import {createEvidenceRuntime} from './lib/evidence-runtime.mjs';
 const root=path.join(path.dirname(fileURLToPath(import.meta.url)),'dist');
 const mime={'.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8','.mjs':'text/javascript; charset=utf-8','.svg':'image/svg+xml','.json':'application/json'};
@@ -30,7 +30,6 @@ export async function providerJson(url,fetcher=fetch,timeout=10000){
 export function createServer({token=process.env.MAPBOX_PUBLIC_TOKEN||'',serverToken=process.env.MAPBOX_SERVER_TOKEN||token,fetcher=fetch,now=()=>Date.now(),snapshot:initialSnapshot=null,snapshotProvider=null,refreshStatus=()=>null,hosting={},blocks=null,facilities=null}={}) {
   const configured=token.startsWith('pk.')&&serverToken.startsWith('pk.'),limits=new Map(),selectionLimits=new Map();
   const useMinute=createBudget({limit:hosting.minuteBudget??120,windowMs:60000,now}),useDay=createBudget({limit:hosting.dailyBudget??1000,windowMs:86400000,now});
-  const authLimits=new Map();
   return http.createServer(async(req,res)=>{
     const snapshot=snapshotProvider?snapshotProvider():initialSnapshot;
     // No request/address logging; API responses may contain temporary provider data.
@@ -45,13 +44,6 @@ export function createServer({token=process.env.MAPBOX_PUBLIC_TOKEN||'',serverTo
     try{
       const url=new URL(req.url,'http://localhost');
       if(url.pathname==='/healthz'&&['GET','HEAD'].includes(req.method))return json(200,{status:'ok'});
-      if(!previewAuthorized(req.headers.authorization,hosting.auth)){
-        const authKey=clientAddress(req,hosting.trustedProxyHops),time=now(),entry=authLimits.get(authKey);
-        if(!entry||time-entry.start>=60000)authLimits.set(authKey,{start:time,count:1});
-        else if(++entry.count>20){res.setHeader('Retry-After','60');return json(429,{error:'Too many sign-in attempts. Try again in a minute.'});}
-        if(authLimits.size>1000)for(const [key,value]of authLimits)if(time-value.start>=60000)authLimits.delete(key);
-        res.setHeader('WWW-Authenticate','Basic realm="Sidewalk preview", charset="UTF-8"');return json(401,{error:'This preview requires a password.'});
-      }
       if(url.pathname==='/api/status'&&req.method==='GET')return json(200,{routingConfigured:configured,evidenceAsOf:snapshot?.asOf||null,refresh:refreshStatus(),sources:Object.fromEntries(['reports','crashes'].map(kind=>[kind,sourceHealth(snapshot?.sources?.[kind],kind,now())]))});
       if(url.pathname==='/api/config'&&req.method==='GET')return json(200,{liveRoutingConfigured:configured,mapboxToken:configured?token:null,evidenceConnected:!!snapshot,evidenceStage:snapshot?'local-data-preview':'not-connected'});
       if(url.pathname.startsWith('/api/')){

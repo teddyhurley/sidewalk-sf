@@ -29,7 +29,7 @@ Repository creation used the authenticated GitHub browser; subsequent source pub
 
 ## Selected hosting
 
-Render is active for the protected preview: a Hobby workspace, one small $7/month web service and a 1 GB persistent disk at $0.25/month, before taxes and usage. The existing Mapbox and Socrata tokens are stored in Render environment settings. Username is `sidewalk`; retrieve the generated `PREVIEW_PASSWORD` from this service's Environment page. Keep it out of links, chat and GitHub. No additional token is needed to try the preview. Verify browser token restrictions, account usage notifications and actual phone behavior before broader sharing. Deployment details are in [DEPLOYMENT.md](DEPLOYMENT.md).
+Render hosts the portfolio preview: a Hobby workspace, one small $7/month web service and a 1 GB persistent disk at $0.25/month, before taxes and usage (pricing recorded October 8). The existing Mapbox and Socrata tokens are stored in Render environment settings. The October 14 next-release change removes the visitor username/password requirement; deployment verification is pending. Legacy `PREVIEW_*` settings are ignored by the new code. No additional token is needed for visitors. Verify browser token restrictions, account usage notifications and actual phone behavior before broader sharing. Deployment and pending billing-change details are in [DEPLOYMENT.md](DEPLOYMENT.md).
 
 ## Model vs execution environment
 

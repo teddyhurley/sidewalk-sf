@@ -1,5 +1,11 @@
 # Verification record
 
+## Next release — October 14, 2026
+
+Prepared account-free portfolio access for résumé visitors. Local JavaScript syntax/demo-provenance checks and all 97 automated tests pass. The revised hosting tests exercise anonymous UI/assets/configuration/status and mocked walking requests with the previous Render authentication variables still present. They also verify that server-only tokens and old credentials are not exposed, old browser authorization headers do not trigger a challenge, and the provider budget still blocks further calls when exhausted.
+
+These are local checks on Node 24; the repository CI uses Node 22. No paid provider calls, payment-method changes or hosted deployment were performed for this next-build preparation. Fresh-browser and phone verification of the deployed revision remain pending. Earlier records below describe the previously password-protected release.
+
 Validation: October 7–8, 2026 (America/Los_Angeles). Public GitHub source and a password-protected Render preview are published. Earlier sections preserve iteration history; the latest deployment results are at the end.
 
 ## Initial local verification — October 7, 2026
