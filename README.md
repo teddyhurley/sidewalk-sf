@@ -8,7 +8,7 @@ The configured app opens in **Live routing** by default, with the address form e
 
 ## Open the portfolio demo
 
-The next release removes the username/password prompt at [sidewalk-sf.onrender.com](https://sidewalk-sf.onrender.com), so résumé readers can open the app directly. This branch prepares that change; the hosted preview remains on its previous release until deployment. The app has no visitor accounts or checkout. Deployment instructions and verification limits are in the [deployment guide](docs/DEPLOYMENT.md). It remains a portfolio prototype, not a safety assurance.
+This release removes the username/password prompt at [sidewalk-sf.onrender.com](https://sidewalk-sf.onrender.com), so résumé readers can open the app directly. The app has no visitor accounts or checkout. Deployment instructions and verification limits are in the [deployment guide](docs/DEPLOYMENT.md). It remains a portfolio prototype, not a safety assurance.
 
 The root [Render Blueprint](render.yaml) provisions one web service and a 1 GB evidence disk. It includes bounded provider usage, daily staged data refresh with publisher reconciliation, and automatic loading of validated snapshots. See the [deployment guide](docs/DEPLOYMENT.md) for cost, provider credentials, refresh behavior and remaining hosted checks. Creating the service incurs hosting charges; local use remains available.
 

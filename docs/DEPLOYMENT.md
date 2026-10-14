@@ -28,7 +28,7 @@ A single instance is intentional. The scheduler shares the service's disk; Rende
 
 ## Billing changes
 
-The application does not collect payments. Render hosting and Mapbox usage are billed by their respective accounts. A payment-method or billing-details update belongs in the selected provider's billing settings, not in source or environment variables. The requested payment change is awaiting clarification; this release does not change payment details, service plans or provider budgets.
+The application does not collect payments. Render hosting and Mapbox usage are billed by their respective accounts. A payment-method or billing-details update belongs in the selected provider's billing settings, not in source or environment variables. On October 14, the owner confirmed updating the Mapbox payment card directly in their own browser. No payment credentials were supplied to the app or repository. This release does not change service plans or provider budgets.
 
 ## Data refresh and recovery
 
