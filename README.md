@@ -6,11 +6,11 @@ Sidewalk is a portfolio V1: a complete fictional-data workflow plus a verified l
 
 The configured app opens in **Live routing** by default, with the address form expanded. No invented routes are displayed while the server connection is checked. **Fictional demo** remains an explicit option. A server without a Mapbox token displays the labeled sample with a setup notice; a failed connection shows an unavailable state. The standalone demo always stays fictional, including when served over HTTP.
 
-## Deploy a protected preview
+## Open the portfolio demo
 
-The owner-approved test preview is available at [sidewalk-sf.onrender.com](https://sidewalk-sf.onrender.com) with a password. Access instructions and verification limits are in the [deployment guide](docs/DEPLOYMENT.md). It is a small validation pilot; no public safety assurance or broad launch is implied.
+This release removes the username/password prompt at [sidewalk-sf.onrender.com](https://sidewalk-sf.onrender.com), so résumé readers can open the app directly. The app has no visitor accounts or checkout. Deployment instructions and verification limits are in the [deployment guide](docs/DEPLOYMENT.md). It remains a portfolio prototype, not a safety assurance.
 
-The root [Render Blueprint](render.yaml) provisions one web service and a 1 GB evidence disk. It includes password protection, daily staged data refresh with publisher reconciliation, and automatic loading of validated snapshots. See the [deployment guide](docs/DEPLOYMENT.md) for cost, credentials, refresh behavior and remaining hosted checks. Creating the service incurs hosting charges; local use remains available.
+The root [Render Blueprint](render.yaml) provisions one web service and a 1 GB evidence disk. It includes bounded provider usage, daily staged data refresh with publisher reconciliation, and automatic loading of validated snapshots. See the [deployment guide](docs/DEPLOYMENT.md) for cost, provider credentials, refresh behavior and remaining hosted checks. Creating the service incurs hosting charges; local use remains available.
 
 ## Run in one command
 

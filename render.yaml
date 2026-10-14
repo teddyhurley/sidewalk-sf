@@ -1,4 +1,4 @@
-# Password-protected test deployment. Creating this Blueprint incurs hosting cost.
+# Account-free portfolio deployment. Creating this Blueprint incurs hosting cost.
 services:
   - type: web
     name: sidewalk-sf
@@ -29,12 +29,6 @@ services:
         value: "1"
       - key: AUTO_REFRESH
         value: "1"
-      - key: PREVIEW_AUTH_REQUIRED
-        value: "1"
-      - key: PREVIEW_USERNAME
-        value: sidewalk
-      - key: PREVIEW_PASSWORD
-        generateValue: true
       # Do not infer visitor identity from an unverified hosting proxy chain.
       - key: TRUST_PROXY_HOPS
         value: "0"
