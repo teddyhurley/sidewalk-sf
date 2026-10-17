@@ -1,5 +1,7 @@
 # Sidewalk · San Francisco
 
+**[Open app](https://sidewalk-sf.onrender.com)** · [Product notes](docs/CASE_STUDY.md) · [How it works](docs/ARCHITECTURE.md)
+
 **Understand the trade-offs along your walk.** An SF-first, mobile-friendly walking-route comparison that makes its evidence limits visible.
 
 Sidewalk is a portfolio V1: a complete fictional-data workflow plus a verified local Mapbox routing adapter and a real-evidence pipeline under validation. **It does not determine whether a route is safe.** No safety score, probability of harm, neighborhood reputation, or demographic proxy is used.
