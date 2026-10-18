@@ -1,6 +1,8 @@
 # Sidewalk: turning incomplete evidence into a useful choice
 
-**Status:** Built portfolio V1, October 7, 2026. Fictional demonstration plus a locally validated routing and historical-data preview. Public launch awaits human review. No pilot outcomes claimed.
+**Status — October 17, 2026:** Public portfolio demo with live routing and historical evidence, plus a separate fictional mode. The hosted app opens without a visitor account. Independent human/domain review and user research remain pending; no pilot or safety outcomes are claimed. The iterations below retain the earlier development history.
+
+[Open app](https://sidewalk-sf.onrender.com) · [PRD](PRD.md) · [Current verification](VERIFICATION.md)
 
 ## The opportunity
 
