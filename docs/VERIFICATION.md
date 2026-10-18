@@ -1,12 +1,24 @@
 # Verification record
 
-## Next release — October 14, 2026
+## Current portfolio release — October 17, 2026
+
+[Live app](https://sidewalk-sf.onrender.com) · [Release commit](https://github.com/teddyhurley/sidewalk-sf/commit/e319c0003d8cdd0960fd6563089ec2db0eaae48a) · [GitHub checks](https://github.com/teddyhurley/sidewalk-sf/actions/runs/39087582773) · [PRD](PRD.md)
+
+The deployed release replaces color-relative report wording with the explicit **blocks with 30+ selected reports** threshold. It also prevents Google and Apple Maps links from opening a previously compared trip after the planner's endpoints are edited, cleared or swapped. Restoring the compared addresses or completing a new comparison makes the links available again. Endpoint edits continue to clear optional stops; restoring addresses does not restore cleared stops.
+
+Local syntax checks, **all 99 automated tests**, the offline demo gate and whitespace checks passed. New regressions cover edits, clearing, swapping, restoration, a fresh comparison, ordered stops and walking mode. An independent code review checked the input-event wiring, saved-trip flow and fictional-mode handling. GitHub Actions also passed for the linked release commit.
+
+Render deployment `dep-dba295brjlhs73c6tmvg` became live at 18:45:34 Pacific time. At 18:46:58, anonymous HTTP requests to the app, browser JavaScript and handoff modules returned 200 without an authentication challenge. The four fetched assets matched the published source byte for byte; the inspected interface assets contained none of the superseded report wording. `/healthz` returned 200 with `status: ok`.
+
+This release verification covers the changed copy, state guard, public access and deployed assets. It did not make a new paid routing request or establish source freshness. Native iOS/Android opening and stop retention still require device checks. Maps constructs a new walking route through entered points; an exact copy of the selected Sidewalk path is not promised.
+
+## Preparation for public access — October 14, 2026
 
 Prepared account-free portfolio access for résumé visitors. Local JavaScript syntax/demo-provenance checks and all 97 automated tests pass. The revised hosting tests exercise anonymous UI/assets/configuration/status and mocked walking requests with the previous Render authentication variables still present. They also verify that server-only tokens and old credentials are not exposed, old browser authorization headers do not trigger a challenge, and the provider budget still blocks further calls when exhausted.
 
 These are local checks on Node 24; the repository CI uses Node 22. No paid provider calls, payment-method changes or hosted deployment were performed for this next-build preparation. Fresh-browser and phone verification of the deployed revision remain pending. Earlier records below describe the previously password-protected release.
 
-Validation: October 7–8, 2026 (America/Los_Angeles). Public GitHub source and a password-protected Render preview are published. Earlier sections preserve iteration history; the latest deployment results are at the end.
+Historical validation: October 7–8, 2026 (America/Los_Angeles). The sections below preserve earlier iterations and the initially password-protected Render deployment; the current release verification is above.
 
 ## Initial local verification — October 7, 2026
 
