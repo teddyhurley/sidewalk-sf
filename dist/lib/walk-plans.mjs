@@ -45,8 +45,10 @@ export function writeSavedWalks(storage,walks){
   if(walks.length>20)throw Error('You have 20 saved walks. Remove one before saving another.');
   const clean=walks.map(validateSavedWalk);try{storage.setItem(savedWalksKey,JSON.stringify(clean));}catch{throw Error('This browser could not save the walk. Storage may be full or disabled.');}return clean;
 }
-export function mapsLinks(inputs,{fictional=false}={}){
+export function mapsLinks(inputs,{fictional=false,currentInputs}={}){
   if(fictional||!inputs||!textField(inputs.origin)||!textField(inputs.destination))return null;
+  // A visible draft must match the compared trip before its links can be used.
+  if(currentInputs!==undefined&&['origin','destination'].some(field=>typeof currentInputs?.[field]!=='string'||currentInputs[field].trim()!==inputs[field].trim()))throw Error('Addresses changed. Compare them again or restore the original addresses before opening Maps.');
   // User-entered strings only. Never export temporary geocodes or Directions results.
   const sfAddress=value=>/\b(?:San Francisco|SF)\b/i.test(value)?value:value+', San Francisco, CA';
   const origin=sfAddress(inputs.origin),destination=sfAddress(inputs.destination);

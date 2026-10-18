@@ -248,7 +248,7 @@ function render(){
   $('#report-map-panel').hidden=true;
   $('#route-search-note').hidden=mode!=='live'||(!searchChanged()&&!journey.routeSearch?.notice);
   $('#update-alternatives').hidden=mode!=='live'||!searchChanged();
-  $('#route-search-note').textContent=mode==='live'?[journey.routeSearch?.method==='evidence-guided'?'Search targets less overlap with '+[journey.routeSearch.criteria?.reports?'darkest report blocks':'',journey.routeSearch.criteria?.crashes?'historical crash clusters':''].filter(Boolean).join(' and ')+'. The shortest found route stays as your reference.':'Different-street search only: usable evidence is not connected.',journey.routeSearch?.notice||'',searchChanged()?'Settings changed. Update alternatives to search with this time window, corridor and detour limit.':'Routes remain ordered by walking time; no safety score.'].filter(Boolean).join(' '):'';
+  $('#route-search-note').textContent=mode==='live'?[journey.routeSearch?.method==='evidence-guided'?'Search targets less overlap with '+[journey.routeSearch.criteria?.reports?'blocks with 30+ selected reports':'',journey.routeSearch.criteria?.crashes?'historical crash clusters':''].filter(Boolean).join(' and ')+'. The shortest found route stays as your reference.':'Different-street search only: usable evidence is not connected.',journey.routeSearch?.notice||'',searchChanged()?'Settings changed. Update alternatives to search with this time window, corridor and detour limit.':'Routes remain ordered by walking time; no safety score.'].filter(Boolean).join(' '):'';
   $('#results-meta').textContent=`${comparison.routes.length} ${mode==='demo'?'sample':'provider'} route${comparison.routes.length===1?'':'s'} · ${mode==='demo'?'Fictional snapshot: '+fmtDate(journey.asOf):'Mapbox walking estimates'}${$('#departure').value?' · Planned '+$('#departure').value+' SF time':''}`;
   $('#results-title').textContent=comparison.routes.length===1?'One walking route returned.':'A few ways to get there.';
   $('#within-count').textContent=`${comparison.routes.filter(r=>r.eligible).length} within your limit`;
@@ -286,10 +286,10 @@ function renderRealEvidence(route){
   const baseline=comparison.routes[0].guidance;
   $('#route-cards').querySelectorAll('.record-counts').forEach((el,i)=>{
     const r=comparison.routes[i],g=r.guidance,darkDelta=baseline.darkMeters===null||g.darkMeters===null?null:baseline.darkMeters-g.darkMeters,crashDelta=baseline.crashes===null||g.crashes===null?null:baseline.crashes-g.crashes;
-    el.innerHTML=`<span class="evidence-count traffic"><i class="evidence-symbol traffic" aria-hidden="true"></i><b>${g.crashes??'—'}</b> ${g.crashes===null?'collision data unavailable':`mapped crashes within ${comparison.buffer} m`}</span><span class="evidence-count reports"><i class="evidence-symbol reports" aria-hidden="true"></i>${g.darkMeters===null?'Report shading unavailable':`<b>${metricDistance(g.darkMeters)}</b> alongside darkest blocks`}</span>`;
-    const label=i===0?'Shortest found · reference':r.differences.reports&&r.differences.crashes?'Less overlap in both layers':r.differences.reports?'Less dark-purple overlap':r.differences.crashes?'Fewer mapped crash records':'Different streets · no clear reduction';
+    el.innerHTML=`<span class="evidence-count traffic"><i class="evidence-symbol traffic" aria-hidden="true"></i><b>${g.crashes??'—'}</b> ${g.crashes===null?'collision data unavailable':`mapped crashes within ${comparison.buffer} m`}</span><span class="evidence-count reports"><i class="evidence-symbol reports" aria-hidden="true"></i>${g.darkMeters===null?'Report shading unavailable':`<b>${metricDistance(g.darkMeters)}</b> alongside blocks with 30+ reports`}</span>`;
+    const label=i===0?'Shortest found · reference':r.differences.reports&&r.differences.crashes?'Less overlap in both layers':r.differences.reports?'Less overlap near blocks with 30+ reports':r.differences.crashes?'Fewer mapped crash records':'Different streets · no clear reduction';
     el.parentElement.querySelector('.route-method').textContent=label;
-    const differences=i?[darkDelta===null?'Reports unavailable':Math.abs(darkDelta)<50?'Similar dark-block overlap':`About ${metricDistance(Math.abs(darkDelta))} ${darkDelta>0?'less':'more'} alongside darkest blocks`,crashDelta===null?'crashes unavailable':crashDelta===0?'same crash count':Math.abs(crashDelta)+' '+(crashDelta>0?'fewer':'more')+' crash record'+(Math.abs(crashDelta)===1?'':'s')].join(' · '):'Darkest = 30+ selected reports near a block. Counts and overlap are historical context, not risk estimates.';
+    const differences=i?[darkDelta===null?'Reports unavailable':Math.abs(darkDelta)<50?'Similar overlap near blocks with 30+ reports':`About ${metricDistance(Math.abs(darkDelta))} ${darkDelta>0?'less':'more'} alongside blocks with 30+ reports`,crashDelta===null?'crashes unavailable':crashDelta===0?'same crash count':Math.abs(crashDelta)+' '+(crashDelta>0?'fewer':'more')+' crash record'+(Math.abs(crashDelta)===1?'':'s')].join(' · '):'Overlap measures walking alongside blocks with 30+ selected reports. Counts and overlap are historical context, not risk estimates.';
     el.parentElement.querySelector('.route-note').textContent=(r.eligible?'':'Exceeds your detour limit. ')+differences;
   });
   $('.evidence-list .badge').textContent='REAL · LOCAL PREVIEW';
@@ -303,7 +303,7 @@ function renderRealEvidence(route){
   $('#coverage-details').innerHTML=fields.map(([k,v])=>`<div><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`).join('')+`<div><dt>Official sources</dt><dd><a href="${esc(crashes.url)}" target="_blank" rel="noreferrer">Injury crashes</a> · <a href="${esc(reports.url)}" target="_blank" rel="noreferrer">Police reports</a></dd></div>`;
   $('#sensitivity').innerHTML=crashes.health.usable?route.sensitivity.map(x=>`${x.meters} m: ${x.collision} mapped crashes`).join('<br>'):'Collision sensitivity unavailable.';
   $('#map-evidence-note').hidden=false;
-  $('#map-evidence-note').textContent='Amber: crashes · Purple: report counts (darkest = 30+). Stripes: selected areas. Unshaded ≠ safe.';
+  $('#map-evidence-note').textContent='Amber: crashes · Purple: report counts (highest band: 30+). Stripes: selected areas. Unshaded ≠ safe.';
 }
 
 function selectRoute(id){selected=id;walkChosen=false;saveMessage='';render();}
@@ -410,7 +410,7 @@ function updateWalkWorkspace(){
 function renderHandoff(){
   const fictional=mode==='demo',stops=journey?.inputAddresses?.stops||[];
   $('#handoff-stops').hidden=fictional;
-  let links=null,message='';try{links=mapsLinks(journey?.inputAddresses,{fictional});}catch(e){message=e.message;}
+  let links=null,message='';try{links=mapsLinks(journey?.inputAddresses,{fictional,currentInputs:enteredInputs()});}catch(e){message=e.message;}
   $('#handoff-error').hidden=!message;$('#handoff-error').textContent=message;
   for(const name of ['apple','google']){const a=$('#open-'+name);a.hidden=fictional;a.setAttribute('aria-disabled',String(!links));a.tabIndex=links?0:-1;if(links)a.href=links[name];else a.removeAttribute('href');a.textContent='Open in '+(name==='apple'?'Apple':'Google')+' Maps'+(stops.length?' · '+stops.length+' stop'+(stops.length===1?'':'s'):'')+' ↗';}
   $('#handoff-note').textContent=fictional?'Maps handoff is disabled for invented routes.':stops.length?'Includes your entered stops in order. Maps recalculates between them and some versions may ignore stops. Check the addresses, stop order and streets before starting; this is not an exact-route export.':'Uses your entered addresses in San Francisco. Apple or Google calculates a new route and may use streets you avoided here. Check the matched addresses and route before starting.';

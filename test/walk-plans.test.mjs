@@ -42,6 +42,30 @@ test('Maps handoff encodes user inputs, uses walking mode and cannot export samp
  assert.equal(mapsLinks({origin:'',destination:'test'}),null);
  assert.equal(new URL(mapsLinks({origin:'998 Chestnut St',destination:'425 Mission St'}).google).searchParams.get('origin'),'998 Chestnut St, San Francisco, CA');
 });
+test('editing, clearing or swapping planner addresses cannot create links for the previous compared trip',()=>{
+ const compared=Object.freeze({...inputs}),before=mapsLinks(compared,{currentInputs:{...inputs}});
+ for(const currentInputs of [
+  {...inputs,origin:'1 Market Street, San Francisco'},
+  {...inputs,destination:'425 Mission Street, San Francisco'},
+  {...inputs,origin:''},
+  {...inputs,destination:'   '},
+  {...inputs,origin:inputs.destination,destination:inputs.origin}
+ ])assert.throws(()=>mapsLinks(compared,{currentInputs}),/Compare them again or restore the original addresses before opening Maps/);
+ assert.deepEqual(mapsLinks(compared,{currentInputs:{...inputs}}),before,'restoring the original addresses restores both links');
+ assert.deepEqual(mapsLinks(compared,{currentInputs:{...inputs,origin:'  '+inputs.origin+'  ',departure:'19:30'}}),before,'surrounding whitespace and a departure note do not change the trip');
+});
+test('a fresh comparison permits the new endpoints and keeps ordered stop handoff intact',()=>{
+ const fresh={origin:'998 Chestnut St',destination:'425 Mission St',stops:['Polk & Turk','Gough & Eddy']};
+ assert.throws(()=>mapsLinks(inputs,{currentInputs:fresh}),/Addresses changed/);
+ const links=mapsLinks(fresh,{currentInputs:{...fresh}}),google=new URL(links.google),apple=new URL(links.apple);
+ assert.equal(google.searchParams.get('origin'),'998 Chestnut St, San Francisco, CA');
+ assert.equal(google.searchParams.get('destination'),'425 Mission St, San Francisco, CA');
+ assert.deepEqual(google.searchParams.get('waypoints').split('|'),fresh.stops.map(s=>s+', San Francisco, CA'));
+ assert.equal(apple.searchParams.get('source'),google.searchParams.get('origin'));
+ assert.equal(apple.searchParams.get('destination'),google.searchParams.get('destination'));
+ assert.equal(google.searchParams.get('travelmode'),'walking');assert.equal(apple.searchParams.get('mode'),'walking');
+ assert.equal(mapsLinks(fresh,{fictional:true,currentInputs:inputs}),null);
+});
 test('provider instructions preserve leg order and fail closed if incomplete or malformed',()=>{
  const step=(instruction,distance=50,type='turn')=>({distance,maneuver:{instruction,type,location:[-122.41,37.79]}});
  const raw={legs:[{steps:[step('Head north'),step('Turn left')]},{steps:[step('Continue'),step('Arrive',0)]}]};
